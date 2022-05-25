@@ -6,7 +6,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
-
+  const genreTemplate = path.resolve(`./src/templates/genre.js`)
   // Get all markdown blog posts sorted by date
   const result = await graphql(
     `
@@ -20,6 +20,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fields {
               slug
             }
+            frontmatter {
+              genre
+            }
+          }
+          group(field: frontmatter___genre) {
+            fieldValue
           }
         }
       }
@@ -52,6 +58,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           id: post.id,
           previousPostId,
           nextPostId,
+        },
+      })
+    })
+  }
+  const genres = result.data.allMarkdownRemark.group
+  if (genres.length > 0) {
+    genres.forEach(genre => {
+      createPage({
+        path: `/${genre.fieldValue}`,
+        component: genreTemplate,
+        context: {
+          genre: genre.fieldValue,
         },
       })
     })
@@ -106,6 +124,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      genre:String
     }
 
     type Fields {
