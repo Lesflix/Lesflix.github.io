@@ -124,7 +124,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
-      genre:String
+      genre: String
     }
 
     type Fields {
