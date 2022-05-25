@@ -8,7 +8,7 @@ function HeaderContainer() {
     <StyleHeaderContainer>
       <div id="logo">
         <Link to={`/`}>
-          <img src={require("../images/letflix.svg").default} alt="logo" />
+          <img src={require("../images/lesflix.svg").default} alt="logo" />
         </Link>
       </div>
       <HeaderNav />
