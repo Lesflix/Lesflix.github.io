@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `LetFlix`,
+    title: `Lesflix`,
     author: {
-      name: `LetFlix`,
-      summary: `LetFlix`,
+      name: `Lesflix`,
+      summary: `Lesflix`,
     },
-    description: `LetFlix`,
-    siteUrl: `https://Letfilx-x.github.io/`,
+    description: `Lesflix`,
+    siteUrl: `https://Lesflix.github.io/`,
     social: {
       twitter: `justbeles`,
     },
