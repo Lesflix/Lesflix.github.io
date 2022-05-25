@@ -10,6 +10,7 @@
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
+    "@fontsource/nanum-gothic": "^4.5.5",
     "gatsby": "^4.10.0",
     "gatsby-plugin-feed": "^4.14.0",
     "gatsby-plugin-gatsby-cloud": "^4.14.0",

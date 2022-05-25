@@ -1,3 +1,5 @@
+// web font
+import "@fontsource/nanum-gothic"
 // custom typefaces
 import "typeface-montserrat"
 import "typeface-merriweather"
