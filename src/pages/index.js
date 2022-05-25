@@ -1,32 +1,21 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/Layout"
+import Seo from "../components/Seo"
+import HeaderContainer from "../containers/HeaderContainer"
 
-const BlogIndex = ({ data, location }) => {
+const Home = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <Seo title="All posts" />
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
+    return <Layout location={location}>NO DATA</Layout>
   }
-
   return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
-      <Bio />
+    <Layout location={location}>
+      <HeaderContainer />
+      <Seo title="All" />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -63,7 +52,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default Home
 
 export const pageQuery = graphql`
   query {
@@ -82,6 +71,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          genre
         }
       }
     }
