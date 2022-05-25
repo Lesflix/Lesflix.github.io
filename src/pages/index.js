@@ -10,7 +10,12 @@ const Home = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
-    return <Layout location={location}>NO DATA</Layout>
+    return (
+      <Layout location={location}>
+        <HeaderContainer />
+        <Seo title="All" />
+      </Layout>
+    )
   }
   return (
     <Layout location={location}>
