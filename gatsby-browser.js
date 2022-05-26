@@ -3,6 +3,9 @@ import "@fontsource/nanum-gothic"
 // custom typefaces
 import "typeface-montserrat"
 import "typeface-merriweather"
+// slick css
+import "./src/slick.css"
+import "./src/slick-theme.css"
 // normalize CSS across browsers
 import "./src/color.css"
 import "./src/normalize.css"
