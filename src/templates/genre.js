@@ -8,10 +8,12 @@ function Genre({ data, location }) {
   const { path: genre } = location.state
   const { nodes: PostList, totalCount } = data.allMarkdownRemark
   return (
-    <Layout location={location}>
+    <>
       <HeaderContainer />
-      <SlidePostContainer postList={PostList} />
-    </Layout>
+      <Layout location={location}>
+        <SlidePostContainer postList={PostList} />
+      </Layout>
+    </>
   )
 }
 export default Genre
