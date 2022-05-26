@@ -31,20 +31,17 @@ const NavList = styled.div`
   flex: 1;
   gap: 21px;
   font-weight: 700;
-  span {
-    color: var(--Grey900);
-  }
   @media screen and (min-width: 1920px) {
+    font-size: 70px;
+  }
+  @media screen and (min-width: 1080px) and (max-width: 1919px) {
     font-size: 60px;
   }
-  @media screen and (min-width: 1920px) {
-    font-size: 60px;
-  }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1079px) {
     font-size: 51.31px;
     gap: 11px;
   }
-  @media screen and (min-width: 375px) {
+  @media screen and (max-width: 767px) {
     font-size: 28px;
     gap: 9px;
   }

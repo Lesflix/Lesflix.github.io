@@ -12,14 +12,14 @@ function HeaderContainer() {
         </Link>
       </div>
       <HeaderNav />
-      <SearchInput />
+      {/* <SearchInput /> */}
     </StyleHeaderContainer>
   )
 }
 
 export default HeaderContainer
 const StyleHeaderContainer = styled.div`
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -27,13 +27,11 @@ const StyleHeaderContainer = styled.div`
   display: flex;
   align-items: center;
 
-  height: 10vh;
-  border-bottom: 1px solid black;
-
   padding: 0 36px;
-
+  z-index: 50;
+  height: 172px;
+  background-color: var(--themBg);
   #logo {
-    height: calc(10vh - 20px);
     margin-right: 17px;
 
     img {
@@ -47,20 +45,20 @@ const StyleHeaderContainer = styled.div`
       height: 100px;
     }
   }
-  @media screen and (min-width: 1920px) {
+  @media screen and (min-width: 1080px) and (max-width: 1919px) {
     height: 172px;
     #logo {
       height: 100px;
     }
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1079px) {
     height: 142px;
     padding: 0 19px;
     #logo {
       height: 88px;
     }
   }
-  @media screen and (min-width: 375px) {
+  @media screen and (max-width: 767px) {
     height: 72px;
     padding: 0 12px;
     #logo {
