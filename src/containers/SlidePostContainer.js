@@ -6,48 +6,66 @@ function SlidePostContainer({ postList }) {
   const length = postList.length
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 300,
-    slidesToShow: length > 4 ? 4 : length,
-    slidesToScroll: length > 4 ? 4 : length,
+    slidesToShow: 8,
+    slidesToScroll: 8,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1920,
         settings: {
-          slidesToShow: length > 7 ? 7 : length,
-          slidesToScroll: length > 7 ? 7 : length,
+          slidesToShow: 8,
+          slidesToScroll: 8,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 1080,
         settings: {
-          slidesToShow: length > 4 ? 4 : length,
-          slidesToScroll: length > 4 ? 4 : length,
+          slidesToShow: 4,
+          slidesToScroll: 4,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 768,
         settings: {
-          slidesToShow: length > 2 ? 2 : length,
-          slidesToScroll: length > 2 ? 2 : length,
+          slidesToShow: 3,
+          slidesToScroll: 3,
         },
       },
       {
-        breakpoint: 320,
+        breakpoint: 375,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
     ],
   }
   return (
-    <Slider {...settings}>
-      {postList.map((post, i) => (
-        <PostCard post={post} />
-      ))}
-    </Slider>
+    <StyleSlider>
+      <Slider {...settings}>
+        {postList.map((post, i) => (
+          <PostCard post={post} />
+        ))}
+      </Slider>
+    </StyleSlider>
   )
 }
 
 export default SlidePostContainer
+
+const StyleSlider = styled.div`
+  width: 100%;
+  @media screen and (min-width: 1920px) {
+    padding: 0 36px;
+  }
+  @media screen and (min-width: 1080px) and (max-width: 1919px) {
+    padding: 0 39px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1079px) {
+    padding: 0 22px;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 0 7px;
+  }
+`
