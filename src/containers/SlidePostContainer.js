@@ -32,6 +32,13 @@ function SlidePostContainer({ postList }) {
           slidesToScroll: length > 2 ? 2 : length,
         },
       },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
     ],
   }
   return (
