@@ -65,6 +65,8 @@
   --breakWebM: 768px;
   --breakWebL: 1024px;
   --breakWebB: 1920px;
+  --themBg: var(--darkBg);
+  --themFont: var(--darkFont);
 }
 
 /* HTML elements */
@@ -73,6 +75,7 @@
 :after,
 :before {
   box-sizing: border-box;
+  color: var(--themFont);
 }
 
 html {
@@ -85,7 +88,8 @@ html {
 body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
-  color: var(--color-text);
+  color: var(--themFont);
+  background-color: var(--themBg);
 }
 
 footer {
@@ -246,7 +250,7 @@ a:focus {
 /* Custom classes */
 
 .global-wrapper {
-  margin: 10vh 0 0;
+  margin: 0 auto;
   padding: var(--spacing-10) var(--spacing-5);
 }
 
