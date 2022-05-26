@@ -251,7 +251,7 @@ a:focus {
 
 .global-wrapper {
   margin: 0 auto;
-  padding: var(--spacing-10) var(--spacing-5);
+  padding: 0;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
