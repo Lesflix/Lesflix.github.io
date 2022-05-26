@@ -1,17 +1,17 @@
 // web font
 import "@fontsource/nanum-gothic"
-import "./src/font.css"
+import "./src/style/font.css"
 // custom typefaces
 import "typeface-montserrat"
 import "typeface-merriweather"
 // slick css
-import "./src/slick.css"
+import "./src/style/slick.css"
 import "./src/slick-theme.css"
 // normalize CSS across browsers
-import "./src/color.css"
-import "./src/normalize.css"
+import "./src/style/color.css"
+import "./src/style/normalize.css"
 // custom CSS styles
-import "./src/style.css"
+import "./src/style/style.css"
 
 // Highlighting for code blocks
 import "prismjs/themes/prism.css"
