@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 import HeaderContainer from "../containers/HeaderContainer"
+import SlidePostContainer from "../containers/SlidePostContainer"
 
 const Home = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -18,10 +19,11 @@ const Home = ({ data, location }) => {
     )
   }
   return (
-    <Layout location={location}>
+    <Layout location={location} s>
       <HeaderContainer />
       <Seo title="All" />
-      <ol style={{ listStyle: `none` }}>
+      <SlidePostContainer postList={posts} />
+      {/* <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
@@ -52,7 +54,7 @@ const Home = ({ data, location }) => {
             </li>
           )
         })}
-      </ol>
+      </ol> */}
     </Layout>
   )
 }
@@ -77,6 +79,10 @@ export const pageQuery = graphql`
           title
           description
           genre
+          poster
+          release
+          ott
+          countries
         }
       }
     }
