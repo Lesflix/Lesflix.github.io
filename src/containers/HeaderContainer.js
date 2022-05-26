@@ -12,7 +12,6 @@ function HeaderContainer() {
         </Link>
       </div>
       <HeaderNav />
-      {/* <SearchInput /> */}
     </StyleHeaderContainer>
   )
 }
@@ -27,42 +26,36 @@ const StyleHeaderContainer = styled.div`
   display: flex;
   align-items: center;
 
-  padding: 0 36px;
   z-index: 50;
-  height: 172px;
   background-color: var(--themBg);
   #logo {
     margin-right: 17px;
-
     img {
       height: 100%;
     }
   }
   @media screen and (min-width: 1920px) {
-    height: 172px;
-
+    padding: 22px 34px;
     #logo {
-      height: 100px;
+      height: 60px;
     }
   }
   @media screen and (min-width: 1080px) and (max-width: 1919px) {
-    height: 172px;
+    padding: 22px 34px;
     #logo {
-      height: 100px;
+      height: 50px;
     }
   }
   @media screen and (min-width: 768px) and (max-width: 1079px) {
-    height: 142px;
-    padding: 0 19px;
+    padding: 22px 34px;
     #logo {
-      height: 88px;
+      height: 30px;
     }
   }
   @media screen and (max-width: 767px) {
-    height: 72px;
-    padding: 0 12px;
+    padding: 12px;
     #logo {
-      height: 47px;
+      height: 25px;
       margin-right: 10px;
     }
   }
