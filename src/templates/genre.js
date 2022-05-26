@@ -2,6 +2,7 @@ import { graphql } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
 import HeaderContainer from "../containers/HeaderContainer"
+import SlidePostContainer from "../containers/SlidePostContainer"
 
 function Genre({ data, location }) {
   const { path: genre } = location.state
@@ -9,6 +10,7 @@ function Genre({ data, location }) {
   return (
     <Layout location={location}>
       <HeaderContainer />
+      <SlidePostContainer postList={PostList} />
     </Layout>
   )
 }
@@ -30,6 +32,7 @@ export const pageQuery = graphql`
           title
           description
           genre
+          poster
         }
       }
       totalCount
