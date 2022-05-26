@@ -43,7 +43,7 @@ function SlidePostContainer({ postList, title }) {
   }
   return (
     <StyleSlider>
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       <Slider {...settings}>
         {postList.map((post, i) => (
           <PostCard post={post} />
@@ -57,7 +57,8 @@ export default SlidePostContainer
 
 const StyleSlider = styled.div`
   width: 100%;
-  h2 {
+  h1 {
+    text-align: center;
     color: var(--themFont);
   }
   @media screen and (min-width: 1920px) {
