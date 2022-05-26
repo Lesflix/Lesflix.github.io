@@ -2,7 +2,7 @@ import styled from "@emotion/styled"
 import React from "react"
 import Slider from "react-slick"
 import PostCard from "../components/PostCard/PostCard"
-function SlidePostContainer({ postList }) {
+function SlidePostContainer({ postList, title }) {
   const length = postList.length
   const settings = {
     dots: false,
@@ -43,6 +43,7 @@ function SlidePostContainer({ postList }) {
   }
   return (
     <StyleSlider>
+      <h2>{title}</h2>
       <Slider {...settings}>
         {postList.map((post, i) => (
           <PostCard post={post} />
@@ -56,11 +57,14 @@ export default SlidePostContainer
 
 const StyleSlider = styled.div`
   width: 100%;
+  h2 {
+    color: var(--themFont);
+  }
   @media screen and (min-width: 1920px) {
     padding: 0 36px;
   }
   @media screen and (min-width: 1080px) and (max-width: 1919px) {
-    padding: 0 39px;
+    padding: 0 30px;
   }
   @media screen and (min-width: 768px) and (max-width: 1079px) {
     padding: 0 22px;
