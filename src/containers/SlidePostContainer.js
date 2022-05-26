@@ -14,15 +14,15 @@ function SlidePostContainer({ postList }) {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: length > 5 ? 5 : length,
-          slidesToScroll: length > 5 ? 5 : length,
+          slidesToShow: length > 7 ? 7 : length,
+          slidesToScroll: length > 7 ? 7 : length,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: length > 3 ? 3 : length,
-          slidesToScroll: length > 3 ? 3 : length,
+          slidesToShow: length > 4 ? 4 : length,
+          slidesToScroll: length > 4 ? 4 : length,
         },
       },
       {
