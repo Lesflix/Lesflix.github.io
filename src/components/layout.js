@@ -1,5 +1,4 @@
 import * as React from "react"
-import HeaderContainer from "../containers/HeaderContainer"
 
 function Layout({ location, children }) {
   const rootPath = `${__PATH_PREFIX__}/`
