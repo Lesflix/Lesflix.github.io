@@ -1,10 +1,10 @@
 import { graphql } from "gatsby"
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import HeaderContainer from "../containers/HeaderContainer"
 import SlidePostContainer from "../containers/SlidePostContainer"
 
-function Genre({ data, location }) {
+const Genre = ({ data, location }) => {
   const { path: genre } = location.state
   const { nodes: PostList, totalCount } = data.allMarkdownRemark
   return (
