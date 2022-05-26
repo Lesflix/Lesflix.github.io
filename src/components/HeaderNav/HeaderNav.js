@@ -28,37 +28,24 @@ export default HeaderNav
 
 const NavList = styled.div`
   display: flex;
-  margin: 0 10px;
   flex: 1;
-  box-sizing: border-box;
-  gap: 10px;
-
+  gap: 21px;
+  font-weight: 700;
   span {
-    font-size: 2rem;
     color: var(--Grey900);
-    font-weight: 700;
-
-    @media screen and (min-width: 320px) {
-      font-size: 2.2rem;
-    }
-    @media screen and (min-width: 375px) {
-      font-size: 2.4rem;
-    }
-    @media screen and (min-width: 475px) {
-      font-size: 2.6rem;
-    }
-    @media screen and (min-width: 768px) {
-      font-size: 3.5rem;
-    }
-    @media screen and (min-width: 1024px) {
-      font-size: 3.8rem;
-    }
-    @media screen and (min-width: 1440px) {
-      font-size: 4rem;
-    }
   }
-  /* line-height: inherit; */
-  /* width: calc(100vw - 30% - 10px); */
-  /* background-color: red; */
-  /* gap: 10px; */
+  @media screen and (min-width: 1920px) {
+    font-size: 60px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 51.31px;
+    gap: 11px;
+  }
+  @media screen and (min-width: 375px) {
+    font-size: 28px;
+    gap: 9px;
+  }
 `
