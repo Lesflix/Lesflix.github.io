@@ -64,7 +64,6 @@
 }
 [dir="rtl"] .slick-prev {
   right: -5px;
-  z-index: 30;
   left: auto;
 }
 .slick-prev:before {
@@ -91,7 +90,6 @@
 [dir="rtl"] .slick-next {
   right: auto;
   left: -5px;
-  z-index: 30;
 }
 .slick-next:before {
   content: "";
