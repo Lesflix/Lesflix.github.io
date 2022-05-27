@@ -8,7 +8,6 @@ import PostNavContainer from "../containers/PostNavContainer"
 import PostContentContainer from "../containers/PostContentContainer"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next, file } = data
   const { title, description, excerpt, html } = post.frontmatter
   return (

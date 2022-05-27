@@ -3,7 +3,6 @@ import React from "react"
 import Slider from "react-slick"
 import PostCard from "../components/PostCard/PostCard"
 function SlidePostContainer({ postList, title }) {
-  const length = postList.length
   const settings = {
     dots: false,
     infinite: false,

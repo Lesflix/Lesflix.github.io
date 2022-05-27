@@ -1,6 +1,5 @@
 import styled from "@emotion/styled"
 import React from "react"
-import SearchInput from "../components/SearchInput/SearchInput"
 import HeaderNav from "../components/HeaderNav/HeaderNav"
 import { Link } from "gatsby"
 function HeaderContainer() {

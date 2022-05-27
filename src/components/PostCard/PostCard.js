@@ -1,5 +1,5 @@
 import styled from "@emotion/styled"
-import { Link, navigate } from "gatsby"
+import { navigate } from "gatsby"
 import React, { useState } from "react"
 
 function PostCard({ post }) {

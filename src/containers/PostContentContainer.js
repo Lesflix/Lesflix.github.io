@@ -1,6 +1,5 @@
 import styled from "@emotion/styled"
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
 import InfoBox from "../components/InfoBox/InfoBox"
 function PostContentContainer({ postData }) {
   const { title, posterUrl, poster } = postData
@@ -42,9 +41,7 @@ const PostContentContainerStyle = styled.section`
     max-width: 1080px;
     gap: 30px;
     align-items: center;
-    &:nth-child(1) {
-      flex-grow: 1;
-    }
+
     .poster {
       z-index: 30;
       border-radius: 12px;

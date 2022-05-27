@@ -5,8 +5,7 @@ import HeaderContainer from "../containers/HeaderContainer"
 import SlidePostContainer from "../containers/SlidePostContainer"
 
 const Genre = ({ data, location }) => {
-  const genre = location.state?.path
-  const { nodes: PostList, totalCount } = data.allMarkdownRemark
+  const { nodes: PostList } = data.allMarkdownRemark
   return (
     <>
       <HeaderContainer />
