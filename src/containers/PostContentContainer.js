@@ -47,6 +47,7 @@ const PostContentContainerStyle = styled.section`
       border-radius: 12px;
       overflow: hidden;
       width: 50%;
+      flex: 1;
       img {
         display: block;
         width: 100%;

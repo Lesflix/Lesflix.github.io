@@ -33,7 +33,7 @@ const BoxStyle = styled.div`
   justify-content: center;
   z-index: 10;
   font-size: 1.2vw;
-  flex: 1;
+  flex: 2;
   .title {
     width: 100%;
     font-size: 3.5vw;
