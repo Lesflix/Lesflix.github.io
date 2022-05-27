@@ -19,12 +19,10 @@ function PostCard({ post }) {
         navigate(post.fields.slug)
       }}
     >
-      <div>
-        <img
-          src={require(`../../images/${poster}`).default}
-          alt={post.frontmatter.title}
-        />
-      </div>
+      <img
+        src={require(`../../images/${poster}`).default}
+        alt={post.frontmatter.title}
+      />
       <div
         onClick={() => {
           navigate(post.fields.slug)
