@@ -12,7 +12,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     `
       {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: ASC }
+          sort: { fields: [frontmatter___release], order: ASC }
           limit: 1000
         ) {
           nodes {
@@ -22,6 +22,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             }
             frontmatter {
               genre
+              cover
             }
           }
           group(field: frontmatter___genre) {
@@ -56,6 +57,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         component: blogPost,
         context: {
           id: post.id,
+          cover: post.frontmatter.cover,
           previousPostId,
           nextPostId,
         },
@@ -123,13 +125,13 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       title: String
       description: String
-      date: Date @dateformat
       genre: String
       poster: String
       release : String
       ott: [String]
       countries: String
-
+      cover: String
+      end: Boolean
     }
 
     type Fields {
