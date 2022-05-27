@@ -65,6 +65,8 @@
   --breakWebM: 768px;
   --breakWebL: 1024px;
   --breakWebB: 1920px;
+  /* --themBg: var(--lightBg); */
+  /* --themFont: var(--lightFont); */
   --themBg: var(--darkBg);
   --themFont: var(--darkFont);
 }
