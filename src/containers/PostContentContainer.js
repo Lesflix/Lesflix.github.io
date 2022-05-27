@@ -42,13 +42,14 @@ const PostContentContainerStyle = styled.section`
     max-width: 1080px;
     gap: 30px;
     align-items: center;
-    &:nth-child(2) {
+    &:nth-child(1) {
       flex-grow: 1;
     }
     .poster {
       z-index: 30;
       border-radius: 12px;
       overflow: hidden;
+      width: 50%;
       img {
         display: block;
         width: 100%;
