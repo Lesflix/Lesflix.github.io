@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Lesflix]]></description><link>https://Lesflix.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 May 2022 21:41:50 GMT</lastBuildDate><item><title><![CDATA[영화1]]></title><description><![CDATA[genre: 영화
-release: “2022.02.27”
-ott: [왓챠]
-countries: 영국]]></description><link>https://Lesflix.github.io/movie/영화1/</link><guid isPermaLink="false">https://Lesflix.github.io/movie/영화1/</guid><content:encoded>&lt;p&gt;genre: 영화
-release: “2022.02.27”
-ott: [왓챠]
-countries: 영국&lt;/p&gt;</content:encoded></item><item><title><![CDATA[킬링이브 시즌 4]]></title><description><![CDATA[genre: 드라마
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Lesflix]]></description><link>https://Lesflix.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 May 2022 22:29:31 GMT</lastBuildDate><item><title><![CDATA[킬링이브 시즌 4]]></title><description><![CDATA[genre: 드라마
 poster: 킬링이브시즌4.jpg
 release: “2022.02.27”
 ott: [왓챠]
 countries: 영국]]></description><link>https://Lesflix.github.io/drama/킬링이브시즌4/</link><guid isPermaLink="false">https://Lesflix.github.io/drama/킬링이브시즌4/</guid><content:encoded>&lt;p&gt;genre: 드라마
 poster: 킬링이브시즌4.jpg
+release: “2022.02.27”
+ott: [왓챠]
+countries: 영국&lt;/p&gt;</content:encoded></item><item><title><![CDATA[영화1]]></title><description><![CDATA[genre: 영화
+release: “2022.02.27”
+ott: [왓챠]
+countries: 영국]]></description><link>https://Lesflix.github.io/movie/영화1/</link><guid isPermaLink="false">https://Lesflix.github.io/movie/영화1/</guid><content:encoded>&lt;p&gt;genre: 영화
 release: “2022.02.27”
 ott: [왓챠]
 countries: 영국&lt;/p&gt;</content:encoded></item><item><title><![CDATA[구경이]]></title><link>https://Lesflix.github.io/drama/구경이/</link><guid isPermaLink="false">https://Lesflix.github.io/drama/구경이/</guid><content:encoded></content:encoded></item><item><title><![CDATA[킬링이브 시즌 3]]></title><description><![CDATA[genre: 드라마
