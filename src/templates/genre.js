@@ -4,11 +4,10 @@ import DivContainer from "../components/DivContainer"
 import Layout from "../components/Layout"
 import HeaderContainer from "../containers/HeaderContainer"
 import PostListContainer from "../containers/PostListContainer"
-import SlidePostContainer from "../containers/SlidePostContainer"
-
+import { genres } from "../const/genres"
 const Genre = ({ data, location }) => {
   const { nodes: PostList } = data.allMarkdownRemark
-  const genre = location.state?.path
+  const genre = genres[location.pathname.replace(/\//g, "")]
   return (
     <>
       <HeaderContainer />

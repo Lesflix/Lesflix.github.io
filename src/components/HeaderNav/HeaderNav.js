@@ -2,6 +2,7 @@ import styled from "@emotion/styled"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
 import { v1 as uuid } from "uuid"
+import { genres } from "../../const/genres"
 
 function HeaderNav() {
   const { allMarkdownRemark: data } = useStaticQuery(graphql`
@@ -22,7 +23,7 @@ function HeaderNav() {
           to={`/${data.fieldValue}`}
           state={{ path: data.fieldValue }}
         >
-          <span>{data.fieldValue}</span>
+          <span>{genres[data.fieldValue]}</span>
         </Link>
       ))}
     </NavList>
