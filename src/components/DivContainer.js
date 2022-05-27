@@ -9,6 +9,7 @@ const DivContainerStyle = styled.div`
   * {
     margin: 0;
     padding: 0;
+    color: var(--themFont);
   }
   @media screen and (min-width: 1920px) {
     padding: 22px 34px;
