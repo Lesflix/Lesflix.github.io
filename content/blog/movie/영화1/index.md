@@ -1,7 +1,7 @@
 ---
 title: 영화1
 description: 영화1
-genre: 영화
+genre: movie
 poster: ""
 release: "2022.02.27"
 ott: [왓챠]
