@@ -14,5 +14,6 @@ function OttListContainer({ ottList, title }) {
 const OttListStyle = styled.div`
   display: flex;
   margin-top: 10px;
+  gap: 10px;
 `
 export default OttListContainer
