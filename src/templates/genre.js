@@ -8,7 +8,7 @@ import SlidePostContainer from "../containers/SlidePostContainer"
 
 const Genre = ({ data, location }) => {
   const { nodes: PostList } = data.allMarkdownRemark
-  const { path: genre } = location.state
+  const genre = location.state?.path
   return (
     <>
       <HeaderContainer />
