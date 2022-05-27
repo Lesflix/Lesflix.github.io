@@ -8,7 +8,7 @@ function OttIcon({ ott, title }) {
       {ott ? (
         <img
           onClick={() => {
-            navigate(`${otts[ott]}${title}`)
+            navigate(`${otts[ott].url}${otts[ott].query ? title : ""}`)
           }}
           src={require(`../../images/ott-icon/${ott}.svg`).default}
           alt={{ ott }}
