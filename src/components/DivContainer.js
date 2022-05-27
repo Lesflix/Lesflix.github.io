@@ -6,22 +6,24 @@ function DivContainer({ children }) {
 }
 
 const DivContainerStyle = styled.div`
+  overflow: hidden;
   * {
     margin: 0;
     padding: 0;
     color: var(--themFont);
+    font-size: 2vw;
   }
   @media screen and (min-width: 1920px) {
-    padding: 22px 34px;
+    margin: 22px 34px;
   }
   @media screen and (min-width: 1080px) and (max-width: 1919px) {
-    padding: 22px 34px;
+    margin: 22px 34px;
   }
   @media screen and (min-width: 768px) and (max-width: 1079px) {
-    padding: 22px 34px;
+    margin: 22px 34px;
   }
   @media screen and (max-width: 767px) {
-    padding: 12px;
+    margin: 12px;
   }
 `
 export default DivContainer

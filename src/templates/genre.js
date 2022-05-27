@@ -3,6 +3,7 @@ import React from "react"
 import DivContainer from "../components/DivContainer"
 import Layout from "../components/Layout"
 import HeaderContainer from "../containers/HeaderContainer"
+import PostListContainer from "../containers/PostListContainer"
 import SlidePostContainer from "../containers/SlidePostContainer"
 
 const Genre = ({ data, location }) => {
@@ -16,6 +17,7 @@ const Genre = ({ data, location }) => {
           <h1>
             총 {PostList.length}개의 {genre}
           </h1>
+          <PostListContainer postList={PostList} />
         </DivContainer>
       </Layout>
     </>
