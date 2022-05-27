@@ -1,16 +1,22 @@
 import { graphql } from "gatsby"
 import React from "react"
+import DivContainer from "../components/DivContainer"
 import Layout from "../components/Layout"
 import HeaderContainer from "../containers/HeaderContainer"
 import SlidePostContainer from "../containers/SlidePostContainer"
 
 const Genre = ({ data, location }) => {
   const { nodes: PostList } = data.allMarkdownRemark
+  const { path: genre } = location.state
   return (
     <>
       <HeaderContainer />
       <Layout location={location}>
-        <SlidePostContainer postList={PostList} />
+        <DivContainer>
+          <h1>
+            총 {PostList.length}개의 {genre}
+          </h1>
+        </DivContainer>
       </Layout>
     </>
   )
