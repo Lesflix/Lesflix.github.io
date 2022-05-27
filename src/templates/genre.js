@@ -21,7 +21,7 @@ export default Genre
 export const pageQuery = graphql`
   query filteredPost($genre: String) {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___release], order: DESC }
       filter: { frontmatter: { genre: { eq: $genre } } }
     ) {
       nodes {
@@ -30,11 +30,15 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
           title
           description
           genre
           poster
+          release
+          ott
+          countries
+          cover
+          end
         }
       }
       totalCount
