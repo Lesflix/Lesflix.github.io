@@ -18,10 +18,10 @@ const Home = ({ data, location }) => {
     )
   }
   return (
-    <Layout location={location} s>
+    <Layout location={location}>
       <HeaderContainer />
       <Seo title="All" />
-      <SlidePostContainer postList={posts} />
+      <SlidePostContainer postList={posts} title={"test"} />
     </Layout>
   )
 }
@@ -35,14 +35,13 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___release], order: DESC }) {
       nodes {
         excerpt
         fields {
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
           title
           description
           genre
@@ -50,6 +49,8 @@ export const pageQuery = graphql`
           release
           ott
           countries
+          cover
+          end
         }
       }
     }
