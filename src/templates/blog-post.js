@@ -31,7 +31,6 @@ const BlogPostTemplate = ({ data, location }) => {
             dangerouslySetInnerHTML={{ __html: html }}
             itemProp="articleBody"
           />
-          <hr />
         </PostMain>
         <PostNavContainer previous={previous} next={next} />
       </Layout>
