@@ -1,75 +1,65 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 import HeaderContainer from "../containers/HeaderContainer"
-
+import styled from "@emotion/styled"
+import PostNavContainer from "../containers/PostNavContainer"
+import PostContentContainer from "../containers/PostContentContainer"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const { previous, next } = data
+  const { previous, next, file } = data
+  const { title, description, excerpt, html } = post.frontmatter
   return (
     <>
       <HeaderContainer />
       <Layout location={location}>
-        <Seo
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-        />
-        <article
+        <Seo title={title} description={description || excerpt} />
+        <PostMain
           className="blog-post"
           itemScope
           itemType="http://schema.org/Article"
         >
-          <header>
-            <h1 itemProp="headline">{post.frontmatter.title}</h1>
-            <p>{post.frontmatter.date}</p>
-          </header>
+          <PostContentContainer
+            postData={{
+              ...post.frontmatter,
+              posterUrl: file?.publicURL ? file?.publicURL : "",
+            }}
+          />
           <section
-            dangerouslySetInnerHTML={{ __html: post.html }}
+            dangerouslySetInnerHTML={{ __html: html }}
             itemProp="articleBody"
           />
           <hr />
-        </article>
-        <nav className="blog-post-nav">
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
-          >
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
-        </nav>
+        </PostMain>
+        <PostNavContainer previous={previous} next={next} />
       </Layout>
     </>
   )
 }
 
 export default BlogPostTemplate
-
+const PostMain = styled.article`
+  @media screen and (min-width: 1920px) {
+    padding: 22px 34px;
+  }
+  @media screen and (min-width: 1080px) and (max-width: 1919px) {
+    padding: 22px 34px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1079px) {
+    padding: 22px 34px;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 12px;
+  }
+`
 export const pageQuery = graphql`
   query BlogPostBySlug(
     $id: String!
     $previousPostId: String
     $nextPostId: String
+    $cover: String
   ) {
     site {
       siteMetadata {
@@ -82,10 +72,14 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
         description
         genre
         poster
+        release
+        ott
+        countries
+        cover
+        end
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
@@ -103,6 +97,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
       }
+    }
+    file(base: { eq: $cover }, relativeDirectory: { eq: "cover" }) {
+      publicURL
     }
   }
 `
