@@ -16,9 +16,6 @@ function PostListContainer({ postList }) {
   )
 }
 const PostListContainerStyle = styled.div`
-  margin: 30px auto 0;
-  padding: 30px 0;
-
   width: fit-content;
   .item {
     float: left;
@@ -36,7 +33,7 @@ const PostListContainerStyle = styled.div`
     .item {
       padding: 20px;
     }
-    margin-right: -10px;
+    margin: 30px -10px 0 0;
   }
   @media screen and (min-width: 1080px) and (max-width: 1919px) {
     * {
@@ -45,7 +42,7 @@ const PostListContainerStyle = styled.div`
     .item {
       padding: 20px;
     }
-    margin-right: -10px;
+    margin: 25px -10px 0 0;
   }
   @media screen and (min-width: 768px) and (max-width: 1079px) {
     * {
@@ -54,7 +51,7 @@ const PostListContainerStyle = styled.div`
     .item {
       padding: 16px;
     }
-    margin-right: -8px;
+    margin: 20px -8px 0 0;
   }
   @media screen and (min-width: 375px) and (max-width: 767px) {
     * {
@@ -63,7 +60,7 @@ const PostListContainerStyle = styled.div`
     .item {
       padding: 8px;
     }
-    margin-right: -4px;
+    margin: 15px -4px 0 0;
   }
   @media screen and (max-width: 374px) {
     * {
@@ -72,7 +69,7 @@ const PostListContainerStyle = styled.div`
     .item {
       padding: 6px;
     }
-    margin-right: -3px;
+    margin: 10px -3px 0 0;
   }
 `
 export default PostListContainer
