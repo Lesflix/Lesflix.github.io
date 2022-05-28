@@ -46,10 +46,10 @@ const PostContentContainerStyle = styled.section`
       display: block;
     }
     .poster {
-      z-index: 30;
       border-radius: 12px;
       overflow: hidden;
       width: 50%;
+      position: relative;
       @media screen and (max-width: 450px) {
         width: 100%;
         margin-bottom: 10px;
