@@ -6,7 +6,7 @@ poster: 마더랜드포트세일럼시즌2.jpeg
 release: "2021.06.22"
 ott: [디즈니플러스]
 countries: 미국
-cover: 구경이.jpeg
+cover: 마더랜드포트세일럼시즌2.jpeg
 categories: [액션&어드벤처, 스릴러, 판타지]
 end: true
 ---
