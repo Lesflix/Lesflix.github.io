@@ -23,6 +23,7 @@ const Home = ({ data, location }) => {
       <HeaderContainer />
       <Seo title="레플릭스" />
       <DivContainer>
+        <strong>Hello 😎</strong>
         <PostListContainer postList={posts} isSlide={false} />
       </DivContainer>
 
