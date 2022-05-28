@@ -16,6 +16,14 @@ module.exports = {
     `gatsby-plugin-dark-mode`,
     `gatsby-plugin-image`,
     {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://lesflix.github.io/",
+        sitemap: "https://lesflix.github.io/sitemap/sitemap-index.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
