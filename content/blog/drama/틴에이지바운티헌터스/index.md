@@ -8,6 +8,6 @@ release: "2020.08.14"
 ott: [넷플릭스]
 countries: 미국
 cover: 틴에이지바운티헌터스.jpeg
-categories: [청소년, 드라마, 코미디, 범죄, 액션&어드벤처]
+categories: [청소년, 코미디, 범죄, 액션&어드벤처]
 end: true
 ---
