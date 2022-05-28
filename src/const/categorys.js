@@ -1,4 +1,5 @@
 export const categorys = {
-  ott: "ott별",
-  countries: "카테고리별",
+  all: "전체",
+  ott: "OTT 별",
+  countries: "나라 별",
 }
