@@ -8,6 +8,7 @@ ott: [왓챠]
 countries: 영국
 cover: 킬링이브시즌1.jpeg
 end: true
+categories: [범죄]
 ---
 
 genre: 드라마

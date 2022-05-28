@@ -51,6 +51,7 @@ export const pageQuery = graphql`
           countries
           cover
           end
+          categories
         }
       }
     }

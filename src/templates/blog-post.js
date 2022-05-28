@@ -64,6 +64,7 @@ export const pageQuery = graphql`
         countries
         cover
         end
+        categories
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

@@ -132,6 +132,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       countries: String
       cover: String
       end: Boolean
+      categories: [String]
     }
 
     type Fields {

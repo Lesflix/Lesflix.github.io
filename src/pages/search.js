@@ -27,6 +27,7 @@ export const pageQuery = graphql`
           countries
           cover
           end
+          categories
         }
       }
     }
@@ -37,7 +38,8 @@ function Search({ data, location }) {
 
   const postList = data.allMarkdownRemark.nodes || []
   const filteredPosts = postList.filter(post => {
-    const { title, description, genre, countries, ott } = post.frontmatter
+    const { title, description, genre, countries, ott, categories } =
+      post.frontmatter
     return (
       (description &&
         description.toLowerCase().includes(searchWord?.toLowerCase())) ||
@@ -45,7 +47,9 @@ function Search({ data, location }) {
       (genre && genre.toLowerCase().includes(searchWord?.toLowerCase())) ||
       (countries &&
         countries.toLowerCase().includes(searchWord?.toLowerCase())) ||
-      (ott && ott.join("").toLowerCase().includes(searchWord?.toLowerCase()))
+      (ott && ott.join("").toLowerCase().includes(searchWord?.toLowerCase())) ||
+      (categories &&
+        categories.join("").toLowerCase().includes(searchWord?.toLowerCase()))
     )
   })
 
