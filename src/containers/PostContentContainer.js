@@ -9,7 +9,8 @@ function PostContentContainer({ postData }) {
         <div className="poster">
           <img
             src={
-              require(`../images/${poster ? poster : "default.png"}`).default
+              require(`../images/poster/${poster ? poster : "default.png"}`)
+                .default
             }
             alt={title}
           />

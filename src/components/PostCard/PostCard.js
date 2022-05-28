@@ -20,7 +20,7 @@ function PostCard({ post }) {
       }}
     >
       <img
-        src={require(`../../images/${poster}`).default}
+        src={require(`../../images/poster/${poster}`).default}
         alt={post.frontmatter.title}
       />
       <div
