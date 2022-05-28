@@ -38,18 +38,22 @@ const NavList = styled.div`
   font-weight: 700;
   @media screen and (min-width: 1920px) {
     gap: 21px;
-    font-size: 54px;
+    font-size: 44px;
   }
   @media screen and (min-width: 1080px) and (max-width: 1919px) {
-    font-size: 44px;
+    font-size: 32px;
     gap: 21px;
   }
   @media screen and (min-width: 768px) and (max-width: 1079px) {
-    font-size: 28px;
+    font-size: 24px;
     gap: 11px;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 375px) and (max-width: 767px) {
     font-size: 18px;
-    gap: 9px;
+    gap: 8px;
+  }
+  @media screen and (max-width: 374px) {
+    font-size: 12px;
+    gap: 4px;
   }
 `

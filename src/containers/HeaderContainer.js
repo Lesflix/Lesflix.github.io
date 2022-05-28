@@ -38,27 +38,27 @@ const StyleHeaderContainer = styled.div`
     }
   }
   @media screen and (min-width: 1920px) {
-    padding: 22px 34px;
-    #logo {
-      height: 60px;
-    }
-  }
-  @media screen and (min-width: 1080px) and (max-width: 1919px) {
-    padding: 22px 34px;
+    padding: 15px 25px;
     #logo {
       height: 50px;
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1079px) {
-    padding: 22px 34px;
+  @media screen and (min-width: 1080px) and (max-width: 1919px) {
+    padding: 10px 20px;
     #logo {
-      height: 30px;
+      height: 40px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1079px) {
+    padding: 8px 18px;
+    #logo {
+      height: 20px;
     }
   }
   @media screen and (max-width: 767px) {
     padding: 12px;
     #logo {
-      height: 25px;
+      height: 15px;
       margin-right: 10px;
     }
   }

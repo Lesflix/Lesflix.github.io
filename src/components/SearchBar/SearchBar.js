@@ -29,7 +29,6 @@ function SearchBar() {
 const SearchBarStyle = styled.div`
   position: relative;
   flex: 1;
-  margin-right: 20px;
   * {
     color: var(--lightFont);
   }
@@ -53,6 +52,8 @@ const SearchBarStyle = styled.div`
     width: 60px;
     height: 60px;
     font-size: 30px;
+    margin-right: 20px;
+
     input {
       padding-left: 55px;
     }
@@ -65,6 +66,8 @@ const SearchBarStyle = styled.div`
     width: 50px;
     height: 50px;
     font-size: 20px;
+    margin-right: 20px;
+
     input {
       padding-left: 45px;
     }
@@ -77,6 +80,7 @@ const SearchBarStyle = styled.div`
     width: 30px;
     height: 30px;
     font-size: 15px;
+    margin-right: 20px;
 
     input {
       padding-left: 25px;
@@ -90,6 +94,7 @@ const SearchBarStyle = styled.div`
     width: 25px;
     height: 25px;
     font-size: 10px;
+    margin-right: 5px;
 
     input {
       padding-left: 20px;
