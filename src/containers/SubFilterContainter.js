@@ -23,6 +23,7 @@ const ListStyle = styled.div`
   display: flex;
   gap: 20px;
   margin-top: 10px;
+  flex-wrap: wrap;
   * {
     font-size: 2.5vw;
     & {
