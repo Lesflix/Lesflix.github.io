@@ -68,6 +68,7 @@ const Genre = ({ data, location }) => {
             개의 {genre}
           </CountMsg>
           <PostListContainer
+            isSlide={false}
             postList={subFilter != "" ? filteredPost : postList}
           />
         </DivContainer>

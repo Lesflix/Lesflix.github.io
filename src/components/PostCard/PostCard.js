@@ -1,15 +1,13 @@
 import styled from "@emotion/styled"
 import { navigate } from "gatsby"
 import React, { useState } from "react"
-import { useLocation } from "@reach/router"
 
-function PostCard({ post }) {
+function PostCard({ post, isSlide }) {
   const poster = post.frontmatter.poster
     ? post.frontmatter.poster
     : "default.png"
   const [isHover, setIsHover] = useState(false)
-  const nowPath = useLocation().pathname
-  return nowPath != "/" ? (
+  return isSlide != "/" ? (
     <PostCardStyle
       onClick={() => {
         setIsHover(false)

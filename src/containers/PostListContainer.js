@@ -2,13 +2,13 @@ import styled from "@emotion/styled"
 import React from "react"
 import PostCard from "../components/PostCard/PostCard"
 import { v1 as uuid } from "uuid"
-function PostListContainer({ postList }) {
+function PostListContainer({ postList, isSlide }) {
   return (
     <PostListContainerStyle>
       {postList.length
         ? postList.map(post => (
             <div className="item" key={uuid()}>
-              <PostCard post={post} />
+              <PostCard isSlide={isSlide} post={post} />
             </div>
           ))
         : "준비 중"}
