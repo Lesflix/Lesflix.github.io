@@ -79,10 +79,15 @@
 }
 
 html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   line-height: var(--lineHeight-normal);
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body {

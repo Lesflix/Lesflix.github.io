@@ -4,7 +4,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 import HeaderContainer from "../containers/HeaderContainer"
-import SlidePostContainer from "../containers/SlidePostContainer"
+import PostListContainer from "../containers/PostListContainer"
+import DivContainer from "../components/DivContainer"
 
 const Home = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
@@ -21,7 +22,11 @@ const Home = ({ data, location }) => {
     <Layout location={location}>
       <HeaderContainer />
       <Seo title="레플릭스" />
-      <SlidePostContainer postList={posts} title={"test"} />
+      <DivContainer>
+        <PostListContainer postList={posts} isSlide={false} />
+      </DivContainer>
+
+      {/* <SlidePostContainer postList={posts} title={"test"} /> */}
     </Layout>
   )
 }
