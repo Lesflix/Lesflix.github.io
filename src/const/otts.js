@@ -10,7 +10,7 @@ export const otts = {
   아마존프레임비디오: { url: "", query: true },
   애플티비: { url: "", query: true },
   웨이브: {
-    url: "https://www.wavve.com/search/search?searchWord=",
+    url: "https://www.wavve.com/search/search?category=all&searchWord=",
     query: true,
   },
 }
