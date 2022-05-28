@@ -52,7 +52,7 @@ const SearchBarStyle = styled.div`
   @media screen and (min-width: 1920px) {
     width: 60px;
     height: 60px;
-    font-size: 45px;
+    font-size: 30px;
     input {
       padding-left: 55px;
     }
@@ -64,7 +64,7 @@ const SearchBarStyle = styled.div`
   @media screen and (min-width: 1080px) and (max-width: 1919px) {
     width: 50px;
     height: 50px;
-    font-size: 35px;
+    font-size: 20px;
     input {
       padding-left: 45px;
     }
