@@ -65,10 +65,8 @@
   --breakWebM: 768px;
   --breakWebL: 1024px;
   --breakWebB: 1920px;
-  /* --themBg: var(--lightBg); */
-  /* --themFont: var(--lightFont); */
-  --themBg: var(--darkBg);
-  --themFont: var(--darkFont);
+  --themBg: var(--lightBg);
+  --themFont: var(--lightFont);
 }
 
 /* HTML elements */
@@ -93,7 +91,10 @@ body {
   color: var(--themFont);
   background-color: var(--themBg);
 }
-
+body.dark {
+  --themFont: var(--darkFont);
+  --themBg: var(--darkBg);
+}
 footer {
   padding: var(--spacing-6) var(--spacing-0);
 }
