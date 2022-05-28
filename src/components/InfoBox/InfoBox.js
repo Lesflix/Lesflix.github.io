@@ -56,7 +56,10 @@ const BoxStyle = styled.div`
   justify-content: center;
   z-index: 10;
   font-size: 1.2vw;
-  flex: 2;
+  width: 50%;
+  @media screen and (max-width: 450px) {
+    width: 100%;
+  }
   .title {
     width: 100%;
     font-size: 3.5vw;
@@ -68,8 +71,26 @@ const BoxStyle = styled.div`
     flex-direction: column;
     gap: 10px;
     margin-left: 10px;
-    .summary {
-      font-size: 2vw;
+
+    @media screen and (min-width: 1920px) {
+      .summary {
+        font-size: 1vw;
+      }
+    }
+    @media screen and (min-width: 1080px) and (max-width: 1919px) {
+      .summary {
+        font-size: 0.8vw;
+      }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1079px) {
+      .summary {
+        font-size: 0.6vw;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .summary {
+        font-size: 0.4vw;
+      }
     }
   }
 `

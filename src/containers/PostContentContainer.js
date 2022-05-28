@@ -38,16 +38,22 @@ const PostContentContainerStyle = styled.section`
   .container {
     display: flex;
     margin: 0 auto;
-    width: 80vw;
+    width: 70vw;
     max-width: 1080px;
     gap: 30px;
     align-items: center;
-
+    @media screen and (max-width: 450px) {
+      display: block;
+    }
     .poster {
       z-index: 30;
       border-radius: 12px;
       overflow: hidden;
       width: 50%;
+      @media screen and (max-width: 450px) {
+        width: 100%;
+        margin-bottom: 10px;
+      }
       flex: 1;
       img {
         display: block;
