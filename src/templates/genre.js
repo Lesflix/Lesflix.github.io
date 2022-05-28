@@ -8,6 +8,7 @@ import FilterListContainter from "../containers/FilterListContainer"
 import SubFilterContainter from "../containers/SubFilterContainter"
 import { genres } from "../const/genres"
 import styled from "@emotion/styled"
+import Seo from "../components/Seo"
 const Genre = ({ data, location }) => {
   const { nodes: postList } = data.allMarkdownRemark
   const genre = genres[location.pathname.replace(/\//g, "")]
@@ -46,6 +47,7 @@ const Genre = ({ data, location }) => {
     <>
       <HeaderContainer />
       <Layout location={location}>
+        <Seo title={genre} description={""} />
         <DivContainer>
           <FilterListContainter
             filter={filter}

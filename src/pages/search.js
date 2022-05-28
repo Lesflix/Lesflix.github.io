@@ -4,6 +4,8 @@ import Seo from "../components/Seo"
 import Layout from "../components/Layout"
 import PostListContainer from "../containers/PostListContainer"
 import HeaderContainer from "../containers/HeaderContainer"
+import DivContainer from "../components/DivContainer"
+import styled from "@emotion/styled"
 export const pageQuery = graphql`
   query {
     site {
@@ -55,14 +57,22 @@ function Search({ data, location }) {
 
   return (
     <div>
+      <HeaderContainer />
       <Layout location={location}>
-        <HeaderContainer />
         <Seo title={`${searchWord} 검색 결과`} />
-        <h1>{searchWord} 검색 결과</h1>
-        <PostListContainer postList={filteredPosts} isSlide={false} />
+        <DivContainer>
+          <Msg>
+            {searchWord ? `${searchWord}검색 결과` : "검색어를 입력해주세요"}
+          </Msg>
+          <PostListContainer postList={filteredPosts} isSlide={false} />
+        </DivContainer>
       </Layout>
     </div>
   )
 }
+
+const Msg = styled.strong`
+  font-size: 2.8vw;
+`
 
 export default Search

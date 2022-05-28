@@ -14,7 +14,7 @@ function PostListContainer({ postList, isSlide }) {
           </div>
         ))
       ) : path.includes("search") ? (
-        <div className="msg">검색 결과 없음</div>
+        <div className="msg">검색 결과가 없습니다</div>
       ) : (
         <div className="msg">준비 중</div>
       )}
