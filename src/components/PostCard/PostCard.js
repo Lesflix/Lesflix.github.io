@@ -1,21 +1,36 @@
 import styled from "@emotion/styled"
 import { navigate } from "gatsby"
 import React, { useState } from "react"
+import { useLocation } from "@reach/router"
 
 function PostCard({ post }) {
   const poster = post.frontmatter.poster
     ? post.frontmatter.poster
     : "default.png"
   const [isHover, setIsHover] = useState(false)
-  return (
+  const nowPath = useLocation().pathname
+  return nowPath != "/" ? (
     <PostCardStyle
-      onMouseEnter={() => {
+      onClick={() => {
+        setIsHover(false)
+        navigate(post.fields.slug)
+      }}
+    >
+      <img
+        src={require(`../../images/poster/${poster}`).default}
+        alt={post.frontmatter.title}
+      />
+    </PostCardStyle>
+  ) : (
+    <PostCardStyle
+      onMouseOver={() => {
         setIsHover(true)
       }}
       onMouseLeave={() => {
         setIsHover(false)
       }}
       onDoubleClick={() => {
+        setIsHover(false)
         navigate(post.fields.slug)
       }}
     >
@@ -25,6 +40,7 @@ function PostCard({ post }) {
       />
       <div
         onClick={() => {
+          setIsHover(false)
           navigate(post.fields.slug)
         }}
         className={isHover ? "valid" : "unvalid"}
@@ -48,9 +64,9 @@ const PostCardStyle = styled.div`
   cursor: pointer;
   position: relative;
   &:hover {
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
       rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
   }
   .unvalid {
     display: none;
