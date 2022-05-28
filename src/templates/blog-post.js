@@ -56,6 +56,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        originalTitle
         description
         genre
         poster

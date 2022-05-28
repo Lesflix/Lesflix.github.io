@@ -124,6 +124,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Frontmatter {
       title: String
+      originalTitle: String
       description: String
       genre: String
       poster: String
