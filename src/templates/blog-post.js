@@ -30,8 +30,8 @@ const BlogPostTemplate = ({ data, location }) => {
             itemProp="articleBody"
           />
         </article>
-        <PostNavContainer previous={previous} next={next} />
       </Layout>
+      <PostNavContainer previous={previous} next={next} />
     </>
   )
 }
