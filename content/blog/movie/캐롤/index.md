@@ -5,7 +5,7 @@ description: 1950년대 뉴욕, 맨해튼 백화점 점원인 테레즈와 손�
 genre: movie
 poster: 캐롤.jpeg
 release: "2015.11.20"
-ott: [넷플릭스]
+ott: [넷플릭스, 왓챠, 티빙, 웨이브]
 countries: 미국
 cover: 캐롤.jpeg
 end: true
