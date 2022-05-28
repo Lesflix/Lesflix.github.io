@@ -7,8 +7,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v17.0.2
- * react-dom.production.min.js
+/** @license React v16.14.0
+ * react.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -17,7 +17,7 @@
  */
 
 /** @license React v17.0.2
- * react.production.min.js
+ * react-dom.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
