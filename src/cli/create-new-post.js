@@ -161,6 +161,7 @@ module.exports = (async function () {
 
   const headers = {
     title,
+    originalTitle: "",
     description: "",
     genre,
     poster: `${title}.jpeg`,
