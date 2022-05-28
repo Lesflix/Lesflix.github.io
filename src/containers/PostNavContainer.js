@@ -38,12 +38,14 @@ const PostNavContainerStyle = styled.nav`
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: var(--themBg);
+  /* background-color: var(--themBg); */
+  background-color: red;
   z-index: 100;
   * {
     color: var(--themFont);
-    font-size: 1.8vw;
+    font-size: 1.2vw;
   }
+
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -57,22 +59,14 @@ const PostNavContainerStyle = styled.nav`
       gap: 10px;
     }
     @media screen and (min-width: 1920px) {
-      height: 60px;
+      height: 35px;
       li {
         img {
-          width: 50px;
+          width: 35px;
         }
       }
     }
     @media screen and (min-width: 1080px) and (max-width: 1919px) {
-      height: 50px;
-      li {
-        img {
-          width: 50px;
-        }
-      }
-    }
-    @media screen and (min-width: 768px) and (max-width: 1079px) {
       height: 30px;
       li {
         img {
@@ -80,11 +74,19 @@ const PostNavContainerStyle = styled.nav`
         }
       }
     }
-    @media screen and (max-width: 767px) {
-      height: 25px;
+    @media screen and (min-width: 768px) and (max-width: 1079px) {
+      height: 20px;
       li {
         img {
-          height: 25px;
+          width: 20px;
+        }
+      }
+    }
+    @media screen and (max-width: 767px) {
+      height: 15px;
+      li {
+        img {
+          height: 15px;
         }
       }
     }
