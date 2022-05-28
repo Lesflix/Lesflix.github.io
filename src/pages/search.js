@@ -63,7 +63,7 @@ function Search({ data, location }) {
         <Seo title={`${searchWord} 검색 결과`} />
         <DivContainer>
           <Msg>
-            {searchWord ? `${searchWord}검색 결과` : "검색어를 입력해주세요"}
+            {searchWord ? `${searchWord} 검색 결과` : "검색어를 입력해주세요"}
           </Msg>
           <PostListContainer postList={filteredPosts} isSlide={false} />
         </DivContainer>
