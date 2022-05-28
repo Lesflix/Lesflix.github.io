@@ -3,6 +3,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
 import { v1 as uuid } from "uuid"
 import { genres } from "../../const/genres"
+import { useLocation } from "@reach/router"
 
 function HeaderNav() {
   const { allMarkdownRemark: data } = useStaticQuery(graphql`
@@ -15,6 +16,8 @@ function HeaderNav() {
     }
   `)
   const { group: navList } = data
+  const path = useLocation().pathname.replace(/\//g, "")
+  console.log(path)
   return (
     <NavList>
       {navList?.map(data => (
@@ -23,7 +26,9 @@ function HeaderNav() {
           to={`/${data.fieldValue}`}
           state={{ path: data.fieldValue }}
         >
-          <span>{genres[data.fieldValue]}</span>
+          <span className={path === data.fieldValue ? "select" : ""}>
+            {genres[data.fieldValue]}
+          </span>
         </Link>
       ))}
     </NavList>
@@ -36,6 +41,10 @@ const NavList = styled.div`
   display: flex;
   flex: 1;
   font-weight: 700;
+  .select {
+    color: red;
+    color: var(--primary50);
+  }
   @media screen and (min-width: 1920px) {
     gap: 21px;
     font-size: 44px;
