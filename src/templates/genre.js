@@ -7,6 +7,7 @@ import PostListContainer from "../containers/PostListContainer"
 import FilterListContainter from "../containers/FilterListContainer"
 import SubFilterContainter from "../containers/SubFilterContainter"
 import { genres } from "../const/genres"
+import styled from "@emotion/styled"
 const Genre = ({ data, location }) => {
   const { nodes: postList } = data.allMarkdownRemark
   const genre = genres[location.pathname.replace(/\//g, "")]
@@ -52,14 +53,20 @@ const Genre = ({ data, location }) => {
             setFilter={setFilter}
             setSubFilter={setSubFilter}
           />
-          <SubFilterContainter
-            subFilterList={subFilterList}
-            setSubFilter={setSubFilter}
-          />
-          <h1>
-            총 {subFilter != "" ? filteredPost.length : postList.length}개의{" "}
-            {genre}
-          </h1>
+          {subFilterList.length > 0 && (
+            <SubFilterContainter
+              subFilter={subFilter}
+              subFilterList={subFilterList}
+              setSubFilter={setSubFilter}
+            />
+          )}
+          <CountMsg>
+            총{" "}
+            <strong>
+              {subFilter != "" ? filteredPost.length : postList.length}
+            </strong>
+            개의 {genre}
+          </CountMsg>
           <PostListContainer
             postList={subFilter != "" ? filteredPost : postList}
           />
@@ -70,6 +77,10 @@ const Genre = ({ data, location }) => {
 }
 export default Genre
 
+const CountMsg = styled.div`
+  margin-top: 10px;
+  font-size: 1.8vw;
+`
 export const pageQuery = graphql`
   query filteredPost($genre: String) {
     allMarkdownRemark(
