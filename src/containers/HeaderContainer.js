@@ -3,6 +3,7 @@ import React from "react"
 import HeaderNav from "../components/HeaderNav/HeaderNav"
 import { Link } from "gatsby"
 import ThemeSwitch from "../components/ThemeSwitch/ThemeSwitch"
+import SearchBar from "../components/SearchBar/SearchBar"
 function HeaderContainer() {
   return (
     <StyleHeaderContainer>
@@ -12,6 +13,7 @@ function HeaderContainer() {
         </Link>
       </div>
       <HeaderNav />
+      <SearchBar />
       <ThemeSwitch />
     </StyleHeaderContainer>
   )

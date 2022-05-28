@@ -9,7 +9,7 @@ function SearchBar() {
   }
   function handleEnterEvent(e) {
     if (e.key === "Enter") {
-      navigate(`/search?q=${searchWord}`)
+      navigate(`/search?q=${searchWord}`, { state: { searchWord } })
     }
   }
 

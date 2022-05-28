@@ -20,7 +20,7 @@ const Genre = ({ data, location }) => {
   useEffect(() => {
     let temp = new Set()
     postList.forEach(({ frontmatter }) => {
-      if ("string" != typeof frontmatter[filter]) {
+      if ("string" !== typeof frontmatter[filter]) {
         frontmatter[filter]?.forEach(data => {
           temp.add(data)
         })
@@ -29,10 +29,10 @@ const Genre = ({ data, location }) => {
       }
     })
     setSubFilterList([...temp])
-  }, [filter])
+  }, [filter, postList])
 
   useEffect(() => {
-    if (subFilter != "") {
+    if (subFilter !== "") {
       setFilteredPostList(
         postList.filter(
           ({ frontmatter }) =>
@@ -41,7 +41,7 @@ const Genre = ({ data, location }) => {
         )
       )
     }
-  }, [subFilter])
+  }, [subFilter, postList])
 
   return (
     <>
@@ -63,13 +63,13 @@ const Genre = ({ data, location }) => {
           <CountMsg>
             총{" "}
             <strong>
-              {subFilter != "" ? filteredPost.length : postList.length}
+              {subFilter !== "" ? filteredPost.length : postList.length}
             </strong>
             개의 {genre}
           </CountMsg>
           <PostListContainer
             isSlide={false}
-            postList={subFilter != "" ? filteredPost : postList}
+            postList={subFilter !== "" ? filteredPost : postList}
           />
         </DivContainer>
       </Layout>

@@ -7,7 +7,7 @@ function PostCard({ post, isSlide }) {
     ? post.frontmatter.poster
     : "default.png"
   const [isHover, setIsHover] = useState(false)
-  return isSlide != "/" ? (
+  return isSlide !== "/" ? (
     <PostCardStyle
       onClick={() => {
         setIsHover(false)
