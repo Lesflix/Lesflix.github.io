@@ -14,7 +14,8 @@ function InfoBox({ postData }) {
           </strong>
           <div>
             {release}
-            {"drama" !== genre ? "" : ~(end ? `방영 종료` : "")}
+            {"drama" === genre && end ? ` ~ 방영 종료` : ""}
+            {"movie" === genre && ""}
           </div>
         </div>
         <div>
