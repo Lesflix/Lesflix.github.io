@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://lesflix.github.io/sitemap/sitemap-index.xml
+Host: https://lesflix.github.io
