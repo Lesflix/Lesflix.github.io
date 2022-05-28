@@ -11,7 +11,6 @@ import styled from "@emotion/styled"
 const Genre = ({ data, location }) => {
   const { nodes: postList } = data.allMarkdownRemark
   const genre = genres[location.pathname.replace(/\//g, "")]
-  const allOtts = data.allMarkdownRemark.group
   let [filteredPost, setFilteredPostList] = useState(postList)
   const [filter, setFilter] = useState("all")
   const [subFilterList, setSubFilterList] = useState([])
@@ -41,7 +40,7 @@ const Genre = ({ data, location }) => {
         )
       )
     }
-  }, [subFilter, postList])
+  }, [filter, subFilter, postList])
 
   return (
     <>

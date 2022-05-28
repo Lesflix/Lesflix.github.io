@@ -13,14 +13,14 @@ const Home = ({ data, location }) => {
     return (
       <Layout location={location}>
         <HeaderContainer />
-        <Seo title="All" />
+        <Seo title="레플릭스" />
       </Layout>
     )
   }
   return (
     <Layout location={location}>
       <HeaderContainer />
-      <Seo title="All" />
+      <Seo title="레플릭스" />
       <SlidePostContainer postList={posts} title={"test"} />
     </Layout>
   )
