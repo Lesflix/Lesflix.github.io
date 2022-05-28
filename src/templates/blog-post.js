@@ -15,7 +15,7 @@ const BlogPostTemplate = ({ data, location }) => {
       <HeaderContainer />
       <Layout location={location}>
         <Seo title={title} description={description || excerpt} />
-        <PostMain
+        <article
           className="blog-post"
           itemScope
           itemType="http://schema.org/Article"
@@ -30,7 +30,7 @@ const BlogPostTemplate = ({ data, location }) => {
             dangerouslySetInnerHTML={{ __html: html }}
             itemProp="articleBody"
           />
-        </PostMain>
+        </article>
         <PostNavContainer previous={previous} next={next} />
       </Layout>
     </>
@@ -38,20 +38,7 @@ const BlogPostTemplate = ({ data, location }) => {
 }
 
 export default BlogPostTemplate
-const PostMain = styled.article`
-  @media screen and (min-width: 1920px) {
-    padding: 22px 34px;
-  }
-  @media screen and (min-width: 1080px) and (max-width: 1919px) {
-    padding: 22px 34px;
-  }
-  @media screen and (min-width: 768px) and (max-width: 1079px) {
-    padding: 22px 34px;
-  }
-  @media screen and (max-width: 767px) {
-    padding: 12px;
-  }
-`
+
 export const pageQuery = graphql`
   query BlogPostBySlug(
     $id: String!
