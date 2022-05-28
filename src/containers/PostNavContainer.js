@@ -38,8 +38,8 @@ const PostNavContainerStyle = styled.nav`
   bottom: 0;
   left: 0;
   right: 0;
-  /* background-color: var(--themBg); */
-  background-color: red;
+  background-color: var(--themBg);
+  opacity: 0.9;
   z-index: 100;
   * {
     color: var(--themFont);
