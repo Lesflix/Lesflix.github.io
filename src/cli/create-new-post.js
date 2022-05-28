@@ -165,7 +165,7 @@ module.exports = (async function () {
     description: "",
     genre,
     poster: `${title}.jpeg`,
-    release: "",
+    release: `""`,
     ott: `[${ottList}]`,
     countries: country,
     cover: `${title}.jpeg`,
