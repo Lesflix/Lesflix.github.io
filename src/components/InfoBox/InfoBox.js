@@ -3,15 +3,18 @@ import React from "react"
 import OttListContainer from "../../containers/OttListContainer"
 
 function InfoBox({ postData }) {
-  const { title, description, release, ott, end, categories } = postData
+  const { title, description, release, genre, ott, end, categories } = postData
   return (
     <BoxStyle>
       <div className="title">{title}</div>
       <div className="about">
         <div>
-          <strong className="summary">방영일</strong>
+          <strong className="summary">
+            {"drama" === genre ? "방영일" : "개봉일"}
+          </strong>
           <div>
-            {release} ~ {end ? "방영 종료" : ""}
+            {release}
+            {"drama" !== genre ? "" : ~(end ? `방영 종료` : "")}
           </div>
         </div>
         <div>
