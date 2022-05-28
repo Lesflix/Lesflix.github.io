@@ -33,9 +33,7 @@ export const pageQuery = graphql`
   }
 `
 function Search({ data, location }) {
-  const searchWord = location.state?.searchWord
-    ? location.state?.searchWord
-    : decodeURI(location.search?.replace("?q=", ""))
+  const searchWord = decodeURI(location.search?.replace("?q=", ""))
 
   const postList = data.allMarkdownRemark.nodes || []
   const filteredPosts = postList.filter(post => {

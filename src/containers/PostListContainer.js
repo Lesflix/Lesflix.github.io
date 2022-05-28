@@ -2,16 +2,22 @@ import styled from "@emotion/styled"
 import React from "react"
 import PostCard from "../components/PostCard/PostCard"
 import { v1 as uuid } from "uuid"
+import { useLocation } from "@reach/router"
 function PostListContainer({ postList, isSlide }) {
+  const path = useLocation().pathname
   return (
     <PostListContainerStyle>
-      {postList.length
-        ? postList.map(post => (
-            <div className="item" key={uuid()}>
-              <PostCard isSlide={isSlide} post={post} />
-            </div>
-          ))
-        : "준비 중"}
+      {postList.length ? (
+        postList.map(post => (
+          <div className="item" key={uuid()}>
+            <PostCard isSlide={isSlide} post={post} />
+          </div>
+        ))
+      ) : path.includes("search") ? (
+        <div className="msg">검색 결과 없음</div>
+      ) : (
+        <div className="msg">준비 중</div>
+      )}
     </PostListContainerStyle>
   )
 }
