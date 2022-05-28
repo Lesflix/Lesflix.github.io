@@ -74,22 +74,22 @@ const BoxStyle = styled.div`
 
     @media screen and (min-width: 1920px) {
       .summary {
-        font-size: 1.4vw;
+        font-size: 1.6rem;
       }
     }
     @media screen and (min-width: 1080px) and (max-width: 1919px) {
       .summary {
-        font-size: 1.2vw;
+        font-size: 1.4rem;
       }
     }
     @media screen and (min-width: 768px) and (max-width: 1079px) {
       .summary {
-        font-size: 1vw;
+        font-size: 1.2rem;
       }
     }
     @media screen and (max-width: 767px) {
       .summary {
-        font-size: 0.8vw;
+        font-size: 1rem;
       }
     }
   }
