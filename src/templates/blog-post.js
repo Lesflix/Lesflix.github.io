@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 import HeaderContainer from "../containers/HeaderContainer"
-import styled from "@emotion/styled"
 import PostNavContainer from "../containers/PostNavContainer"
 import PostContentContainer from "../containers/PostContentContainer"
 const BlogPostTemplate = ({ data, location }) => {
