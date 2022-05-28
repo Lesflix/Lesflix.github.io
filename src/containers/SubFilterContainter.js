@@ -7,7 +7,7 @@ function SubFilterContainter({ subFilter, subFilterList, setSubFilter }) {
     <ListStyle>
       {subFilterList.map(sub => (
         <div
-          className={subFilter === sub ? "select" : ""}
+          className={subFilter === sub ? "select item" : "item"}
           key={uuid()}
           onClick={() => {
             setSubFilter(sub)
@@ -21,9 +21,11 @@ function SubFilterContainter({ subFilter, subFilterList, setSubFilter }) {
 }
 const ListStyle = styled.div`
   display: flex;
-  gap: 20px;
-  margin-top: 10px;
   flex-wrap: wrap;
+  margin-top: 10px;
+  .item {
+    margin-right: 10px;
+  }
   * {
     font-size: 2.5vw;
     & {
