@@ -9,5 +9,5 @@ ott: [디즈니플러스, 티빙&유료]
 countries: 영국
 cover: 더페이버릿여왕의여자.jpeg
 end: true
-categories: [코미디, 스릴러]
+categories: [역사, 코미디, 스릴러]
 ---
