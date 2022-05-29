@@ -9,5 +9,5 @@ ott: [디즈니플러스]
 countries: 미국
 cover: 런어웨이즈시즌1.jpeg
 end: true
-categories: [액션&어드벤처, 범죄, 판타지, SF]
+categories: [액션, 어드벤처, 범죄, 판타지, SF]
 ---

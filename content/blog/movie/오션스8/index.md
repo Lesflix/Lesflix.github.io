@@ -9,5 +9,5 @@ ott: [넷플릭스]
 countries: 미국
 cover: 오션스8.jpeg
 end: true
-categories: [액션&어드벤처, 스파이&첩보, 코미디]
+categories: [액션, 어드벤처, 스파이, 첩보, 코미디]
 ---
