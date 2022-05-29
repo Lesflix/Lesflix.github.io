@@ -25,7 +25,7 @@ function InfoBox({ postData }) {
         )}
         <div>
           <strong className="summary">
-            {"drama" === genre ? "방영일" : "개봉일"}
+            {"movie" === genre ? "개봉일" : "방영일"}
           </strong>
           <div>
             {release}
