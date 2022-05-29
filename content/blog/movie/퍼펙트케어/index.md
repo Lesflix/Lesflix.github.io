@@ -5,7 +5,7 @@ description: 은퇴자들의 건강과 재산을 관리하는 CEO 말라, 알고
 genre: movie
 poster: 퍼펙트케어.jpeg
 release: "2021.02.19"
-ott: [넷플릭스, 티빙, 웨이브]
+ott: [넷플릭스, 티빙, 웨이브&유료]
 countries: 미국
 cover: 퍼펙트케어.jpeg
 end: true

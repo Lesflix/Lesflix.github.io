@@ -5,7 +5,7 @@ description: 치명적 섹시함으로 모든 남자들의 시선을 한 몸에 
 genre: movie
 poster: 죽여줘제니퍼.jpeg
 release: "2009.09.18"
-ott: [웨이브, 디즈니플러스, 티빙]
+ott: [웨이브&유료, 디즈니플러스, 티빙&유료]
 countries: 미국
 cover: 죽여줘제니퍼.jpeg
 end: true

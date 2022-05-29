@@ -5,7 +5,7 @@ description: 베일에 싸인 세계적인 사설 첩보 기관 타운젠드 에
 genre: movie
 poster: 미녀삼총사3.jpeg
 release: "2019.11.14"
-ott: [티빙, 왓챠, 웨이브]
+ott: [티빙&유료, 왓챠, 웨이브&유료]
 countries: 미국
 cover: 미녀삼총사3.jpeg
 end: true

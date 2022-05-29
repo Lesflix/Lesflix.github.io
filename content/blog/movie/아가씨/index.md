@@ -5,7 +5,7 @@ description: 어릴 적 부모를 잃고 후견인 이모부의 보호 아래 �
 genre: movie
 poster: 아가씨.jpeg
 release: "2016.06.01"
-ott: [티빙, 왓챠]
+ott: [티빙, 왓챠, 웨이브&유료]
 countries: 한국
 cover: 아가씨.jpeg
 end: true

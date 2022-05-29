@@ -5,7 +5,7 @@ description: 대학시절 절친했던 다섯 명의 친구들이 10년 만에 �
 genre: movie
 poster: 레이디스나잇.jpeg
 release: "2017.06.15"
-ott: [넷플릭스, 티빙, 왓챠, 웨이브]
+ott: [넷플릭스, 티빙&유료, 왓챠, 웨이브&유료]
 countries: 미국
 cover: 레이디스나잇.jpeg
 end: true

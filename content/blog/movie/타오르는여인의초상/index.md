@@ -5,7 +5,7 @@ description: 1770년, 젊은 화가 마리안느는 밀라노 귀족과 결혼�
 genre: movie
 poster: 타오르는여인의초상.jpeg
 release: "2019.06.17"
-ott: [넷플릭스, 티빙, 웨이브, 왓챠]
+ott: [넷플릭스, 티빙&유료, 웨이브&유료, 왓챠]
 countries: 프랑스
 cover: 타오르는여인의초상.jpeg
 end: true

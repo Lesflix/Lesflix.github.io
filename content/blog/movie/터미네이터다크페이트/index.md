@@ -5,7 +5,7 @@ description: 심판의 날 그 후, 뒤바뀐 미래. 새로운 인류의 희망
 genre: movie
 poster: 터미네이터다크페이트.jpeg
 release: "2019.10.23"
-ott: [티빙, 웨이브, 디즈니플러스]
+ott: [티빙&유료, 웨이브&유료, 디즈니플러스]
 countries: 미국
 cover: 터미네이터다크페이트.jpeg
 end: true

@@ -5,7 +5,7 @@ description: 지극히 평범한 일상을 보내는 소녀 ‘카메론’은 �
 genre: movie
 poster: 카메론포스트의잘못된교육.jpeg
 release: "2018.07.18"
-ott: [넷플릭스, 티빙, 왓챠]
+ott: [넷플릭스, 티빙, 왓챠, 웨이브]
 countries: 미국
 cover: 카메론포스트의잘못된교육.jpeg
 end: true
