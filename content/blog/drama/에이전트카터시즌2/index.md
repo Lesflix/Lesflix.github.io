@@ -1,7 +1,7 @@
 ---
 title: 에이전트 카터 시즌 2
 originalTitle: Marvel's Agent Carter
-description: 캡틴 아메리카를 잃었다. 그러나 페기 카터는 영웅의 여인만이 아니었으니! 첩보 조직에 합류해 차별을 딛고 눈부시게 활약하는 그녀. 또 하나의 위대한 영웅을 목도하라.
+description: 이번엔 할리우드다. 기괴한 살인 사건을 맡아 LA로 날아가는 페기 카터. 화려한 도시의 이면에서 불길한 위협을 감지하는데. 의문의 물질과 관련된 거대한 음모를 파헤쳐라!
 genre: drama
 poster: 에이전트카터시즌2.jpeg
 release: "2016.01.19"

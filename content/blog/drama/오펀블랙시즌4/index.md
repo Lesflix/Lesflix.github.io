@@ -1,7 +1,7 @@
 ---
 title: 오펀 블랙 시즌 4
 originalTitle: Orphan Black
-description: 세라는 자신과 똑 닮은 여성이 자살하는 충격적인 장면을 목격하고, 죽은 이의 신분으로 위장한 채 새로운 인생을 살려고 한다.
+description: 비밀에 싸인 인물 때문에 은신처에서 나온 세라. 그녀와 자매들은 새롭고 강력한 위협과 싸우며 진실을 향해간다. 그리고 시험에 든다. 그들의 연대는 얼마나 강할 것인지.
 genre: drama
 poster: 오펀블랙시즌4.jpeg
 release: "2016.04.14"

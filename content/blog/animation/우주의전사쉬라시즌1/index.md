@@ -1,7 +1,7 @@
 ---
 title: 우주의 전사 쉬라 시즌 1
 originalTitle: She-Ra and the Princesses of Power
-description: 호르드 병사였던 고아, 아도라. 마법의 검을 발견한 그녀는 전설적인 영웅, 쉬라로 거듭난다. 이제 에더리아를 지키기 위해, 그녀는 독립군이 되어 악당 호르드에 맞선다.
+description: 에더리아의 영웅을 부르는 마법의 검. 그것을 찾아낸 아도라는 그동안 알지 못했던 자신을 발견한다. 독립군의 일원이 된 그녀, 악당 호르드는 물론 단짝과도 적이 된다.
 genre: animation
 poster: 우주의전사쉬라시즌1.jpeg
 release: "2018.11.13"
