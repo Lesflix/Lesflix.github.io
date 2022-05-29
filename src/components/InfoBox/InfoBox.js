@@ -55,14 +55,13 @@ const BoxStyle = styled.div`
   flex-direction: column;
   justify-content: center;
   z-index: 10;
-  font-size: 1.2vw;
   width: 50%;
+
   @media screen and (max-width: 450px) {
     width: 100%;
   }
   .title {
     width: 100%;
-    font-size: 3.5vw;
     font-weight: 700;
     margin-bottom: 15px;
   }
@@ -71,26 +70,54 @@ const BoxStyle = styled.div`
     flex-direction: column;
     gap: 10px;
     margin-left: 10px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 1.6rem;
 
-    @media screen and (min-width: 1920px) {
-      .summary {
-        font-size: 1.6rem;
-      }
+    .title {
+      font-size: 3.4rem;
     }
-    @media screen and (min-width: 1080px) and (max-width: 1919px) {
-      .summary {
-        font-size: 1.4rem;
-      }
+    .summary {
+      font-size: 2.5rem;
     }
-    @media screen and (min-width: 768px) and (max-width: 1079px) {
-      .summary {
-        font-size: 1.2rem;
-      }
+  }
+  @media screen and (min-width: 1080px) and (max-width: 1919px) {
+    font-size: 1.4rem;
+    .title {
+      font-size: 3rem;
     }
-    @media screen and (max-width: 767px) {
-      .summary {
-        font-size: 1rem;
-      }
+    .summary {
+      font-size: 2.2rem;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1079px) {
+    font-size: 1.6rem;
+
+    .title {
+      font-size: 2.6rem;
+    }
+    .summary {
+      font-size: 2rem;
+    }
+  }
+  @media screen and (min-width: 375px) and (max-width: 767px) {
+    font-size: 1.4rem;
+
+    .title {
+      font-size: 2.3rem;
+    }
+    .summary {
+      font-size: 1.8rem;
+    }
+  }
+  @media screen and (max-width: 374px) {
+    font-size: 1.4rem;
+
+    .title {
+      font-size: 1.8rem;
+    }
+    .summary {
+      font-size: 1.6rem;
     }
   }
 `

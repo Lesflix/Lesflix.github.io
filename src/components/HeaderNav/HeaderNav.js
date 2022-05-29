@@ -57,7 +57,7 @@ const NavList = styled.div`
     gap: 11px;
   }
   @media screen and (min-width: 375px) and (max-width: 767px) {
-    font-size: 18px;
+    font-size: 16px;
     gap: 8px;
   }
   @media screen and (max-width: 374px) {
