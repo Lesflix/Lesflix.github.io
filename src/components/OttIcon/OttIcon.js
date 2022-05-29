@@ -4,7 +4,6 @@ import { otts } from "../../const/otts"
 import { navigate } from "gatsby"
 function OttIcon({ ott, title }) {
   const newTitle = title.split("시즌")[0]
-  console.log(newTitle)
   return (
     <IconStyle>
       {ott ? (

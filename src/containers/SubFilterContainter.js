@@ -1,8 +1,15 @@
 import styled from "@emotion/styled"
+import { navigate } from "gatsby"
 import React from "react"
 import { v1 as uuid } from "uuid"
 
-function SubFilterContainter({ subFilter, subFilterList, setSubFilter }) {
+function SubFilterContainter({
+  genre,
+  filter,
+  subFilter,
+  subFilterList,
+  setSubFilter,
+}) {
   return (
     <ListStyle>
       {subFilterList.map(sub => (
@@ -10,6 +17,7 @@ function SubFilterContainter({ subFilter, subFilterList, setSubFilter }) {
           className={subFilter === sub ? "select item" : "item"}
           key={uuid()}
           onClick={() => {
+            navigate(`/${genre}?cate=${filter}&${filter}=${encodeURI(sub)}`)
             setSubFilter(sub)
           }}
         >

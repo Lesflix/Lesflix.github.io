@@ -1,4 +1,4 @@
-import { graphql } from "gatsby"
+import { graphql, navigate } from "gatsby"
 import React, { useEffect, useState } from "react"
 import DivContainer from "../components/DivContainer"
 import Layout from "../components/Layout"
@@ -11,11 +11,20 @@ import styled from "@emotion/styled"
 import Seo from "../components/Seo"
 const Genre = ({ data, location }) => {
   const { nodes: postList } = data.allMarkdownRemark
-  const genre = genres[location.pathname.replace(/\//g, "")]
+  const genre = location.pathname.replace(/\//g, "")
+  const prams = new URLSearchParams(location.search)
   let [filteredPost, setFilteredPostList] = useState(postList)
-  const [filter, setFilter] = useState("all")
+  const [filter, setFilter] = useState(prams.get("cate"))
   const [subFilterList, setSubFilterList] = useState([])
-  const [subFilter, setSubFilter] = useState("")
+  const [subFilter, setSubFilter] = useState(
+    prams.get(filter) ? prams.get(filter) : ""
+  )
+  useEffect(() => {
+    if (!filter) {
+      navigate(`/${genre}?cate=all`)
+      setFilter("all")
+    }
+  }, [filter])
 
   useEffect(() => {
     let temp = new Set()
@@ -50,12 +59,15 @@ const Genre = ({ data, location }) => {
         <Seo title={genre} description={""} />
         <DivContainer>
           <FilterListContainter
+            genre={genre}
             filter={filter}
             setFilter={setFilter}
             setSubFilter={setSubFilter}
           />
           {subFilterList.length > 0 && (
             <SubFilterContainter
+              genre={genre}
+              filter={filter}
               subFilter={subFilter}
               subFilterList={subFilterList}
               setSubFilter={setSubFilter}
@@ -66,7 +78,7 @@ const Genre = ({ data, location }) => {
             <strong>
               {subFilter !== "" ? filteredPost.length : postList.length}
             </strong>
-            개의 {genre}
+            개의 {genres[genre]}
           </CountMsg>
           <PostListContainer
             isSlide={false}

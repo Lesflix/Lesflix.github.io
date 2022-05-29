@@ -17,13 +17,12 @@ function HeaderNav() {
   `)
   const { group: navList } = data
   const path = useLocation().pathname.replace(/\//g, "")
-  console.log(path)
   return (
     <NavList>
       {navList?.map(data => (
         <Link
           key={uuid()}
-          to={`/${data.fieldValue}`}
+          to={`/${data.fieldValue}?cate=all`}
           state={{ path: data.fieldValue }}
         >
           <span className={path === data.fieldValue ? "select" : ""}>

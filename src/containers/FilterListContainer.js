@@ -2,7 +2,8 @@ import styled from "@emotion/styled"
 import React from "react"
 import { categorys } from "../const/categorys"
 import { v1 as uuid } from "uuid"
-function FilterListContainer({ filter, setFilter, setSubFilter }) {
+import { navigate } from "gatsby"
+function FilterListContainer({ genre, filter, setFilter, setSubFilter }) {
   const filterList = Object.keys(categorys)
   return (
     <ListStyle>
@@ -11,6 +12,7 @@ function FilterListContainer({ filter, setFilter, setSubFilter }) {
           key={uuid()}
           className={cate === filter ? "select" : ""}
           onClick={() => {
+            navigate(`/${genre}?cate=${cate}`)
             setFilter(cate)
             setSubFilter("")
           }}
