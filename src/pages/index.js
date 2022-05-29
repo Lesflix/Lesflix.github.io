@@ -6,9 +6,11 @@ import Seo from "../components/Seo"
 import HeaderContainer from "../containers/HeaderContainer"
 import PostListContainer from "../containers/PostListContainer"
 import DivContainer from "../components/DivContainer"
+import MainMsg from "../components/MainMsg/MainMsg"
 
 const Home = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
+  const totalCount = data.allMarkdownRemark.totalCount
 
   if (posts.length === 0) {
     return (
@@ -23,11 +25,12 @@ const Home = ({ data, location }) => {
       <HeaderContainer />
       <Seo title="레플릭스" description={""} />
       <DivContainer>
-        <strong>Hello 😎</strong>
+        <div>
+          총 <strong>{totalCount}</strong> 개의 컨텐츠가 있어요
+        </div>
+        <MainMsg />
         <PostListContainer postList={posts} isSlide={false} />
       </DivContainer>
-
-      {/* <SlidePostContainer postList={posts} title={"test"} /> */}
     </Layout>
   )
 }
