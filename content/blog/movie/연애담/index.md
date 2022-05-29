@@ -6,7 +6,7 @@ genre: movie
 poster: 연애담.jpeg
 release: "2016.11.17"
 ott: [티빙, 왓챠, 웨이브]
-countries: 대한민국
+countries: 한국
 cover: 연애담.jpeg
 end: true
 categories: [로맨스]

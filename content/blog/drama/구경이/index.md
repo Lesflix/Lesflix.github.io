@@ -6,7 +6,7 @@ genre: drama
 poster: 구경이.jpeg
 release: "2021.10.30"
 ott: [넷플릭스, 티빙]
-countries: 대한민국
+countries: 한국
 cover: 구경이.jpeg
 categories: [액션, 어드벤처, 코미디, 미스터리, 범죄]
 end: true

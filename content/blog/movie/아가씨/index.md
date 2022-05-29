@@ -6,7 +6,7 @@ genre: movie
 poster: 아가씨.jpeg
 release: "2016.06.01"
 ott: [티빙, 왓챠]
-countries: 대한민국
+countries: 한국
 cover: 아가씨.jpeg
 end: true
 categories: [로맨스, 스릴러]
