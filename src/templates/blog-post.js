@@ -8,12 +8,16 @@ import PostContentContainer from "../containers/PostContentContainer"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const { previous, next, file } = data
-  const { title, description, excerpt, html } = post.frontmatter
+  const { title, description, excerpt, html, poster } = post.frontmatter
   return (
     <>
       <HeaderContainer />
       <Layout location={location}>
-        <Seo title={title} description={description || excerpt} />
+        <Seo
+          title={title}
+          poster={poster}
+          description={description || excerpt}
+        />
         <article
           className="blog-post"
           itemScope
