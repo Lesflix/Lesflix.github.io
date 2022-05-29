@@ -43,7 +43,7 @@ function PostCard({ post, isSlide }) {
         }}
         className={isHover ? "valid" : "unvalid"}
       >
-        <img src={require(`../../images/play.svg`).default} alt="" />
+        <img src={require(`../../images/play.svg`).default} alt="이동" />
       </div>
     </PostCardStyle>
   )

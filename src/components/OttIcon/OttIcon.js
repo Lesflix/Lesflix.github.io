@@ -16,7 +16,7 @@ function OttIcon({ ott, title }) {
               )
             }}
             src={require(`../../images/ott-icon/${ottName}.svg`).default}
-            alt={{ ott }}
+            alt={{ ottName }}
           />
         ) : (
           "언제 가져올꺼냐"
