@@ -31,13 +31,13 @@ const Genre = ({ data, location }) => {
     postList.forEach(({ frontmatter }) => {
       if ("string" !== typeof frontmatter[filter]) {
         frontmatter[filter]?.forEach(data => {
-          temp.add(data)
+          temp.add(data.split("&")[0])
         })
       } else {
         temp.add(frontmatter[filter])
       }
     })
-    setSubFilterList([...temp])
+    setSubFilterList([...temp].sort())
   }, [filter, postList])
 
   useEffect(() => {
