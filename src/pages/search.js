@@ -60,7 +60,7 @@ function Search({ data, location }) {
     <div>
       <HeaderContainer />
       <Layout location={location}>
-        <Seo title={`${searchWord} 검색 결과`} />
+        <Seo title={`${searchWord} 검색 결과`} description={""} />
         <DivContainer>
           <Msg>
             {searchWord ? `${searchWord} 검색 결과` : "검색어를 입력해주세요"}

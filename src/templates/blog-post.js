@@ -13,11 +13,7 @@ const BlogPostTemplate = ({ data, location }) => {
     <>
       <HeaderContainer />
       <Layout location={location}>
-        <Seo
-          title={title}
-          poster={poster}
-          description={description || excerpt}
-        />
+        <Seo title={title} description={description || excerpt} />
         <article
           className="blog-post"
           itemScope

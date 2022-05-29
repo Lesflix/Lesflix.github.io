@@ -14,14 +14,14 @@ const Home = ({ data, location }) => {
     return (
       <Layout location={location}>
         <HeaderContainer />
-        <Seo title="레플릭스" />
+        <Seo title="레플릭스" description={""} />
       </Layout>
     )
   }
   return (
     <Layout location={location}>
       <HeaderContainer />
-      <Seo title="레플릭스" />
+      <Seo title="레플릭스" description={""} />
       <DivContainer>
         <strong>Hello 😎</strong>
         <PostListContainer postList={posts} isSlide={false} />
