@@ -4,22 +4,37 @@ import { otts } from "../../const/otts"
 import { navigate } from "gatsby"
 function OttIcon({ ott, title }) {
   const newTitle = title.split("시즌")[0]
+  const ottName = ott.split("&")[0]
   return (
-    <IconStyle>
-      {ott ? (
-        <img
-          onClick={() => {
-            navigate(`${otts[ott].url}${otts[ott].query ? newTitle : ""}`)
-          }}
-          src={require(`../../images/ott-icon/${ott}.svg`).default}
-          alt={{ ott }}
-        />
-      ) : (
-        "언제 가져올꺼냐"
-      )}
-    </IconStyle>
+    <IconWrapper>
+      <IconStyle>
+        {ott ? (
+          <img
+            onClick={() => {
+              navigate(
+                `${otts[ottName].url}${otts[ottName].query ? newTitle : ""}`
+              )
+            }}
+            src={require(`../../images/ott-icon/${ottName}.svg`).default}
+            alt={{ ott }}
+          />
+        ) : (
+          "언제 가져올꺼냐"
+        )}
+      </IconStyle>
+      <div className="price">{ott.split("&")[1]}</div>
+    </IconWrapper>
   )
 }
+const IconWrapper = styled.div`
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .price {
+    font-size: inherit;
+  }
+`
 const IconStyle = styled.div`
   width: calc(100 / 375 * 25vw);
   height: calc(100 / 375 * 25vw);
