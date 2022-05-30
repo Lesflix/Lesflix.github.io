@@ -99,7 +99,12 @@ export const pageQuery = graphql`
   query filteredPost($genre: String) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___release], order: DESC }
-      filter: { frontmatter: { genre: { eq: $genre } } }
+      filter: {
+        frontmatter: {
+          genre: { eq: $genre }
+          title: { regex: "/^((?!시즌).)*$/" }
+        }
+      }
     ) {
       nodes {
         excerpt
