@@ -25,10 +25,12 @@ const Home = ({ data, location }) => {
       <HeaderContainer />
       <Seo title="레플릭스" description={""} />
       <DivContainer>
-        <div>
-          총 <strong>{totalCount}</strong> 개의 컨텐츠가 있어요
-        </div>
-        <MainMsg />
+        <MainMsg>
+          <div>
+            총 <strong className="count">{totalCount}</strong> 개의 컨텐츠가
+            있어요
+          </div>
+        </MainMsg>
         <PostListContainer postList={posts} isSlide={false} />
       </DivContainer>
     </Layout>
