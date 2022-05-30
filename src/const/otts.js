@@ -7,7 +7,7 @@ export const otts = {
     url: "https://www.disneyplus.com/ko-kr/search",
     query: false,
   },
-  아마존프레임비디오: { url: "", query: true },
+  아마존프라임비디오: { url: "https://www.primevideo.com/", query: false },
   애플티비: { url: "https://tv.apple.com", query: false },
   웨이브: {
     url: "https://www.wavve.com/search/search?searchWord=",
