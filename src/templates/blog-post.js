@@ -5,10 +5,12 @@ import Seo from "../components/Seo"
 import HeaderContainer from "../containers/HeaderContainer"
 import PostNavContainer from "../containers/PostNavContainer"
 import PostContentContainer from "../containers/PostContentContainer"
+import PostDetailContainer from "../containers/PostDetailContainer"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
-  const { previous, next, file } = data
-  const { title, description, excerpt, html } = post.frontmatter
+  const { previous, next, file, markdownRemark } = data
+  const htmls = markdownRemark.html
+  const { title, description, excerpt } = post.frontmatter
   return (
     <>
       <HeaderContainer />
@@ -25,10 +27,7 @@ const BlogPostTemplate = ({ data, location }) => {
               posterUrl: file?.publicURL ? file?.publicURL : "",
             }}
           />
-          <section
-            dangerouslySetInnerHTML={{ __html: html }}
-            itemProp="articleBody"
-          />
+          <PostDetailContainer html={htmls} />
         </article>
       </Layout>
       <PostNavContainer previous={previous} next={next} />
