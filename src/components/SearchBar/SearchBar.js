@@ -28,7 +28,7 @@ function SearchBar() {
 }
 const SearchBarStyle = styled.div`
   position: relative;
-  flex: 1;
+  flex: 2;
   * {
     color: var(--lightFont);
   }

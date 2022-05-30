@@ -38,7 +38,7 @@ export default HeaderNav
 
 const NavList = styled.div`
   display: flex;
-  flex: 1;
+  flex: 3;
   font-weight: 700;
   .select {
     color: red;
