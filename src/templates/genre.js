@@ -43,11 +43,16 @@ const Genre = ({ data, location }) => {
   useEffect(() => {
     if (subFilter !== "") {
       setFilteredPostList(
-        postList.filter(
-          ({ frontmatter }) =>
-            frontmatter[filter] === subFilter ||
-            frontmatter[filter]?.includes(subFilter)
-        )
+        postList.filter(({ frontmatter }) => {
+          let searchArrRes = false
+          for (let i = 0; i < frontmatter[filter]?.length; i++) {
+            if (frontmatter[filter][i].match(`${subFilter}`)) {
+              searchArrRes = true
+              break
+            }
+          }
+          return frontmatter[filter] === subFilter || searchArrRes
+        })
       )
     }
   }, [filter, subFilter, postList])
