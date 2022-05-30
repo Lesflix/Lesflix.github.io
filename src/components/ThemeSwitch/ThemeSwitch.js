@@ -1,8 +1,15 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import styled from "@emotion/styled"
 
 function ThemeSwitch() {
+  useEffect(() => {
+    const nowthem = localStorage.getItem("theme")
+    if (!nowthem) {
+      localStorage.setItem("theme", "dark")
+    }
+  }, [])
+
   return (
     <ThemeToggler>
       {({ theme, toggleTheme }) => (
