@@ -1,5 +1,5 @@
 ---
-title: 우주의 전사 쉬라 시즌 1
+title: 우주의 전사 쉬라
 originalTitle: She-Ra and the Princesses of Power
 description: 에더리아의 영웅을 부르는 마법의 검. 그것을 찾아낸 아도라는 그동안 알지 못했던 자신을 발견한다. 독립군의 일원이 된 그녀, 악당 호르드는 물론 단짝과도 적이 된다.
 genre: animation
