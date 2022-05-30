@@ -23,6 +23,7 @@ function ThemeSwitch() {
         return (
           <StyledSwitch>
             <button
+              className={"dark" === nowthem ? "checked" : ""}
               onClick={e => {
                 return toggleTheme(nowthem === "light" ? "dark" : "light")
               }}
@@ -105,15 +106,15 @@ const StyledSwitch = styled.label`
     right: 0;
     bottom: 0;
     border-radius: 20px;
-    background-color: var(--Grey200);
     border-radius: 20px;
     transition: 0.4s;
+    background-color: var(--Grey400);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     &:hover {
       background-color: var(--Grey400);
     }
   }
-  & > input:checked + span {
+  .checked + span {
     box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
     background-color: var(--Grey700);
     &:hover {
