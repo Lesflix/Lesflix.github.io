@@ -11,3 +11,11 @@ cover: 우주의전사쉬라시즌1.jpeg
 end: true
 categories: [액션, 어드벤처, 판타지]
 ---
+
+<div class="title bold">시즌 정보</div>
+
+- [시즌 1](https://lesflix.github.io/animation/우주의전사쉬라시즌1/)
+- [시즌 2](https://lesflix.github.io/animation/우주의전사쉬라시즌2/)
+- [시즌 3](https://lesflix.github.io/animation/우주의전사쉬라시즌3/)
+- [시즌 4](https://lesflix.github.io/animation/우주의전사쉬라시즌4/)
+- [시즌 5](https://lesflix.github.io/animation/우주의전사쉬라시즌5/)

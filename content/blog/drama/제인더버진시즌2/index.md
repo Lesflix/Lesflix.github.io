@@ -11,3 +11,11 @@ cover: 제인더버진시즌2.jpeg
 end: true
 categories: [코미디, 로맨스]
 ---
+
+<div class="title bold">시즌 정보</div>
+
+- [시즌 1](https://lesflix.github.io/drama/제인더버진시즌1/)
+- [시즌 2](https://lesflix.github.io/drama/제인더버진시즌2/)
+- [시즌 3](https://lesflix.github.io/drama/제인더버진시즌3/)
+- [시즌 4](https://lesflix.github.io/drama/제인더버진시즌4/)
+- [시즌 5](https://lesflix.github.io/drama/제인더버진시즌5/)

@@ -11,3 +11,13 @@ cover: 오렌지이즈더뉴블랙시즌3.jpeg
 end: true
 categories: [코미디]
 ---
+
+<div class="title bold">시즌 정보</div>
+
+- [시즌 1](https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌1/)
+- [시즌 2](https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌2/)
+- [시즌 3](https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌3/)
+- [시즌 4](https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌4/)
+- [시즌 5](https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌5/)
+- [시즌 6](https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌6/)
+- [시즌 7](https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌7/)

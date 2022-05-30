@@ -11,3 +11,8 @@ cover: 필굿시즌2.jpeg
 end: true
 categories: [코미디, 로맨스]
 ---
+
+<div class="title bold">시즌 정보</div>
+
+- [시즌 1](https://lesflix.github.io/drama/필굿시즌1/)
+- [시즌 2](https://lesflix.github.io/drama/필굿시즌2/)

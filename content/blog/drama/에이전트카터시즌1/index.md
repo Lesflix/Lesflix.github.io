@@ -11,3 +11,8 @@ cover: 에이전트카터시즌1.jpeg
 categories: [SF, 액션, 어드벤처, 스파이, 첩보]
 end: true
 ---
+
+<div class="title bold">시즌 정보</div>
+
+- [시즌 1](https://lesflix.github.io/drama/에이전트카터시즌1/)
+- [시즌 2](https://lesflix.github.io/drama/에이전트카터시즌2/)

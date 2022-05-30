@@ -11,3 +11,8 @@ cover: 마더랜드포트세일럼시즌1.jpeg
 categories: [액션, 어드벤처, 스릴러, 판타지]
 end: true
 ---
+
+<div class="title bold">시즌 정보</div>
+
+- [시즌 1](https://lesflix.github.io/drama/마더랜드포트세일럼시즌1/)
+- [시즌 2](https://lesflix.github.io/drama/마더랜드포트세일럼시즌2/)

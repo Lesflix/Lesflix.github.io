@@ -11,3 +11,10 @@ cover: 킬링이브시즌4.jpeg
 end: true
 categories: [범죄]
 ---
+
+<div class="title bold">시즌 정보</div>
+
+- [시즌 1](https://lesflix.github.io/drama/킬링이브시즌1/)
+- [시즌 2](https://lesflix.github.io/drama/킬링이브시즌2/)
+- [시즌 3](https://lesflix.github.io/drama/킬링이브시즌3/)
+- [시즌 4](https://lesflix.github.io/drama/킬링이브시즌4/)

@@ -11,3 +11,9 @@ cover: 런어웨이즈시즌1.jpeg
 end: true
 categories: [액션, 어드벤처, 범죄, 판타지, SF]
 ---
+
+<div class="title bold">시즌 정보</div>
+
+- [시즌 1](https://lesflix.github.io/drama/런어웨이즈시즌1/)
+- [시즌 2](https://lesflix.github.io/drama/런어웨이즈시즌2/)
+- [시즌 3](https://lesflix.github.io/drama/런어웨이즈시즌3/)
