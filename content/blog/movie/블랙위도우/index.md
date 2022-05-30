@@ -9,5 +9,5 @@ ott: [디즈니플러스, 티빙&유료, 웨이브&유료]
 countries: 미국
 cover: 블랙위도우.jpeg
 end: true
-categories: [액션, 슈퍼 히어로, 어드벤처, 스파이, 첩보, SF]
+categories: [액션, 슈퍼히어로, 어드벤처, 스파이, 첩보, SF]
 ---
