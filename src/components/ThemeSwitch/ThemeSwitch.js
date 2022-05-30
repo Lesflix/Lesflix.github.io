@@ -1,42 +1,52 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import styled from "@emotion/styled"
 
 function ThemeSwitch() {
+  const [nowthem, setNowThem] = useState("dark")
+
   useEffect(() => {
-    const nowthem = localStorage.getItem("theme")
-    if (!nowthem) {
-      localStorage.setItem("theme", "dark")
+    if (typeof window !== "undefined") {
+      const windowThem = window.localStorage.getItem("theme")
+      if (!windowThem) {
+        setNowThem("dark")
+        window.localStorage.setItem("theme", "dark")
+      } else {
+        setNowThem(windowThem)
+      }
     }
   }, [])
-
   return (
     <ThemeToggler>
-      {({ theme, toggleTheme }) => (
-        <StyledSwitch>
-          <input
-            type="checkbox"
-            onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
-            checked={theme === "dark"}
-          />
-          <span>
-            {theme === "dark" && (
-              <img
-                className="moon"
-                src={require(`../../images/moon.svg`).default}
-                alt="다크모드"
-              />
-            )}
-            {theme === "light" && (
-              <img
-                className="sun"
-                src={require(`../../images/sun.svg`).default}
-                alt="라이트모드"
-              />
-            )}
-          </span>
-        </StyledSwitch>
-      )}
+      {({ theme, toggleTheme }) => {
+        setNowThem(theme)
+        return (
+          <StyledSwitch>
+            <button
+              onClick={e => {
+                return toggleTheme(nowthem === "light" ? "dark" : "light")
+              }}
+            />
+            <span>
+              {theme === "dark" && (
+                <img
+                  className="moon"
+                  src={require(`../../images/moon.svg`).default}
+                  alt="다크모드"
+                />
+              )}
+
+              {theme === "light" && (
+                <img
+                  className="sun"
+                  src={require(`../../images/sun.svg`).default}
+                  alt="라이트모드"
+                />
+              )}
+            </span>
+          </StyledSwitch>
+        )
+      }}
     </ThemeToggler>
   )
 }
@@ -81,7 +91,7 @@ const StyledSwitch = styled.label`
       height: 15px;
     }
   }
-  & > input {
+  & > button {
     opacity: 0;
     width: 0;
     height: 0;
