@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import LoaderSVG from "./images/lesflix.svg"
 export default function HTML(props) {
   const nowThem = useMemo(() => {
-    console.log("re")
     return
     typeof window !== "undefined"
       ? window.localStorage.getItem("theme")
@@ -30,7 +29,7 @@ export default function HTML(props) {
             alignItems: "center",
             display: "flex",
             justifyContent: "center",
-            position: "absolute",
+            position: "fixed",
             left: 0,
             top: 0,
             right: 0,
