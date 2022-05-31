@@ -8,7 +8,7 @@ import PostContentContainer from "../containers/PostContentContainer"
 import PostDetailContainer from "../containers/PostDetailContainer"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
-  const { previous, next, file, markdownRemark } = data
+  const { previous, next, markdownRemark } = data
   const htmls = markdownRemark.html
   const { title, description, excerpt } = post.frontmatter
   return (
