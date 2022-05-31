@@ -9,15 +9,13 @@ function OttIcon({ ott, title }) {
     <IconWrapper>
       <IconStyle>
         {ott ? (
-          <img
-            onClick={() => {
-              navigate(
-                `${otts[ottName].url}${otts[ottName].query ? newTitle : ""}`
-              )
-            }}
-            src={require(`../../images/ott-icon/${ottName}.svg`).default}
-            alt={{ ottName }}
-          />
+          <a
+            href={`${otts[ottName].url}${otts[ottName].query ? newTitle : ""}`}
+            target="_blank"
+            rel="external"
+          >
+            <img src={`/ott-icon/${ottName}.svg`} alt={{ ottName }} />
+          </a>
         ) : (
           "언제 가져올꺼냐"
         )}
