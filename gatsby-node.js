@@ -22,7 +22,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             }
             frontmatter {
               genre
-              cover
             }
           }
           group(field: frontmatter___genre) {
@@ -57,7 +56,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         component: blogPost,
         context: {
           id: post.id,
-          cover: post.frontmatter.cover,
           previousPostId,
           nextPostId,
         },
