@@ -15,9 +15,3 @@ import "./src/style/style.css"
 
 // Highlighting for code blocks
 import "prismjs/themes/prism.css"
-
-export const onInitialClientRender = () => {
-  setTimeout(function () {
-    document.getElementById("___loader").style.display = "none"
-  }, 1000)
-}
