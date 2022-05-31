@@ -11,3 +11,13 @@ cover: 젠틀맨잭시즌1.jpeg
 end: true
 categories: [로맨스, 역사]
 ---
+
+<div class="title bold">시즌 정보</div>
+
+<div class="season-list">
+<div class="item">
+<a href="https://lesflix.github.io/drama/젠틀맨잭시즌1" >
+<img src="/poster/젠틀맨잭시즌1.jpeg" alt="젠틀맨잭시즌1 포스터 ">
+시즌 1</a>
+</div>
+</div>
