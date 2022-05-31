@@ -34,7 +34,9 @@ function PostNavContainer({ previous, next }) {
 }
 
 const PostNavContainerStyle = styled.nav`
-  position: fixed;
+  position: sticky;
+  /* position: fixed; */
+
   bottom: 0;
   left: 0;
   right: 0;
@@ -45,14 +47,17 @@ const PostNavContainerStyle = styled.nav`
     color: var(--themFont);
     font-size: 1.2vw;
   }
-
+  padding: 10px;
   ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    margin: 10px;
+    margin: 0;
+    li {
+      margin: 0;
+    }
     a {
       display: flex;
       align-items: center;
