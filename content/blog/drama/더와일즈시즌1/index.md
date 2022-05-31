@@ -14,5 +14,13 @@ categories: [미스터리, 모험]
 
 <div class="title bold">시즌 정보</div>
 
-- [시즌 1](https://lesflix.github.io/drama/더와일즈시즌1/)
-- [시즌 2](https://lesflix.github.io/drama/더와일즈시즌2/)
+<div class="season-list">
+<div class="item">
+<img src="/poster/더와일즈시즌1.jpeg" alt="더와일즈시즌1 포스터 ">
+<a href="https://lesflix.github.io/drama/더와일즈시즌1" >시즌 1</a>
+</div>
+<div class="item">
+<img src="/poster/더와일즈시즌2.jpeg" alt="더와일즈시즌2 포스터 ">
+<a href="https://lesflix.github.io/drama/더와일즈시즌2" >시즌 2</a>
+</div>
+</div>
