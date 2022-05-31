@@ -4,12 +4,14 @@ import React from "react"
 function PostContentContainer({ html }) {
   return (
     <DetailContainerStyle>
-      <div className="container">
-        <section
-          dangerouslySetInnerHTML={{ __html: html }}
-          itemProp="articleBody"
-        />
-      </div>
+      {html && (
+        <div className="container">
+          <section
+            dangerouslySetInnerHTML={{ __html: html }}
+            itemProp="articleBody"
+          />
+        </div>
+      )}
     </DetailContainerStyle>
   )
 }
