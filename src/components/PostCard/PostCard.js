@@ -3,9 +3,6 @@ import { navigate } from "gatsby"
 import React, { useState } from "react"
 
 function PostCard({ post, isSlide }) {
-  const poster = post.frontmatter.poster
-    ? post.frontmatter.poster
-    : "default.png"
   const [isHover, setIsHover] = useState(false)
   return isSlide !== "/" ? (
     <PostCardStyle
@@ -15,7 +12,9 @@ function PostCard({ post, isSlide }) {
       }}
     >
       <img
-        src={require(`../../images/poster/${poster}`).default}
+        src={`/poster/${
+          post.frontmatter.poster ? post.frontmatter.poster : "default.png"
+        }`}
         alt={post.frontmatter.title}
       />
     </PostCardStyle>
@@ -33,7 +32,9 @@ function PostCard({ post, isSlide }) {
       }}
     >
       <img
-        src={require(`../../images/poster/${poster}`).default}
+        src={`/poster/${
+          post.frontmatter.poster ? post.frontmatter.poster : "default.png"
+        }`}
         alt={post.frontmatter.title}
       />
       <div

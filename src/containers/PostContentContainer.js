@@ -2,18 +2,12 @@ import styled from "@emotion/styled"
 import React from "react"
 import InfoBox from "../components/InfoBox/InfoBox"
 function PostContentContainer({ postData }) {
-  const { title, posterUrl, poster } = postData
+  const { title, poster, cover } = postData
   return (
-    <PostContentContainerStyle $bgImg={posterUrl}>
+    <PostContentContainerStyle $coverImg={`/cover/${cover}`}>
       <div className="container">
         <div className="poster">
-          <img
-            src={
-              require(`../images/poster/${poster ? poster : "default.png"}`)
-                .default
-            }
-            alt={title}
-          />
+          <img src={`/poster/${poster ? poster : "default.png"}`} alt={title} />
         </div>
         <InfoBox postData={postData} />
       </div>
@@ -25,7 +19,7 @@ const PostContentContainerStyle = styled.section`
   position: relative;
   &::before {
     content: "";
-    background-image: url(${({ $bgImg }) => ($bgImg ? $bgImg : "")});
+    background-image: url(${({ $coverImg }) => ($coverImg ? $coverImg : "")});
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.2;
