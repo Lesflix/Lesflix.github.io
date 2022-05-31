@@ -14,8 +14,29 @@ categories: [액션, 어드벤처, 판타지]
 
 <div class="title bold">시즌 정보</div>
 
-- [시즌 1](https://lesflix.github.io/animation/우주의전사쉬라시즌1/)
-- [시즌 2](https://lesflix.github.io/animation/우주의전사쉬라시즌2/)
-- [시즌 3](https://lesflix.github.io/animation/우주의전사쉬라시즌3/)
-- [시즌 4](https://lesflix.github.io/animation/우주의전사쉬라시즌4/)
-- [시즌 5](https://lesflix.github.io/animation/우주의전사쉬라시즌5/)
+<div class="season-list">
+<div class="item">
+<img src="/poster/우주의전사쉬라시즌1.jpeg" alt="우주의전사쉬라시즌1 포스터 ">
+<a href="https://lesflix.github.io/animation/우주의전사쉬라시즌1" >시즌 1</a>
+</div>
+
+<div class="item">
+<img src="/poster/우주의전사쉬라시즌2.jpeg" alt="우주의전사쉬라시즌2 포스터 ">
+<a href="https://lesflix.github.io/animation/우주의전사쉬라시즌2" >시즌 2</a>
+</div>
+
+<div class="item">
+<img src="/poster/우주의전사쉬라시즌3.jpeg" alt="우주의전사쉬라시즌3 포스터 ">
+<a href="https://lesflix.github.io/animation/우주의전사쉬라시즌3" >시즌 3</a>
+</div>
+
+<div class="item">
+<img src="/poster/우주의전사쉬라시즌4.jpeg" alt="우주의전사쉬라시즌4 포스터 ">
+<a href="https://lesflix.github.io/animation/우주의전사쉬라시즌4" >시즌 4</a>
+</div>
+
+<div class="item">
+<img src="/poster/우주의전사쉬라시즌5.jpeg" alt="우주의전사쉬라시즌5 포스터 ">
+<a href="https://lesflix.github.io/animation/우주의전사쉬라시즌5" >시즌 5</a>
+</div>
+</div>
