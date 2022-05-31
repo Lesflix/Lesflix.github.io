@@ -14,5 +14,16 @@ categories: [코미디, 로맨스]
 
 <div class="title bold">시즌 정보</div>
 
-- [시즌 1](https://lesflix.github.io/drama/필굿시즌1/)
-- [시즌 2](https://lesflix.github.io/drama/필굿시즌2/)
+<div class="season-list">
+<div class="item">
+<a href="https://lesflix.github.io/drama/필굿시즌1" >
+<img src="/poster/필굿시즌1.jpeg" alt="필굿시즌1 포스터 ">
+시즌 1</a>
+</div>
+
+<div class="item">
+<a href="https://lesflix.github.io/drama/필굿시즌2" >
+<img src="/poster/필굿시즌2.jpeg" alt="필굿시즌2 포스터 ">
+시즌 1</a>
+</div>
+</div>
