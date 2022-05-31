@@ -6,7 +6,7 @@ module.exports = {
       summary: `Lesflix`,
     },
     description: `Lesflix`,
-    siteUrl: `https://lesflix.github.io/`,
+    siteUrl: `https://lesflix.github.io`,
     social: {
       twitter: `justbeles`,
     },
