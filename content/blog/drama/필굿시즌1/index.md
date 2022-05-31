@@ -24,6 +24,6 @@ categories: [코미디, 로맨스]
 <div class="item">
 <a href="https://lesflix.github.io/drama/필굿시즌2" >
 <img src="/poster/필굿시즌2.jpeg" alt="필굿시즌2 포스터 ">
-시즌 1</a>
+시즌 2</a>
 </div>
 </div>
