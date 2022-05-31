@@ -21,12 +21,7 @@ const BlogPostTemplate = ({ data, location }) => {
           itemScope
           itemType="http://schema.org/Article"
         >
-          <PostContentContainer
-            postData={{
-              ...post.frontmatter,
-              posterUrl: file?.publicURL ? file?.publicURL : "",
-            }}
-          />
+          <PostContentContainer postData={post.frontmatter} />
           <PostDetailContainer html={htmls} />
         </article>
       </Layout>
@@ -42,7 +37,6 @@ export const pageQuery = graphql`
     $id: String!
     $previousPostId: String
     $nextPostId: String
-    $cover: String
   ) {
     site {
       siteMetadata {
@@ -82,9 +76,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
       }
-    }
-    file(base: { eq: $cover }, relativeDirectory: { eq: "cover" }) {
-      publicURL
     }
   }
 `
