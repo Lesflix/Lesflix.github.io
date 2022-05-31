@@ -15,15 +15,34 @@ function PostContentContainer({ html }) {
 }
 const DetailContainerStyle = styled.section`
   .container {
-    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 20px auto 40px;
     width: 70vw;
     max-width: 1080px;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 12px;
     * {
       color: var(--themFont);
     }
     .bold {
       font-weight: 700;
+    }
+    .season-list {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      .item {
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        img {
+          width: 100%;
+        }
+      }
     }
     @media screen and (min-width: 1920px) {
       font-size: 2.2rem;
