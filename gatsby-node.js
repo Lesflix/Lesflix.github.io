@@ -125,11 +125,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       originalTitle: String
       description: String
       genre: String
-      poster: String
+      imgname: String
       release : String
       ott: [String]
       countries: String
-      cover: String
       end: Boolean
       categories: [String]
     }

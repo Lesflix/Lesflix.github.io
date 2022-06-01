@@ -3,11 +3,10 @@ title: 북스마트
 originalTitle: Booksmart
 description: 꿈도, 연애도, 다이어트도 모든 것이 완벽할 것 같은 스무 살이 가장 기대되는 나이 열아홉♥. 아이비리그에 합격한 ‘에이미’와 ‘몰리’는 대학과 스펙이 인생의 전부라 믿는 파워 범생이. 춤은 글로, 파티는 책으로 배운 두 사람은 고3의 마지막 졸업 파티에서 잊을 수 없는 레전드 핵인싸가 되기 위해 사상 초유의 일탈을 계획하는데… ‘지금 이 순간 아니면 절대 할 수 없어’ 이 구역을 뒤.집.어.놓.으.셨.다!
 genre: movie
-poster: 북스마트.jpeg
+imgname: 북스마트.jpeg
 release: "2019.05.24"
 ott: [넷플릭스, 티빙&유료, 웨이브]
 countries: 미국
-cover: 북스마트.jpeg
 end: true
 categories: [코미디, 청춘]
 ---

@@ -13,7 +13,7 @@ function PostCard({ post, isSlide }) {
     >
       <img
         src={`/poster/${
-          post.frontmatter.poster ? post.frontmatter.poster : "default.png"
+          post.frontmatter.imgname ? post.frontmatter.imgname : "default.png"
         }`}
         alt={post.frontmatter.title}
       />

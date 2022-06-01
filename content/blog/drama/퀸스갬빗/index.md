@@ -3,11 +3,10 @@ title: 퀸스갬빗
 originalTitle: The Queen's Gambit
 description: 1950년대 말, 버려져서 켄터키의 한 고아원에 맡겨지는 어린 베스 하먼. 주 정부가 어린이들에게 진정제로 제공하는 진통제에 중독되는 과정에서, 베스는 체스에 대한 놀라운 재능을 발견한다. 자신의 문제들에 시달리면서, 중독성 있는 약물과 강한 집착에 힘입은 베스. 소녀는 남성이 지배하는 프로 체스 세계의 전통적인 경계를 정복하겠다는 의지를 불태우면서, 엄청난 기술을 가진 매력적인 외톨이로 변신한다. 그녀는 인생의 전부인 꿈을 이룰 수 있을까.
 genre: drama
-poster: 퀸스갬빗.jpeg
+imgname: 퀸스갬빗.jpeg
 release: "2020.10.23"
 ott: [넷플릭스]
 countries: 미국
-cover: 퀸스갬빗.jpeg
 end: true
 categories: [사회 문제]
 ---

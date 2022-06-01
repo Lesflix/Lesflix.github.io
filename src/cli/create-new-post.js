@@ -164,11 +164,10 @@ module.exports = (async function () {
     originalTitle: "",
     description: "",
     genre,
-    poster: `${title}.jpeg`,
+    imgname: `${title}.jpeg`,
     release: `""`,
     ott: `[${ottList}]`,
     countries: country,
-    cover: `${title}.jpeg`,
     end: true,
     categories: `[${cateList}]`,
   }

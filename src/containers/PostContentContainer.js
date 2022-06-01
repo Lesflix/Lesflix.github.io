@@ -2,12 +2,15 @@ import styled from "@emotion/styled"
 import React from "react"
 import InfoBox from "../components/InfoBox/InfoBox"
 function PostContentContainer({ postData }) {
-  const { title, poster, cover } = postData
+  const { title, imgname } = postData
   return (
-    <PostContentContainerStyle $coverImg={`/cover/${cover}`}>
+    <PostContentContainerStyle $coverImg={`/cover/${imgname}`}>
       <div className="container">
         <div className="poster">
-          <img src={`/poster/${poster ? poster : "default.png"}`} alt={title} />
+          <img
+            src={`/poster/${imgname ? imgname : "default.png"}`}
+            alt={title}
+          />
         </div>
         <InfoBox postData={postData} />
       </div>
