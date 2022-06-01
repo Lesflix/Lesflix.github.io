@@ -15,19 +15,19 @@ categories: [공포, 미스터리, 호러]
 
 <div class="season-list">
 <div class="item">
-<a href="https://lesflix.github.io/drama/피어스트리트파트1-1994" >
+<a href="https://lesflix.github.io/movie/피어스트리트파트1-1994" >
 <img src="/poster/피어스트리트파트11994.jpeg" alt="피어스트리트파트1 1994 포스터 ">
 파트 1</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/피어스트리트파트2-1978" >
+<a href="https://lesflix.github.io/movie/피어스트리트파트2-1978" >
 <img src="/poster/피어스트리트파트21978.jpeg" alt="피어스트리트파트2 1978 포스터 ">
 파트 2</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/피어스트리트파트3-1666" >
+<a href="https://lesflix.github.io/movie/피어스트리트파트3-1666" >
 <img src="/poster/피어스트리트파트31666.jpeg" alt="피어스트리트파트3 1666 포스터 ">
 파트 3</a>
 </div>
