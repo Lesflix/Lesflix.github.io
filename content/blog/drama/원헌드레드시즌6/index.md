@@ -1,0 +1,58 @@
+---
+title: 원헌드레드 시즌 6
+originalTitle: The 100
+description: "한 세기 동안 냉동 상태로 잠들어 있던 생존자들. 알파 행성이라는 새로운 터전에 발을 디딘다. 낙원 혹은 미지의 위험이 펼쳐질 이 낯선 곳에서 생존을 이어나갈 수 있을까."
+genre: drama
+imgname: 원헌드레드시즌6.jpeg
+release: "2019.04.30"
+ott: [넷플릭스]
+countries: 미국
+end: true
+categories: [액션, 어드벤처, 판타지, SF]
+---
+
+<div class="title bold">시즌 정보</div>
+
+<div class="season-list">
+<div class="item">
+<a href="/drama/원헌드레드시즌1" >
+<img src="/poster/원헌드레드시즌1.jpeg" alt="원헌드레드시즌1 포스터 ">
+시즌 1</a>
+</div>
+
+<div class="item">
+<a href="/drama/원헌드레드시즌2" >
+<img src="/poster/원헌드레드시즌2.jpeg" alt="원헌드레드시즌2 포스터 ">
+시즌 2</a>
+</div>
+
+<div class="item">
+<a href="/drama/원헌드레드시즌3" >
+<img src="/poster/원헌드레드시즌3.jpeg" alt="원헌드레드시즌3 포스터 ">
+시즌 3</a>
+</div>
+
+<div class="item">
+<a href="/drama/원헌드레드시즌4" >
+<img src="/poster/원헌드레드시즌4.jpeg" alt="원헌드레드시즌4 포스터 ">
+시즌 4</a>
+</div>
+
+<div class="item">
+<a href="/drama/원헌드레드시즌5" >
+<img src="/poster/원헌드레드시즌5.jpeg" alt="원헌드레드시즌5 포스터 ">
+시즌 5</a>
+</div>
+
+<div class="item">
+<a href="/drama/원헌드레드시즌6" >
+<img src="/poster/원헌드레드시즌6.jpeg" alt="원헌드레드시즌6 포스터 ">
+시즌 6</a>
+</div>
+
+<div class="item">
+<a href="/drama/원헌드레드시즌7" >
+<img src="/poster/원헌드레드시즌7.jpeg" alt="원헌드레드시즌7 포스터 ">
+시즌 7</a>
+</div>
+</div>
