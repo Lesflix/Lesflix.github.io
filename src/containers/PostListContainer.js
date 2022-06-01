@@ -22,7 +22,7 @@ function PostListContainer({ postList, isSlide }) {
   )
 }
 const PostListContainerStyle = styled.div`
-  width: fit-content;
+  width: 100%;
   .item {
     float: left;
   }
