@@ -48,7 +48,6 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       filter: { frontmatter: { title: { regex: "/^((?!시즌).)*$/" } } }
-
       sort: { fields: [frontmatter___release], order: DESC }
     ) {
       nodes {
@@ -61,11 +60,10 @@ export const pageQuery = graphql`
           originalTitle
           description
           genre
-          poster
+          imgname
           release
           ott
           countries
-          cover
           end
           categories
         }

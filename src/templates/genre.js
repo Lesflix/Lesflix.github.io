@@ -121,11 +121,10 @@ export const pageQuery = graphql`
           originalTitle
           description
           genre
-          poster
+          imgname
           release
           ott
           countries
-          cover
           end
           categories
         }
