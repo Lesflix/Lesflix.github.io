@@ -21,4 +21,7 @@
   --lightBg: #eeeeee;
   --darkFont: #e0e0e0;
   --lightFont: #212121;
+
+  --lightBoxShadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+  --darkBoxShadow: rgba(255, 255, 255, 0.1) 0px 1px 4px;
 }

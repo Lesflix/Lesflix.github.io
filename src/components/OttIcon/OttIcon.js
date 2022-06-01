@@ -36,7 +36,7 @@ const IconWrapper = styled.div`
 const IconStyle = styled.div`
   width: calc(100 / 375 * 25vw);
   height: calc(100 / 375 * 25vw);
-  box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
+  box-shadow: var(--boxShadow);
   z-index: 30;
   cursor: pointer;
   img {

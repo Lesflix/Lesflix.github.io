@@ -17,7 +17,7 @@ function PostContentContainer({ html }) {
 }
 const DetailContainerStyle = styled.section`
   .container {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: var(--boxShadow);
     margin: 20px auto 40px;
     width: 70vw;
     max-width: 1080px;

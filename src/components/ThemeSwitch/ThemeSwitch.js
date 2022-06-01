@@ -109,13 +109,13 @@ const StyledSwitch = styled.label`
     border-radius: 20px;
     transition: 0.4s;
     background-color: var(--Grey400);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: var(--boxShadow);
     &:hover {
       background-color: var(--Grey400);
     }
   }
   .checked + span {
-    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
+    box-shadow: var(--boxShadow);
     background-color: var(--Grey700);
     &:hover {
       background-color: var(--Grey600);

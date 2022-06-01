@@ -67,6 +67,7 @@
   --breakWebB: 1920px;
   --themBg: var(--lightBg);
   --themFont: var(--lightFont);
+  --boxShadow: var(--lightBoxShadow);
 }
 
 /* HTML elements */
@@ -99,6 +100,7 @@ body {
 body.dark {
   --themFont: var(--darkFont);
   --themBg: var(--darkBg);
+  --boxShadow: var(--darkBoxShadow);
 }
 footer {
   padding: var(--spacing-6) var(--spacing-0);
