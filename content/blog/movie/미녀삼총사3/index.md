@@ -10,3 +10,25 @@ countries: 미국
 end: true
 categories: [코미디, 액션, 스릴러, 범죄]
 ---
+
+<div class="title bold">시리지 정보</div>
+
+<div class="season-list">
+<div class="item">
+<a href="/movie/미녀삼총사" >
+<img src="/poster/미녀삼총사.jpeg" alt="미녀삼총사 포스터 ">
+시리즈 1</a>
+</div>
+
+<div class="item">
+<a href="/movie/미녀삼총사2맥시멈스피드" >
+<img src="/poster/미녀삼총사2맥시멈스피드.jpeg" alt="미녀삼총사2맥시멈스피드 포스터 ">
+시리즈 2</a>
+</div>
+
+<div class="item">
+<a href="/movie/미녀삼총사3" >
+<img src="/poster/미녀삼총사3.jpeg" alt="미녀삼총사3 포스터 ">
+시리즈 3</a>
+</div>
+</div>
