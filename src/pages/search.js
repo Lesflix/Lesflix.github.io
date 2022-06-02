@@ -37,21 +37,39 @@ export const pageQuery = graphql`
 `
 function Search({ data, location }) {
   const searchWord = decodeURI(location.search?.replace("?q=", ""))
-
+  const searchWordTrim = searchWord.replace(/ /gi, "")
   const postList = data.allMarkdownRemark.nodes || []
   const filteredPosts = postList.filter(post => {
     const { title, description, genre, countries, ott, categories } =
       post.frontmatter
     return (
       (description &&
-        description.toLowerCase().includes(searchWord?.toLowerCase())) ||
-      (title && title.toLowerCase().includes(searchWord?.toLowerCase())) ||
-      (genre && genre.toLowerCase().includes(searchWord?.toLowerCase())) ||
+        description
+          .replace(/ /gi, "")
+          .toLowerCase()
+          .includes(searchWordTrim?.toLowerCase())) ||
+      (title &&
+        title
+          .replace(/ /gi, "")
+          .toLowerCase()
+          .includes(searchWordTrim?.toLowerCase())) ||
+      (genre &&
+        genre
+          .replace(/ /gi, "")
+          .toLowerCase()
+          .includes(searchWordTrim?.toLowerCase())) ||
       (countries &&
-        countries.toLowerCase().includes(searchWord?.toLowerCase())) ||
-      (ott && ott.join("").toLowerCase().includes(searchWord?.toLowerCase())) ||
+        countries
+          .replace(/ /gi, "")
+          .toLowerCase()
+          .includes(searchWordTrim?.toLowerCase())) ||
+      (ott &&
+        ott.join("").toLowerCase().includes(searchWordTrim?.toLowerCase())) ||
       (categories &&
-        categories.join("").toLowerCase().includes(searchWord?.toLowerCase()))
+        categories
+          .join("")
+          .toLowerCase()
+          .includes(searchWordTrim?.toLowerCase()))
     )
   })
 
