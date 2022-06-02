@@ -15,7 +15,7 @@ function InfoBox({ postData }) {
   } = postData
   return (
     <BoxStyle>
-      <div className="title">{title}</div>
+      <div className="title">{title.split("&")[0]}</div>
       <div className="about">
         {title !== originalTitle && (
           <div>
