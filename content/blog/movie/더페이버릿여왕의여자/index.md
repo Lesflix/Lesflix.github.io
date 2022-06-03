@@ -6,6 +6,6 @@ genre: movie
 imgname: 더페이버릿여왕의여자.jpeg
 release: "2018.11.23"
 ott: [디즈니플러스, 티빙&유료]
-countries: [영국]
+countries: [아일랜드, 영국, 미국]
 categories: [역사, 코미디, 스릴러]
 ---

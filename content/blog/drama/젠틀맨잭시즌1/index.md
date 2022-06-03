@@ -6,7 +6,7 @@ genre: drama
 imgname: 젠틀맨잭시즌1.jpeg
 release: "2019.04.22"
 ott: [웨이브]
-countries: [미국]
+countries: [미국, 영국]
 categories: [로맨스, 역사]
 ---
 

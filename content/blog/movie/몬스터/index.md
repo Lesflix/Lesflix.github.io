@@ -7,6 +7,6 @@ genre: movie
 imgname: 몬스터.jpeg
 release: "2003.12.24"
 ott: [티빙, 왓챠, 웨이브]
-countries: [미국]
+countries: [미국,독일]
 categories: [범죄]
 ---

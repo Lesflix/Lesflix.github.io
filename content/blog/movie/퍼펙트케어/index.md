@@ -6,6 +6,6 @@ genre: movie
 imgname: 퍼펙트케어.jpeg
 release: "2021.02.19"
 ott: [넷플릭스, 티빙&유료, 웨이브&유료]
-countries: [미국]
+countries: [영국]
 categories: [범죄, 스릴러, 코미디]
 ---

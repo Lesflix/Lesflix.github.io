@@ -6,6 +6,6 @@ genre: movie
 imgname: 이매진미앤유.jpeg
 release: "2005.02.01"
 ott: []
-countries: [영국]
+countries: [독일, 영국, 미국]
 categories: [로맨스, 코미디]
 ---

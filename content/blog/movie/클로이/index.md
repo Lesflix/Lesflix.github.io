@@ -6,6 +6,6 @@ genre: movie
 imgname: 클로이.jpeg
 release: "2009.03.25"
 ott: [넷플릭스, 왓챠, 웨이브]
-countries: [미국]
+countries: [미국, 캐나다, 프랑스]
 categories: [미스터리, 스릴러]
 ---

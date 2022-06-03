@@ -6,6 +6,6 @@ genre: movie
 imgname: 델마.jpeg
 release: "2017.09.15"
 ott: [티빙&유료, 웨이브&유료]
-countries: [노르웨이]
+countries: [노르웨이, 덴마크, 스웨덴, 프랑스]
 categories: [미스터리, 스릴러]
 ---

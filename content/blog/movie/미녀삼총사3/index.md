@@ -6,7 +6,7 @@ genre: movie
 imgname: 미녀삼총사3.jpeg
 release: "2019.11.14"
 ott: [티빙&유료, 왓챠, 웨이브&유료]
-countries: [미국]
+countries: [미국, 독일]
 categories: [코미디, 액션, 스릴러, 범죄]
 ---
 

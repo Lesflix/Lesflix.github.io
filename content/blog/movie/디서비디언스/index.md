@@ -6,6 +6,6 @@ genre: movie
 imgname: 디서비디언스.jpeg
 release: "2017.09.10"
 ott: [티빙&유료, 왓챠, 웨이브&유료]
-countries: [영국]
+countries: [미국, 영국, 아일랜드]
 categories: [로맨스]
 ---
