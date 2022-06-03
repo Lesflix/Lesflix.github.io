@@ -66,7 +66,7 @@ const findCountries = async () => {
   markdownFiles
     .map(file => fs.readFileSync(file, UTF_8))
     .forEach(str => {
-      allCountries.add(matter(str).data.countries)
+      matter(str).data.countries?.forEach(arr => allCountries.add(arr))
     })
   return [...allCountries]
 }
@@ -78,14 +78,14 @@ const getCountries = async () => {
   if (0 < countryList.length) {
     const { answer } = await inquirer.prompt([
       {
-        type: "list",
+        type: "checkbox",
         name: "answer",
         message: "Select countryList",
         choices: countryList,
       },
     ])
     return answer
-  } else return ""
+  } else return []
 }
 // 함수 - 모든 Otts 가져옴
 // 모든 md 파일의 Otts 모두 찾아옴
@@ -167,7 +167,7 @@ module.exports = (async function () {
     imgname: `${title}.jpeg`,
     release: `""`,
     ott: `[${ottList}]`,
-    countries: country,
+    countries: `[${country}]`,
     end: true,
     categories: `[${cateList}]`,
   }
