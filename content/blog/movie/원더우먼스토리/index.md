@@ -7,6 +7,5 @@ imgname: 원더우먼스토리.jpeg
 release: "2017.10.13"
 ott: [티빙&유료, 웨이브&유료, 왓챠, 애플티비]
 countries: [미국]
-end: true
 categories: [로맨스]
 ---

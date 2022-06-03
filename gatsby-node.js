@@ -129,7 +129,6 @@ exports.createSchemaCustomization = ({ actions }) => {
       release : String
       ott: [String]
       countries: [String]
-      end: Boolean
       categories: [String]
     }
 

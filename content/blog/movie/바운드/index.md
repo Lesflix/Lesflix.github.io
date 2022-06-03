@@ -7,6 +7,5 @@ imgname: 바운드.jpeg
 release: "1996.09.13"
 ott: [티빙&유료, 왓챠, 웨이브]
 countries: [미국]
-end: true
 categories: [로맨스, 스릴러, 범죄]
 ---

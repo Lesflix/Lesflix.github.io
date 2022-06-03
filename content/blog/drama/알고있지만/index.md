@@ -7,6 +7,5 @@ imgname: 알고있지만.jpeg
 release: "2021.06.19"
 ott: [넷플릭스, 티빙]
 countries: [한국]
-end: true
 categories: [로맨스, 청춘]
 ---

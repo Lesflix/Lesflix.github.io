@@ -7,7 +7,6 @@ imgname: 엘워드시즌1.jpeg
 release: "2004.01.18"
 ott: [애플티비]
 countries: [미국]
-end: true
 categories: [로맨스]
 ---
 

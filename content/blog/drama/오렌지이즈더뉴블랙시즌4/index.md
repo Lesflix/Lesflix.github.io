@@ -7,7 +7,6 @@ imgname: 오렌지이즈더뉴블랙시즌4.jpeg
 release: "2016.06.17"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [코미디]
 ---
 

@@ -168,7 +168,6 @@ module.exports = (async function () {
     release: `""`,
     ott: `[${ottList}]`,
     countries: `[${country}]`,
-    end: true,
     categories: `[${cateList}]`,
   }
   const contents = refineContents(headers)

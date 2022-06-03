@@ -7,7 +7,6 @@ imgname: 원헌드레드시즌2.jpeg
 release: "2014.10.22"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [액션, 어드벤처, 판타지, SF]
 ---
 

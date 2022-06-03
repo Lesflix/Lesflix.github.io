@@ -7,6 +7,5 @@ imgname: 퀸스갬빗.jpeg
 release: "2020.10.23"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [사회 문제]
 ---

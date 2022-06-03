@@ -7,6 +7,5 @@ imgname: 지니앤조지아.jpeg
 release: "2021.02.24"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [로맨스, 코미디, 청소년]
 ---

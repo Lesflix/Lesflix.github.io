@@ -8,7 +8,6 @@ release: "2020.03.18"
 ott: [디즈니플러스]
 countries: [미국]
 categories: [액션, 어드벤처, 스릴러, 판타지]
-end: true
 ---
 
 <div class="title bold">시즌 정보</div>

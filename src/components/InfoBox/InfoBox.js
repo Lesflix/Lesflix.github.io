@@ -3,16 +3,8 @@ import React from "react"
 import OttListContainer from "../../containers/OttListContainer"
 
 function InfoBox({ postData }) {
-  const {
-    title,
-    description,
-    release,
-    originalTitle,
-    genre,
-    ott,
-    end,
-    categories,
-  } = postData
+  const { title, description, release, originalTitle, genre, ott, categories } =
+    postData
   return (
     <BoxStyle>
       <div className="title">{title.split("&")[0]}</div>
@@ -27,11 +19,7 @@ function InfoBox({ postData }) {
           <strong className="summary">
             {"movie" === genre ? "개봉일" : "방영일"}
           </strong>
-          <div>
-            {release}
-            {"drama" === genre && end ? ` ~ 방영 종료` : ""}
-            {"movie" === genre && ""}
-          </div>
+          <div>{release}</div>
         </div>
         <div>
           <strong className="summary">장르</strong>

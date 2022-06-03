@@ -7,7 +7,6 @@ imgname: 우주의전사쉬라시즌1.jpeg
 release: "2018.11.13"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [액션, 어드벤처, 판타지]
 ---
 

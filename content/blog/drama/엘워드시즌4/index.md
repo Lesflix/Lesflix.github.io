@@ -7,7 +7,6 @@ imgname: 엘워드시즌4.jpeg
 release: "2007.01.07"
 ott: [애플티비]
 countries: [미국]
-end: true
 categories: [로맨스]
 ---
 

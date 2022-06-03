@@ -7,6 +7,5 @@ imgname: 반쪽의이야기.jpeg
 release: "2020.05.01"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [코미디, 로맨스, 청소년]
 ---

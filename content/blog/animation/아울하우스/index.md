@@ -7,6 +7,5 @@ imgname: "아울하우스.jpeg"
 release: "2020.01.10"
 ott: [디즈니플러스]
 countries: [미국]
-end: true
 categories: [코미디, 액션, 어드벤처, 판타지]
 ---

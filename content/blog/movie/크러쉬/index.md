@@ -7,6 +7,5 @@ imgname: 크러쉬.jpeg
 release: "2022.04.29"
 ott: []
 countries: [미국]
-end: true
 categories: [코미디, 로맨스]
 ---

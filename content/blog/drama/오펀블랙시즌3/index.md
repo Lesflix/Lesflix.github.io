@@ -7,7 +7,6 @@ imgname: 오펀블랙시즌3.jpeg
 release: "2015.04.18"
 ott: []
 countries: [미국]
-end: true
 categories: [판타지, SF]
 ---
 

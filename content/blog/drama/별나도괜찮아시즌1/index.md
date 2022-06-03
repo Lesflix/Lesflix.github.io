@@ -7,7 +7,6 @@ imgname: 별나도괜찮아시즌1.jpeg
 release: "2017.08.11"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [코미디, 청소년]
 ---
 

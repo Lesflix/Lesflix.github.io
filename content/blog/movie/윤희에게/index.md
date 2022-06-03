@@ -7,6 +7,5 @@ imgname: 윤희에게.jpeg
 release: "2019.11.14"
 ott: [넷플릭스, 웨이브, 티빙, 왓챠]
 countries: [한국]
-end: true
 categories: [로맨스]
 ---

@@ -7,7 +7,6 @@ imgname: 오펀블랙시즌1.jpeg
 release: "2013.03.30"
 ott: []
 countries: [미국]
-end: true
 categories: [판타지, SF]
 ---
 

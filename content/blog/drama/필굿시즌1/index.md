@@ -7,7 +7,6 @@ imgname: 필굿시즌1.jpeg
 release: "2020.03.18"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [코미디, 로맨스]
 ---
 

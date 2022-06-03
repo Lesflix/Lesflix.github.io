@@ -7,7 +7,6 @@ imgname: 킬링이브시즌1.jpeg
 release: "2018.04.08"
 ott: [왓챠]
 countries: [영국]
-end: true
 categories: [범죄]
 ---
 

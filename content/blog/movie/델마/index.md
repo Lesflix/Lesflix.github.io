@@ -7,6 +7,5 @@ imgname: 델마.jpeg
 release: "2017.09.15"
 ott: [티빙&유료, 웨이브&유료]
 countries: [노르웨이]
-end: true
 categories: [미스터리, 스릴러]
 ---

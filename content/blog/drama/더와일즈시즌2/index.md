@@ -7,7 +7,6 @@ imgname: 더와일즈시즌2.jpeg
 release: "2022.05.05"
 ott: [아마존프라임비디오]
 countries: [미국]
-end: true
 categories: [미스터리, 모험]
 ---
 

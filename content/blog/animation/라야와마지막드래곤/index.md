@@ -7,6 +7,5 @@ imgname: 라야와마지막드래곤.jpeg
 release: "2021.03.03"
 ott: [디즈니플러스, 티빙&유료, 웨이브&유료]
 countries: [미국]
-end: true
 categories: [액션, 어드벤처, 판타지]
 ---

@@ -7,6 +7,5 @@ imgname: 더노비스.jpeg
 release: "2021.12.17"
 ott: []
 countries: [미국]
-end: true
 categories: [스릴러]
 ---

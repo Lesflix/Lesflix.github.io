@@ -7,7 +7,6 @@ imgname: 엘워드시즌2.jpeg
 release: "2005.02.20"
 ott: [애플티비]
 countries: [미국]
-end: true
 categories: [로맨스]
 ---
 

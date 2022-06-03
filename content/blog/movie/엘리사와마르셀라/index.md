@@ -7,6 +7,5 @@ imgname: 엘리사와마르셀라.jpeg
 release: "2019.05.24"
 ott: [넷플릭스]
 countries: [스페인]
-end: true
 categories: [로맨스]
 ---

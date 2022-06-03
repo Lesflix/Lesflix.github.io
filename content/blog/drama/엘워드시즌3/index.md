@@ -7,7 +7,6 @@ imgname: 엘워드시즌3.jpeg
 release: "2006.01.08"
 ott: [애플티비]
 countries: [미국]
-end: true
 categories: [로맨스]
 ---
 

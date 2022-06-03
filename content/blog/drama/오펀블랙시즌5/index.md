@@ -7,7 +7,6 @@ imgname: 오펀블랙시즌5.jpeg
 release: "2017.06.10"
 ott: []
 countries: [미국]
-end: true
 categories: [판타지, SF]
 ---
 

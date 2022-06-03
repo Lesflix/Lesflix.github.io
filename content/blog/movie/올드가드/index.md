@@ -7,6 +7,5 @@ imgname: 올드가드.jpeg
 release: "2020.07.10"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [액션, 어드벤처, 판타지, 슈퍼히어로]
 ---

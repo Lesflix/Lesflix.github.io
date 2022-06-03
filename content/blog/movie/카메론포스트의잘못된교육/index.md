@@ -7,6 +7,5 @@ imgname: 카메론포스트의잘못된교육.jpeg
 release: "2018.07.18"
 ott: [넷플릭스, 티빙, 왓챠, 웨이브]
 countries: [미국]
-end: true
 categories: [로맨스]
 ---

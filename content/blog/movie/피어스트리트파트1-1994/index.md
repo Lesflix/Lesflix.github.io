@@ -7,7 +7,6 @@ imgname: 피어스트리트파트11994.jpeg
 release: "2021.06.28"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [공포, 미스터리, 호러]
 ---
 

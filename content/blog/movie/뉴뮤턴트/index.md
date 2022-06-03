@@ -7,6 +7,5 @@ imgname: 뉴뮤턴트.jpeg
 release: "2020.08.26"
 ott: [디즈니플러스, 티빙&유료, 웨이브&유료]
 countries: [미국]
-end: true
 categories: [액션, 공포, SF, 어드벤처, 스릴러, 슈퍼히어로]
 ---

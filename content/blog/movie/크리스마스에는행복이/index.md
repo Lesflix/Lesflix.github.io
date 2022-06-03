@@ -8,6 +8,5 @@ imgname: 크리스마스에는행복이.jpeg
 release: "2020.11.26"
 ott: [티빙&유료, 웨이브&유료]
 countries: [미국]
-end: true
 categories: [코미디, 로맨스]
 ---

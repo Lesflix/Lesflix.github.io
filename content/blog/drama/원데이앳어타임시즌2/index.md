@@ -7,7 +7,6 @@ imgname: 원데이앳어타임시즌2.jpeg
 release: "2018.01.26"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [코미디]
 ---
 

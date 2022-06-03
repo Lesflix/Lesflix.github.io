@@ -7,7 +7,6 @@ imgname: 오펀블랙시즌4.jpeg
 release: "2016.04.14"
 ott: []
 countries: [미국]
-end: true
 categories: [판타지, SF]
 ---
 

@@ -7,7 +7,6 @@ imgname: 킬링이브시즌4.jpeg
 release: "2022.02.27"
 ott: [왓챠]
 countries: [영국]
-end: true
 categories: [범죄]
 ---
 

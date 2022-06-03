@@ -7,6 +7,5 @@ imgname: 페어웰마이퀸.jpeg
 release: "2012.03.21"
 ott: [티빙, 왓챠, 웨이브]
 countries: [프랑스]
-end: true
 categories: [역사]
 ---

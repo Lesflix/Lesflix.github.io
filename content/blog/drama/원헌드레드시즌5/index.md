@@ -7,7 +7,6 @@ imgname: 원헌드레드시즌5.jpeg
 release: "2018.04.24"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [액션, 어드벤처, 판타지, SF]
 ---
 

@@ -28,7 +28,6 @@ export const pageQuery = graphql`
           release
           ott
           countries
-          end
           categories
         }
       }

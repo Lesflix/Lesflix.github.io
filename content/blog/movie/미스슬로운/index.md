@@ -7,6 +7,5 @@ imgname: 미스슬로운.jpeg
 release: "2016.11.25"
 ott: [티빙&유료, 웨이브&유료, 넷플릭스, 왓챠]
 countries: [미국]
-end: true
 categories: [스릴러]
 ---

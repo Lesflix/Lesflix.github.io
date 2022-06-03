@@ -7,6 +7,5 @@ imgname: 다가올세상.jpeg
 release: "2021.02.12"
 ott: [티빙&유료, 웨이브&유료]
 countries: [미국]
-end: true
 categories: [로맨스]
 ---

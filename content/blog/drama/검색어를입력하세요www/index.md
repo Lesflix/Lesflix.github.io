@@ -7,6 +7,5 @@ imgname: 검색어를입력하세요WWW.jpeg
 release: "2019.06.05"
 ott: [넷플릭스, 티빙]
 countries: [한국]
-end: true
 categories: [로맨스, 코미디]
 ---

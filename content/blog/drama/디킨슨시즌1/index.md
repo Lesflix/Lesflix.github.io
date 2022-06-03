@@ -7,7 +7,6 @@ imgname: 디킨슨시즌1.jpeg
 release: "2019.11.01"
 ott: [애플티비]
 countries: [미국]
-end: true
 categories: [코미디, 로맨스]
 ---
 

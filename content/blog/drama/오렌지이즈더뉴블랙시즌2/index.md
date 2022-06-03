@@ -7,7 +7,6 @@ imgname: 오렌지이즈더뉴블랙시즌2.jpeg
 release: "2014.06.06"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [코미디]
 ---
 

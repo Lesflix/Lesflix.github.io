@@ -7,6 +7,5 @@ imgname: 집시.jpeg
 release: "2017.06.30"
 ott: [넷플릭스]
 countries: [미국]
-end: true
 categories: [로맨스]
 ---

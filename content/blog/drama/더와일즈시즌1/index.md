@@ -7,7 +7,6 @@ imgname: 더와일즈시즌1.jpeg
 release: "2020.12.11"
 ott: [아마존프라임비디오]
 countries: [미국]
-end: true
 categories: [미스터리, 모험]
 ---
 
