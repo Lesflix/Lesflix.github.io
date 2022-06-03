@@ -6,7 +6,7 @@ genre: drama
 imgname: 블라이저택의유령.jpeg
 release: "2020.10.09"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [로맨스, 미스터리, 공포]
 ---

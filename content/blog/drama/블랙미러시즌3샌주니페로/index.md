@@ -6,7 +6,7 @@ genre: drama
 imgname: 블랙미러시즌3샌주니페로.jpeg
 release: "2016.10.21"
 ott: [넷플릭스]
-countries: 영국
+countries: [영국]
 end: true
 categories: [스릴러, SF]
 ---

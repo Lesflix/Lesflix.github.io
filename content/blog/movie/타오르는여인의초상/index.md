@@ -6,7 +6,7 @@ genre: movie
 imgname: 타오르는여인의초상.jpeg
 release: "2019.06.17"
 ott: [넷플릭스, 티빙&유료, 웨이브&유료, 왓챠]
-countries: 프랑스
+countries: [프랑스]
 end: true
 categories: [로맨스]
 ---

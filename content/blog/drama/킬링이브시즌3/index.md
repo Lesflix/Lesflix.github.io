@@ -6,7 +6,7 @@ genre: drama
 imgname: 킬링이브시즌3.jpeg
 release: "2020.04.12"
 ott: [왓챠]
-countries: 영국
+countries: [영국]
 end: true
 categories: [범죄]
 ---

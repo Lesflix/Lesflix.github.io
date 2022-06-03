@@ -6,7 +6,7 @@ genre: drama
 imgname: 데어미.jpeg
 release: "2019.12.29"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [범죄, 미스터리]
 ---

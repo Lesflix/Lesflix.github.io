@@ -6,7 +6,7 @@ genre: movie
 imgname: 블랙위도우.jpeg
 release: "2021.07.07"
 ott: [디즈니플러스, 티빙&유료, 웨이브&유료]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 슈퍼히어로, 어드벤처, 스파이, 첩보, SF]
 ---

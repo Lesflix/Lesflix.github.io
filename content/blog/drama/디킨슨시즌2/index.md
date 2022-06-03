@@ -6,7 +6,7 @@ genre: drama
 imgname: 디킨슨시즌2.jpeg
 release: "2021.01.08"
 ott: [애플티비]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 로맨스]
 ---

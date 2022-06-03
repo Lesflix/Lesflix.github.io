@@ -6,7 +6,7 @@ genre: movie
 imgname: 나를차버린스파이.jpeg
 release: "2018.08.02"
 ott: [넷플릭스, 티빙, 왓챠, 웨이브]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 코미디, 스파이, 첩보]
 ---

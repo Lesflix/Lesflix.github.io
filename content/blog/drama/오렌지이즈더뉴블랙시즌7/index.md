@@ -6,7 +6,7 @@ genre: drama
 imgname: 오렌지이즈더뉴블랙시즌7.jpeg
 release: "2019.07.26"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디]
 ---

@@ -6,7 +6,7 @@ genre: animation
 imgname: 우주의전사쉬라시즌2.jpeg
 release: "2019.04.26"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, 판타지]
 ---

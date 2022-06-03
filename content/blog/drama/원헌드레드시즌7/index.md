@@ -6,7 +6,7 @@ genre: drama
 imgname: 원헌드레드시즌7.jpeg
 release: "2020.05.20"
 ott: []
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, 판타지, SF]
 ---

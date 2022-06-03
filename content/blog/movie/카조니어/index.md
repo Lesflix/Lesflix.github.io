@@ -6,7 +6,7 @@ genre: movie
 imgname: 카조니어.jpeg
 release: "2020.09.25"
 ott: [넷플릭스, 웨이브]
-countries: 미국
+countries: [미국]
 end: true
 categories: [로맨스, 코미디, 범죄]
 ---

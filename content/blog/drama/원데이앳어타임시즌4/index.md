@@ -6,7 +6,7 @@ genre: drama
 imgname: 원데이앳어타임시즌4.jpeg
 release: "2020.03.24"
 ott: []
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디]
 ---

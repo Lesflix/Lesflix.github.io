@@ -6,7 +6,7 @@ genre: movie
 imgname: 캐롤.jpeg
 release: "2015.11.20"
 ott: [넷플릭스, 왓챠, 티빙&유료, 웨이브&유료]
-countries: 미국
+countries: [미국]
 end: true
 categories: [로맨스]
 ---

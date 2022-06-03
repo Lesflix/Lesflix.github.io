@@ -6,7 +6,7 @@ genre: movie
 imgname: 미녀삼총사.jpeg
 release: "2000.11.02"
 ott: [티빙&유료, 왓챠, 웨이브]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 액션, 스릴러, 범죄]
 ---

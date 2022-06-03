@@ -6,7 +6,7 @@ genre: drama
 imgname: 유포리아시즌1.jpeg
 release: "2019.06.16"
 ott: [웨이브]
-countries: 미국
+countries: [미국]
 end: true
 categories: [청소년]
 ---

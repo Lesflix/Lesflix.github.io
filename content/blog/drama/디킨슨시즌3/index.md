@@ -6,7 +6,7 @@ genre: drama
 imgname: 디킨슨시즌3.jpeg
 release: "2021.11.04"
 ott: [애플티비]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 로맨스]
 ---

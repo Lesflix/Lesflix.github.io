@@ -6,7 +6,7 @@ genre: movie
 imgname: 밤이기울면.jpeg
 release: "1995.02.01"
 ott: []
-countries: 캐나다
+countries: [캐나다]
 end: true
 categories: [로맨스]
 ---

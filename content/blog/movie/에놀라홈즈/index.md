@@ -6,7 +6,7 @@ genre: movie
 imgname: 에놀라홈즈.jpeg
 release: "2020.09.23"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [범죄, 미스터리]
 ---

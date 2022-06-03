@@ -6,7 +6,7 @@ genre: movie
 imgname: 썸머타임아름다운계절.jpeg
 release: "2015.08.19"
 ott: [티빙, 왓챠, 웨이브]
-countries: 프랑스
+countries: [프랑스]
 end: true
 categories: [코미디, 로맨스]
 ---

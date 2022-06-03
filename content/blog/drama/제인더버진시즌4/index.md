@@ -6,7 +6,7 @@ genre: drama
 imgname: 제인더버진시즌4.jpeg
 release: "2017.10.13"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 로맨스]
 ---

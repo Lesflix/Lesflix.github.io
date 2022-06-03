@@ -6,7 +6,7 @@ genre: drama
 imgname: 별나도괜찮아시즌3.jpeg
 release: "2019.11.01"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 청소년]
 ---

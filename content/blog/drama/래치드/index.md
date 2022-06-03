@@ -6,7 +6,7 @@ genre: drama
 imgname: 래치드.jpeg
 release: "2020.09.18"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [스릴러, 범죄, 공포]
 ---

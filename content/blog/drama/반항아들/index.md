@@ -6,7 +6,7 @@ genre: drama
 imgname: 반항아들.jpeg
 release: "2022.01.05"
 ott: [넷플릭스]
-countries: 멕시코
+countries: [멕시코]
 end: true
 categories: [로맨스, 청소년, 음악]
 ---

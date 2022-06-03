@@ -6,7 +6,7 @@ genre: movie
 imgname: 아가씨.jpeg
 release: "2016.06.01"
 ott: [티빙, 왓챠, 웨이브&유료]
-countries: 한국
+countries: [한국]
 end: true
 categories: [로맨스, 스릴러]
 ---

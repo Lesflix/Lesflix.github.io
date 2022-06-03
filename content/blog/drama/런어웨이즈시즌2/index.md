@@ -6,7 +6,7 @@ genre: drama
 imgname: 런어웨이즈시즌2.jpeg
 release: "2018.12.21"
 ott: [디즈니플러스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, 범죄, 판타지, SF]
 ---

@@ -6,7 +6,7 @@ genre: drama
 imgname: 마인.jpeg
 release: "2021.05.08"
 ott: [넷플릭스, 티빙]
-countries: 한국
+countries: [한국]
 end: true
 categories: [로맨스, 미스터리]
 ---

@@ -6,7 +6,7 @@ genre: drama
 imgname: 원헌드레드시즌3.jpeg
 release: "2016.01.21"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, 판타지, SF]
 ---

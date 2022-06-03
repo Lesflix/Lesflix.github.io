@@ -6,7 +6,7 @@ genre: movie
 imgname: 감정으로절정으로.jpeg
 release: "2017.06.09"
 ott: []
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 로맨스]
 ---

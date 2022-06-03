@@ -6,7 +6,7 @@ genre: drama
 imgname: 우주인조안.jpeg
 release: "2020.07.10"
 ott: [웨이브]
-countries: 한국
+countries: [한국]
 end: true
 categories: [SF]
 ---

@@ -6,7 +6,7 @@ genre: movie
 imgname: 남색대문.jpeg
 release: "2002.09.27"
 ott: [넷플릭스, 티빙, 왓챠, 웨이브]
-countries: 대만
+countries: [대만]
 end: true
 categories: [로맨스]
 ---

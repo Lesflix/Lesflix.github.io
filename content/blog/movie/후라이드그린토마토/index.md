@@ -6,7 +6,7 @@ genre: movie
 imgname: 후라이드그린토마토.jpeg
 release: "1991.12.27"
 ott: [웨이브, 왓챠]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디]
 ---

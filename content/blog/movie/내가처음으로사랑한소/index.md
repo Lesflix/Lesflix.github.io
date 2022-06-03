@@ -6,7 +6,7 @@ genre: movie
 imgname: 내가처음으로사랑한소녀.jpeg
 release: "2021.11.25"
 ott: [티빙&유료, 웨이브&유료]
-countries: 홍콩
+countries: [홍콩]
 end: true
 categories: [로맨스, 청소년]
 ---

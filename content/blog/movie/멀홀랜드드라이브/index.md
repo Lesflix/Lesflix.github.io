@@ -6,7 +6,7 @@ genre: movie
 imgname: 멀홀랜드드라이브.jpeg
 release: "2001.06.06"
 ott: [티빙&유료, 웨이브&유료]
-countries: 프랑스
+countries: [프랑스]
 end: true
 categories: [스릴러, 미스터리]
 ---

@@ -6,7 +6,7 @@ genre: drama
 imgname: 제인더버진시즌3.jpeg
 release: "2016.10.17"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 로맨스]
 ---

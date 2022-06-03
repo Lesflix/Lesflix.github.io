@@ -6,7 +6,7 @@ genre: movie
 imgname: 하지만나는치어리더에요.jpeg
 release: "2000.07.07"
 ott: []
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 로맨스]
 ---

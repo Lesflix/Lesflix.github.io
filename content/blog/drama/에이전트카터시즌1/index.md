@@ -6,7 +6,7 @@ genre: drama
 imgname: 에이전트카터시즌1.jpeg
 release: "2015.01.06"
 ott: [디즈니플러스]
-countries: 미국
+countries: [미국]
 categories: [SF, 액션, 어드벤처, 스파이, 첩보]
 end: true
 ---

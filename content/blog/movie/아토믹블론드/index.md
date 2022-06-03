@@ -6,7 +6,7 @@ genre: movie
 imgname: 아토믹블론드.jpeg
 release: "2017.07.26"
 ott: [티빙, 왓챠, 웨이브&유료]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 스릴러]
 ---

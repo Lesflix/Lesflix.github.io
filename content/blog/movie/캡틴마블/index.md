@@ -6,7 +6,7 @@ genre: movie
 imgname: 캡틴마블.jpeg
 release: "2019.03.06"
 ott: [디즈니플러스, 티빙&유료, 웨이브&유료]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, SF, 슈퍼히어로]
 ---

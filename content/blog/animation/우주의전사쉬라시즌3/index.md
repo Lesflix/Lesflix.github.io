@@ -6,7 +6,7 @@ genre: animation
 imgname: 우주의전사쉬라시즌3.jpeg
 release: "2019.08.02"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, 판타지]
 ---

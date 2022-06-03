@@ -6,7 +6,7 @@ genre: movie
 imgname: 레이디스나잇.jpeg
 release: "2017.06.15"
 ott: [넷플릭스, 티빙&유료, 왓챠, 웨이브&유료]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디]
 ---

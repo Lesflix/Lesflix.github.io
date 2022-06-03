@@ -6,7 +6,7 @@ genre: drama
 imgname: 퍼스트킬.jpeg
 release: "2022.06.10"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [로맨스, 판타지, 미스터리]
 ---

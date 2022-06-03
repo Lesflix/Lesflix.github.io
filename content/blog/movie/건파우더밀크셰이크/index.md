@@ -6,7 +6,7 @@ genre: movie
 imgname: 건파우더밀크셰이크.jpeg
 release: "2021.07.14"
 ott: [웨이브&유료]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 스릴러, 범죄]
 ---

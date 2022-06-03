@@ -6,7 +6,7 @@ genre: movie
 imgname: 터미네이터다크페이트.jpeg
 release: "2019.10.23"
 ott: [티빙&유료, 웨이브&유료, 디즈니플러스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, SF]
 ---

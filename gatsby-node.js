@@ -128,7 +128,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       imgname: String
       release : String
       ott: [String]
-      countries: String
+      countries: [String]
       end: Boolean
       categories: [String]
     }

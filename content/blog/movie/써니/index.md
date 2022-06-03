@@ -7,7 +7,7 @@ genre: movie
 imgname: 써니.jpeg
 release: "2011.05.04"
 ott: [티빙, 왓챠, 웨이브&유료]
-countries: 한국
+countries: [한국]
 end: true
 categories: [청소년, 청춘]
 ---

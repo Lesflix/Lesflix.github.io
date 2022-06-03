@@ -6,7 +6,7 @@ genre: movie
 imgname: 오션스8.jpeg
 release: "2018.06.07"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, 스파이, 첩보, 코미디]
 ---

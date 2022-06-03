@@ -6,7 +6,7 @@ genre: movie
 imgname: 더프롬.jpeg
 release: "2020.12.02"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [로맨스, 코미디]
 ---

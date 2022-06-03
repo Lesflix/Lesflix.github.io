@@ -6,7 +6,7 @@ genre: drama
 imgname: 제인더버진시즌2.jpeg
 release: "2015.10.12"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 로맨스]
 ---

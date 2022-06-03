@@ -6,7 +6,7 @@ genre: movie
 imgname: 북스마트.jpeg
 release: "2019.05.24"
 ott: [넷플릭스, 티빙&유료, 웨이브]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 청춘]
 ---

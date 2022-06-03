@@ -6,7 +6,7 @@ genre: movie
 imgname: 세이빙페이스.jpeg
 release: "2004.09.12"
 ott: [왓챠]
-countries: 미국
+countries: [미국]
 end: true
 categories: [로맨스, 코미디]
 ---

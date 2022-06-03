@@ -6,7 +6,7 @@ genre: movie
 imgname: 워터릴리스.jpeg
 release: "2007.05.17"
 ott: [티빙&유료, 웨이브&유료, 왓챠]
-countries: 프랑스
+countries: [프랑스]
 end: true
 categories: [로맨스]
 ---

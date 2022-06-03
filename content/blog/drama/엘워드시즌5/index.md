@@ -6,7 +6,7 @@ genre: drama
 imgname: 엘워드시즌5.jpeg
 release: "2008.01.06"
 ott: [애플티비]
-countries: 미국
+countries: [미국]
 end: true
 categories: [로맨스]
 ---

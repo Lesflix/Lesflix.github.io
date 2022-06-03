@@ -6,7 +6,7 @@ genre: drama
 imgname: 퍼슨오브인터레스트시즌4.jpeg
 release: "2014.09.23"
 ott: [왓챠, 웨이브]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, 판타지, 범죄, SF]
 ---

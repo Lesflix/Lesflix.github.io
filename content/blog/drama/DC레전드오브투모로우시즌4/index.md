@@ -6,7 +6,7 @@ genre: drama
 imgname: DC레전드오브투모로우시즌4.jpeg
 release: "2018.10.22"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, 판타지, 로맨스, SF, 슈퍼히어로]
 ---

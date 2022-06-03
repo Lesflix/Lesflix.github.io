@@ -6,7 +6,7 @@ genre: movie
 imgname: 죽여줘제니퍼.jpeg
 release: "2009.09.18"
 ott: [웨이브&유료, 디즈니플러스, 티빙&유료]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 공포]
 ---

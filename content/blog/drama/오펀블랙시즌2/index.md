@@ -6,7 +6,7 @@ genre: drama
 imgname: 오펀블랙시즌2.jpeg
 release: "2014.04.19"
 ott: []
-countries: 미국
+countries: [미국]
 end: true
 categories: [판타지, SF]
 ---

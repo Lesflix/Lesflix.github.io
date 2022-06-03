@@ -6,7 +6,7 @@ genre: drama
 imgname: 유포리아시즌2.jpeg
 release: "2022.01.09"
 ott: []
-countries: 미국
+countries: [미국]
 end: true
 categories: [청소년]
 ---

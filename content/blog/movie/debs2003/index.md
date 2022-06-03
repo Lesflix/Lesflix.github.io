@@ -6,7 +6,7 @@ genre: movie
 imgname: debs2003.jpeg
 release: "2003.01.16"
 ott: []
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 액션, 로맨스]
 ---

@@ -60,7 +60,7 @@ function Search({ data, location }) {
           .includes(searchWordTrim?.toLowerCase())) ||
       (countries &&
         countries
-          .replace(/ /gi, "")
+          .join("")
           .toLowerCase()
           .includes(searchWordTrim?.toLowerCase())) ||
       (ott &&

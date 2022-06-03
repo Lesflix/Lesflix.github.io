@@ -6,7 +6,7 @@ genre: drama
 imgname: 런어웨이즈시즌1.jpeg
 release: "2017.11.21"
 ott: [디즈니플러스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [액션, 어드벤처, 범죄, 판타지, SF]
 ---

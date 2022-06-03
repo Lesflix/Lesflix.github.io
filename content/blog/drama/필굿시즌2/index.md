@@ -6,7 +6,7 @@ genre: drama
 imgname: 필굿시즌2.jpeg
 release: "2021.06.04"
 ott: [넷플릭스]
-countries: 미국
+countries: [미국]
 end: true
 categories: [코미디, 로맨스]
 ---

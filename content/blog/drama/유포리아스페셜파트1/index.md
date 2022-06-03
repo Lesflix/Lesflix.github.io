@@ -6,7 +6,7 @@ genre: drama
 imgname: 유포리아스페셜파트1.jpeg
 release: "2020.12.06"
 ott: [웨이브]
-countries: 미국
+countries: [미국]
 end: true
 categories: [청소년]
 ---
