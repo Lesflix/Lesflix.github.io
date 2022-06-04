@@ -1,5 +1,5 @@
 import { graphql } from "gatsby"
-import React from "react"
+import React, { useEffect, useMemo, useState } from "react"
 import Seo from "../components/Seo"
 import Layout from "../components/Layout"
 import PostListContainer from "../containers/PostListContainer"
@@ -36,42 +36,50 @@ export const pageQuery = graphql`
 `
 function Search({ data, location }) {
   const searchWord = decodeURI(location.search?.replace("?q=", ""))
-  const searchWordTrim = searchWord.replace(/ /gi, "")
-  const postList = data.allMarkdownRemark.nodes || []
-  const filteredPosts = postList.filter(post => {
-    const { title, description, genre, countries, ott, categories } =
-      post.frontmatter
-    return (
-      (description &&
-        description
-          .replace(/ /gi, "")
-          .toLowerCase()
-          .includes(searchWordTrim?.toLowerCase())) ||
-      (title &&
-        title
-          .replace(/ /gi, "")
-          .toLowerCase()
-          .includes(searchWordTrim?.toLowerCase())) ||
-      (genre &&
-        genre
-          .replace(/ /gi, "")
-          .toLowerCase()
-          .includes(searchWordTrim?.toLowerCase())) ||
-      (countries &&
-        countries
-          .join("")
-          .toLowerCase()
-          .includes(searchWordTrim?.toLowerCase())) ||
-      (ott &&
-        ott.join("").toLowerCase().includes(searchWordTrim?.toLowerCase())) ||
-      (categories &&
-        categories
-          .join("")
-          .toLowerCase()
-          .includes(searchWordTrim?.toLowerCase()))
-    )
-  })
+  const searchWordTrim = useMemo(() => {
+    return searchWord.replace(/ /gi, "")
+  }, [searchWord])
+  const postList = data.allMarkdownRemark.nodes
+  const [filteredPosts, setFilteredPosts] = useState(fucSetFilterPostList())
 
+  useEffect(() => {
+    setFilteredPosts(fucSetFilterPostList())
+  }, [searchWord])
+  function fucSetFilterPostList() {
+    return postList.filter(post => {
+      const { title, description, genre, countries, ott, categories } =
+        post.frontmatter
+      return (
+        (description &&
+          description
+            .replace(/ /gi, "")
+            .toLowerCase()
+            .includes(searchWordTrim?.toLowerCase())) ||
+        (title &&
+          title
+            .replace(/ /gi, "")
+            .toLowerCase()
+            .includes(searchWordTrim?.toLowerCase())) ||
+        (genre &&
+          genre
+            .replace(/ /gi, "")
+            .toLowerCase()
+            .includes(searchWordTrim?.toLowerCase())) ||
+        (countries &&
+          countries
+            .join("")
+            .toLowerCase()
+            .includes(searchWordTrim?.toLowerCase())) ||
+        (ott &&
+          ott.join("").toLowerCase().includes(searchWordTrim?.toLowerCase())) ||
+        (categories &&
+          categories
+            .join("")
+            .toLowerCase()
+            .includes(searchWordTrim?.toLowerCase()))
+      )
+    })
+  }
   return (
     <div>
       <HeaderContainer />
