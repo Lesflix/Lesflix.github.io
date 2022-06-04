@@ -13,4 +13,8 @@ export const otts = {
     url: "https://www.wavve.com/search/search?searchWord=",
     query: true,
   },
+  라프텔: {
+    url: "https://laftel.net/search?keyword=",
+    query: true,
+  },
 }
