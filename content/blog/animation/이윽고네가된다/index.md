@@ -5,7 +5,7 @@ description: 사랑의 감정을 모른다는 고민이 있는 코이토 유우�
 genre: animation
 imgname: 이윽고네가된다.jpeg
 release: "2018.10.05"
-ott: [넷플릭스, 왓챠, 티빙, 웨이브]
+ott: [넷플릭스, 왓챠, 티빙, 웨이브, 라프텔]
 countries: [일본]
 categories: [로맨스, 청소년]
 ---
