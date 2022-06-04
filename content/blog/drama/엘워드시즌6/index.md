@@ -1,7 +1,7 @@
 ---
 title: 엘 워드 시즌 6
 originalTitle: The L Word
-description: "LA를 배경으로 하는 여성들의 삶에 대한 색다른 모습이 그려진다. LGBT(레즈비언, 게이, 바이섹슈얼, 트렌스젠더) 친구들과 함께 가족과 사랑에 대한 진지한 이야기를 담아낸다."
+description: 셰인은 제니를 배신한 것에 대해 사과하려고 하고 그들은 서로를 이해하려고 노력한다. 반면, 벳과 티나는 안젤리카의 병이 점점 더 심해지는 것을 걱정한다.
 genre: drama
 imgname: 엘워드시즌6.jpeg
 release: "2009.01.18"

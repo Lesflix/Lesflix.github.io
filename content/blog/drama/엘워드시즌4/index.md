@@ -1,7 +1,7 @@
 ---
 title: 엘 워드 시즌 4
 originalTitle: The L Word
-description: "LA를 배경으로 하는 여성들의 삶에 대한 색다른 모습이 그려진다. LGBT(레즈비언, 게이, 바이섹슈얼, 트렌스젠더) 친구들과 함께 가족과 사랑에 대한 진지한 이야기를 담아낸다."
+description: 벳은 캐나다에서의 사건 이후, 딸과 도망치고 헬레나는 어머니의 경제적인 도움없이 사는 것에 익숙해지기 위해 노력한다.
 genre: drama
 imgname: 엘워드시즌4.jpeg
 release: "2007.01.07"

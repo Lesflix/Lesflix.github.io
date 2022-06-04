@@ -1,7 +1,7 @@
 ---
 title: 엘 워드 시즌 3
 originalTitle: The L Word
-description: "LA를 배경으로 하는 여성들의 삶에 대한 색다른 모습이 그려진다. LGBT(레즈비언, 게이, 바이섹슈얼, 트렌스젠더) 친구들과 함께 가족과 사랑에 대한 진지한 이야기를 담아낸다."
+description: 벳과 티나는 안젤리카를 돌보며 관계를 회복한다. 반면 카르멘과 셰인은 함께 카르멘의 부모를 만나면서 관계가 틀어지기 시작한다.
 genre: drama
 imgname: 엘워드시즌3.jpeg
 release: "2006.01.08"
