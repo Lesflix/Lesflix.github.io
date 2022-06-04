@@ -1,7 +1,7 @@
 ---
 title: 제인 더 버진 시즌 4
 originalTitle: Jane the Virgin
-description: 순결 서약을 한 제인은 의료 실수로 인한 임신을 하게 되고, 그로 인해 자신의 장래 계획이 송두리째 바뀌게 될 운명에 처하게 된다.
+description: 첫사랑 애덤과 다시 만난 제인. 이게 바로 운명이라는 걸까? 그럼 라파엘은? 라파엘과의 관계는 어떻게 되는 거지? 로헬리오는 SNS상에서 실수를 저질렀다가 곤경에 빠진다.
 genre: drama
 imgname: 제인더버진시즌4.jpeg
 release: "2017.10.13"

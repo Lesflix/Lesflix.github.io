@@ -1,7 +1,7 @@
 ---
 title: 제인 더 버진 시즌 3
 originalTitle: Jane the Virgin
-description: 순결 서약을 한 제인은 의료 실수로 인한 임신을 하게 되고, 그로 인해 자신의 장래 계획이 송두리째 바뀌게 될 운명에 처하게 된다.
+description: 병원에서 사경을 헤매는 마이클. 경찰은 자칭 ‘페트라’에게 도움을 청하고 그녀의 이상한 행동을 눈치챈다. 지오마라는 로헬리오에게 중대 고백을 한다.
 genre: drama
 imgname: 제인더버진시즌3.jpeg
 release: "2016.10.17"

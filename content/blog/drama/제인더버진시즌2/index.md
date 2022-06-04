@@ -1,7 +1,7 @@
 ---
 title: 제인 더 버진 시즌 2
 originalTitle: Jane the Virgin
-description: 순결 서약을 한 제인은 의료 실수로 인한 임신을 하게 되고, 그로 인해 자신의 장래 계획이 송두리째 바뀌게 될 운명에 처하게 된다.
+description: 로헬리오 때문에 마테오의 실종을 둘러싼 취재 열기가 뜨겁다. 제인은 자신의 모성 본능을 의심하고, 라파엘은 마이클에게 육아 상담을 청한다.
 genre: drama
 imgname: 제인더버진시즌2.jpeg
 release: "2015.10.12"

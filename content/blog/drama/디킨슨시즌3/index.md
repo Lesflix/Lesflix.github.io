@@ -1,7 +1,8 @@
 ---
 title: 디킨슨 시즌 3
 originalTitle: Dickinson
-description: 시인, 딸, 완벽한 반항아. 세계 최고의 시인으로 꼽히는 에밀리 디킨슨의 성장 이야기를 그려낸다.
+description: 남북 전쟁의 사상자가 증가하는 가운데, 디킨슨 일가는 가족 한 명을 애도하고 에밀리는 가족의 평화를 지키기 위해 고군분투한다.
+
 genre: drama
 imgname: 디킨슨시즌3.jpeg
 release: "2021.11.04"

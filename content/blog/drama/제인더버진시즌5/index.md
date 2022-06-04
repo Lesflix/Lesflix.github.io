@@ -1,7 +1,7 @@
 ---
 title: 제인 더 버진 시즌 5
 originalTitle: Jane the Virgin
-description: 순결 서약을 한 제인은 의료 실수로 인한 임신을 하게 되고, 그로 인해 자신의 장래 계획이 송두리째 바뀌게 될 운명에 처하게 된다.
+description: 죽은 줄 알았던 마이클의 등장. 그런데 마이클은 제인이 기억하는 그 모습이 아니다! 페트라의 또 다른 면을 알게 된 JR. 상황을 감당할 수 없는 JR은 결국 결별을 선언한다.
 genre: drama
 imgname: 제인더버진시즌5.jpeg
 release: "2019.03.27"

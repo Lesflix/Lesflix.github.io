@@ -1,7 +1,7 @@
 ---
 title: 유포리아 시즌 2
 originalTitle: Euphoria
-description: 약물과 성, 트라우마, 범죄 그리고 소셜 미디어가 가득한 세상 속에서 사랑과 우정 사이에서 갈등하는 10대 청소년들의 이야기
+description: 새학기가 되고 루와 줄스는 크리스마스 이후로 처음 마주치게 된다.
 genre: drama
 imgname: 유포리아시즌2.jpeg
 release: "2022.01.09"

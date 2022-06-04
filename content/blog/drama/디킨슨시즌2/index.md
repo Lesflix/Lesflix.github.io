@@ -1,7 +1,7 @@
 ---
 title: 디킨슨 시즌 2
 originalTitle: Dickinson
-description: 시인, 딸, 완벽한 반항아. 세계 최고의 시인으로 꼽히는 에밀리 디킨슨의 성장 이야기를 그려낸다.
+description: 수가 여성 작품을 싣는데 강한 관심을 가진 신문 편집장 샘 볼스를 에밀리에게 소개하자, 에밀리의 고립된 시적 세계는 흔들린다.
 genre: drama
 imgname: 디킨슨시즌2.jpeg
 release: "2021.01.08"
