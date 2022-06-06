@@ -11,11 +11,13 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next, markdownRemark } = data
   const htmls = markdownRemark.html
   const { title, description, excerpt } = post.frontmatter
+  const seoTitle = title.split("&")[0]
+
   return (
     <>
       <HeaderContainer />
       <Layout location={location}>
-        <Seo title={title} description={description || excerpt} />
+        <Seo title={seoTitle} description={description || excerpt} />
         <article
           className="blog-post"
           itemScope
