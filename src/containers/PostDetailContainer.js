@@ -47,9 +47,7 @@ const DetailContainerStyle = styled.section`
     }
     @media screen and (min-width: 1920px) {
       font-size: 2.2rem;
-      .title {
-        font-size: 2.5rem;
-      }
+
       .season-list {
         .item {
           width: 20%;
@@ -58,9 +56,7 @@ const DetailContainerStyle = styled.section`
     }
     @media screen and (min-width: 1080px) and (max-width: 1919px) {
       font-size: 2rem;
-      .title {
-        font-size: 2.2rem;
-      }
+
       .season-list {
         .item {
           width: 20%;
@@ -69,9 +65,7 @@ const DetailContainerStyle = styled.section`
     }
     @media screen and (min-width: 768px) and (max-width: 1079px) {
       font-size: 1.8rem;
-      .title {
-        font-size: 2rem;
-      }
+
       .season-list {
         .item {
           width: 25%;
@@ -80,9 +74,7 @@ const DetailContainerStyle = styled.section`
     }
     @media screen and (min-width: 375px) and (max-width: 767px) {
       font-size: 1.6rem;
-      .title {
-        font-size: 1.8rem;
-      }
+
       .season-list {
         .item {
           width: 33%;
@@ -91,9 +83,7 @@ const DetailContainerStyle = styled.section`
     }
     @media screen and (max-width: 374px) {
       font-size: 1.4rem;
-      .title {
-        font-size: 1.6rem;
-      }
+
       .season-list {
         .item {
           width: 33%;

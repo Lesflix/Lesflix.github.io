@@ -351,3 +351,28 @@ a:focus {
     list-style-position: inside;
   }
 }
+@media screen and (min-width: 1920px) {
+  .blog-post h3 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 1080px) and (max-width: 1919px) {
+  .blog-post h3 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1079px) {
+  .blog-post h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .blog-post h3 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 374px) {
+  .blog-post h3 {
+    font-size: 1.6rem;
+  }
+}
