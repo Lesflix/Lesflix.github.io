@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://lesflix.github.io/",
+        host: "https://lesflix.github.io",
         sitemap: "https://lesflix.github.io/sitemap/sitemap-index.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
