@@ -5,7 +5,7 @@ module.exports = {
       name: `Lesflix`,
       summary: `Lesflix`,
     },
-    description: `Lesflix`,
+    description: `레플릭스 | 여자사랑녀를 위한 애니, 드라마, 영화를 한눈에 볼 수 있는 사이트`,
     siteUrl: `https://lesflix.github.io`,
     social: {
       twitter: `justbeles`,
