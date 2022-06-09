@@ -1,0 +1,33 @@
+---
+title: 페이킹 잇 시즌 2
+originalTitle: Faking It
+description: 카르마는 에이미의 고백에 혼란스러워하고 에이미는 리암과의 관계에 대해 죄책감을 느낀다.
+genre: drama
+imgname: 페이킹잇시즌2.jpeg
+release: "2014.09.23"
+ott: []
+countries: [미국]
+categories: [코미디, 로맨스, 청소년]
+---
+
+### 시즌 정보
+
+<div class="season-list">
+<div class="item">
+<a href="/drama/페이킹잇시즌1" >
+<img src="/poster/페이킹잇시즌1.jpeg" alt="페이킹잇시즌1 포스터 ">
+시즌 1</a>
+</div>
+
+<div class="item">
+<a href="/drama/페이킹잇시즌2" >
+<img src="/poster/페이킹잇시즌2.jpeg" alt="페이킹잇시즌2 포스터 ">
+시즌 2</a>
+</div>
+
+<div class="item">
+<a href="/drama/페이킹잇시즌3" >
+<img src="/poster/페이킹잇시즌3.jpeg" alt="페이킹잇시즌3 포스터 ">
+시즌 3</a>
+</div>
+</div>
