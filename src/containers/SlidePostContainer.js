@@ -1,8 +1,9 @@
 import styled from "@emotion/styled"
-import React from "react"
+import React, { useState } from "react"
 import Slider from "react-slick"
 import PostCard from "../components/PostCard/PostCard"
 function SlidePostContainer({ postList, title }) {
+  const [selectId, setSelectId] = useState("")
   const settings = {
     dots: false,
     infinite: false,
@@ -45,7 +46,12 @@ function SlidePostContainer({ postList, title }) {
       <strong className="title">{title}</strong>
       <Slider {...settings}>
         {postList.map((post, i) => (
-          <PostCard post={post} isSlide={true} />
+          <PostCard
+            post={post}
+            isSlide={true}
+            selectId={selectId}
+            setSelectId={setSelectId}
+          />
         ))}
       </Slider>
     </StyleSlider>

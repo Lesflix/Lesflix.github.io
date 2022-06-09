@@ -61,11 +61,9 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
-      filter: { frontmatter: { title: { regex: "/^((?!시즌).)*$/" } } }
-      sort: { fields: [frontmatter___release], order: DESC }
-    ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___release], order: DESC }) {
       nodes {
+        id
         excerpt
         fields {
           slug

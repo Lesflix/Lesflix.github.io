@@ -2,7 +2,7 @@ import styled from "@emotion/styled"
 import { navigate } from "gatsby"
 import React, { useState } from "react"
 
-function PostCard({ post, isSlide }) {
+function PostCard({ post, isSlide, selectId, setSelectId }) {
   const [isHover, setIsHover] = useState(false)
   return !isSlide ? (
     <PostCardStyle
@@ -21,14 +21,20 @@ function PostCard({ post, isSlide }) {
     </PostCardStyle>
   ) : (
     <PostCardStyle
-      onMouseOver={() => {
+      onMouseOver={e => {
+        e.stopPropagation()
+        setSelectId(post.id)
         setIsHover(true)
       }}
       onMouseLeave={() => {
         setIsHover(false)
       }}
       onClick={() => {
-        setIsHover(true)
+        if (selectId === post.id) {
+          setIsHover(true)
+        } else {
+          setIsHover(false)
+        }
       }}
     >
       <img
@@ -39,9 +45,13 @@ function PostCard({ post, isSlide }) {
       />
       <div
         className={isHover ? "valid" : "unvalid"}
-        onClick={() => {
-          setIsHover(false)
-          navigate(post.fields.slug)
+        onClick={e => {
+          e.stopPropagation()
+          if (isHover && selectId === post.id) {
+            setTimeout(() => {
+              navigate(post.fields.slug)
+            }, 300)
+          }
         }}
       >
         <img src={require(`../../images/play.svg`).default} alt="이동" />
