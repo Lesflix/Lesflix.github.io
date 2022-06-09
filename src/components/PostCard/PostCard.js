@@ -4,8 +4,9 @@ import React, { useState } from "react"
 
 function PostCard({ post, isSlide }) {
   const [isHover, setIsHover] = useState(false)
-  return isSlide !== "/" ? (
+  return !isSlide ? (
     <PostCardStyle
+      $isSlide={isSlide}
       onClick={() => {
         setIsHover(false)
         navigate(post.fields.slug)
@@ -26,23 +27,22 @@ function PostCard({ post, isSlide }) {
       onMouseLeave={() => {
         setIsHover(false)
       }}
-      onDoubleClick={() => {
-        setIsHover(false)
-        navigate(post.fields.slug)
+      onClick={() => {
+        setIsHover(true)
       }}
     >
       <img
         src={`/poster/${
-          post.frontmatter.poster ? post.frontmatter.poster : "default.png"
+          post.frontmatter.imgname ? post.frontmatter.imgname : "default.png"
         }`}
         alt={post.frontmatter.title}
       />
       <div
+        className={isHover ? "valid" : "unvalid"}
         onClick={() => {
           setIsHover(false)
           navigate(post.fields.slug)
         }}
-        className={isHover ? "valid" : "unvalid"}
       >
         <img src={require(`../../images/play.svg`).default} alt="이동" />
       </div>
@@ -60,13 +60,10 @@ const PostCardStyle = styled.div`
   box-sizing: border-box;
   border-radius: 12px;
   overflow: hidden;
-  cursor: pointer;
+  ${({ $isSlide }) => {
+    if (false === $isSlide) return "cursor: pointer;"
+  }}
   position: relative;
-  &:hover {
-    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-      rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
-  }
   .unvalid {
     display: none;
   }
@@ -79,6 +76,7 @@ const PostCardStyle = styled.div`
     left: 50%;
     margin: calc(-25%);
     background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
   }
   img {
     display: block;
