@@ -8,8 +8,6 @@ function DivContainer({ children }) {
 const DivContainerStyle = styled.div`
   overflow: hidden;
   * {
-    margin: 0;
-    padding: 0;
     color: var(--themFont);
     font-size: 2vw;
   }
