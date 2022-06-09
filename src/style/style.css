@@ -68,6 +68,9 @@
   --themBg: var(--lightBg);
   --themFont: var(--lightFont);
   --boxShadow: var(--lightBoxShadow);
+  --lightOpacity: 0.5;
+  --darkOpacity: 0.2;
+  --bgImgOpacity: var(--lightOpacity);
 }
 
 /* HTML elements */
@@ -101,6 +104,7 @@ body.dark {
   --themFont: var(--darkFont);
   --themBg: var(--darkBg);
   --boxShadow: var(--darkBoxShadow);
+  --bgImgOpacity: var(--darkOpacity);
 }
 footer {
   padding: var(--spacing-6) var(--spacing-0);

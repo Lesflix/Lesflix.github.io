@@ -25,7 +25,7 @@ const PostContentContainerStyle = styled.section`
     background-image: url(${({ $coverImg }) => ($coverImg ? $coverImg : "")});
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.2;
+    opacity: var(--bgImgOpacity);
     position: absolute;
     top: 0px;
     left: 0px;
