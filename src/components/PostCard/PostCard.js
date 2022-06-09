@@ -48,9 +48,7 @@ function PostCard({ post, isSlide, selectId, setSelectId }) {
         onClick={e => {
           e.stopPropagation()
           if (isHover && selectId === post.id) {
-            setTimeout(() => {
-              navigate(post.fields.slug)
-            }, 300)
+            navigate(post.fields.slug)
           }
         }}
       >
