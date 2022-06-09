@@ -20,8 +20,8 @@
   transform: translate(0, -50%);
 
   cursor: pointer;
+  color: transparent !important;
 
-  color: transparent;
   border: none;
   outline: none;
   background: transparent;
@@ -52,8 +52,6 @@
   line-height: 1;
 
   opacity: 0.75;
-  color: white;
-  fill: yellow;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
