@@ -11,7 +11,7 @@ import SlidePostContainer from "../containers/SlidePostContainer"
 const Home = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
   const totalCount = data.allMarkdownRemark.totalCount
-
+  const nowYear = new Date().getFullYear()
   function sinceAndGenreFilter(since, genre) {
     return posts?.filter(post => {
       return (
@@ -40,12 +40,14 @@ const Home = ({ data, location }) => {
           </div>
         </MainMsg>
         <SlidePostContainer
-          postList={sinceAndGenreFilter("2021", "drama")}
+          postList={sinceAndGenreFilter(nowYear - 1, "drama")}
           title={"최신 드라마"}
+          subTitle={`${nowYear - 1}-${nowYear}`}
         />
         <SlidePostContainer
-          postList={sinceAndGenreFilter("2021", "movie")}
+          postList={sinceAndGenreFilter(nowYear - 1, "movie")}
           title={"최신 영화"}
+          subTitle={`${nowYear - 1}-${nowYear}`}
         />
       </DivContainer>
     </Layout>
