@@ -42,10 +42,10 @@ function SlidePostContainer({ postList, title }) {
   }
   return (
     <StyleSlider>
-      <h1>{title}</h1>
+      <strong className="title">{title}</strong>
       <Slider {...settings}>
         {postList.map((post, i) => (
-          <PostCard post={post} />
+          <PostCard post={post} isSlide={true} />
         ))}
       </Slider>
     </StyleSlider>
@@ -56,20 +56,46 @@ export default SlidePostContainer
 
 const StyleSlider = styled.div`
   width: 100%;
-  h1 {
-    text-align: center;
+  margin: 20px 0;
+  .title {
     color: var(--themFont);
   }
   @media screen and (min-width: 1920px) {
     padding: 0 36px;
+    .title {
+      font-size: 37px;
+    }
+    font-size: 35px;
   }
   @media screen and (min-width: 1080px) and (max-width: 1919px) {
     padding: 0 30px;
+    .title {
+      font-size: 30px;
+    }
+    font-size: 28px;
   }
   @media screen and (min-width: 768px) and (max-width: 1079px) {
     padding: 0 22px;
+    .title {
+      font-size: 22px;
+    }
+    font-size: 20px;
   }
-  @media screen and (max-width: 767px) {
+
+  @media screen and (min-width: 375px) and (max-width: 767px) {
     padding: 0 7px;
+
+    .title {
+      font-size: 16px;
+    }
+    font-size: 14px;
+  }
+  @media screen and (max-width: 374px) {
+    padding: 0 7px;
+
+    .title {
+      font-size: 14px;
+    }
+    font-size: 12px;
   }
 `
