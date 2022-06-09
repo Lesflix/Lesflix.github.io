@@ -7,11 +7,19 @@ import HeaderContainer from "../containers/HeaderContainer"
 import PostListContainer from "../containers/PostListContainer"
 import DivContainer from "../components/DivContainer"
 import MainMsg from "../components/MainMsg/MainMsg"
-
+import SlidePostContainer from "../containers/SlidePostContainer"
 const Home = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
   const totalCount = data.allMarkdownRemark.totalCount
 
+  function sinceAndGenreFilter(since, genre) {
+    return posts?.filter(post => {
+      return (
+        Number(post.frontmatter.release.split(".")[0]) >= Number(since) &&
+        post.frontmatter.genre === genre
+      )
+    })
+  }
   if (posts.length === 0) {
     return (
       <Layout location={location}>
@@ -31,7 +39,14 @@ const Home = ({ data, location }) => {
             있어요
           </div>
         </MainMsg>
-        <PostListContainer postList={posts} isSlide={false} />
+        <SlidePostContainer
+          postList={sinceAndGenreFilter("2021", "drama")}
+          title={"최신 드라마"}
+        />
+        <SlidePostContainer
+          postList={sinceAndGenreFilter("2021", "movie")}
+          title={"최신 영화"}
+        />
       </DivContainer>
     </Layout>
   )
