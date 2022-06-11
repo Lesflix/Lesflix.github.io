@@ -1,7 +1,6 @@
 import styled from "@emotion/styled"
 import React from "react"
 import { otts } from "../../const/otts"
-import { navigate } from "gatsby"
 function OttIcon({ ott, title }) {
   const ottName = ott.split("&")[0]
   const ottId = ott.split("&")[2]
@@ -12,7 +11,7 @@ function OttIcon({ ott, title }) {
           <a
             href={`${otts[ottName]?.replace("@id", ottId)}`}
             target="_blank"
-            rel="external"
+            rel="external noreferrer"
           >
             <img src={`/ott-icon/${ottName}.svg`} alt={{ ottName }} />
           </a>
