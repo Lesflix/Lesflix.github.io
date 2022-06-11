@@ -5,12 +5,12 @@ description: 친척들이 장례식에 모인다. 리디아가 여동생과 화�
 genre: drama
 imgname: 원데이앳어타임시즌3.jpeg
 release: "2019.02.08"
-ott: [넷플릭스]
+ott: [넷플릭스&&80095532]
 countries: [미국]
 categories: [코미디]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

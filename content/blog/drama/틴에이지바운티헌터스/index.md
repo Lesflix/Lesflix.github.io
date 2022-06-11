@@ -5,7 +5,7 @@ description: 쌍둥이 자매 스털링과 블레어. 엄숙한 학교에서는 
 genre: drama
 imgname: 틴에이지바운티헌터스.jpeg
 release: "2020.08.14"
-ott: [넷플릭스]
+ott: [넷플릭스&&80244296]
 countries: [미국]
 categories: [청소년, 코미디, 범죄, 액션, 어드벤처]
 ---

@@ -5,21 +5,22 @@ description: 비행기 추락으로 무인도에 좌초된 다양한 배경의 �
 genre: drama
 imgname: 더와일즈시즌1.jpeg
 release: "2020.12.11"
-ott: [아마존프라임비디오]
+ott: [아마존프라임비디오&&0JXO0Y1EY6YW6RWRI3989XLG2B]
 countries: [미국]
 categories: [미스터리, 모험]
+otts: []
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">
-<a href="https://lesflix.github.io/drama/더와일즈시즌1" ><img src="/poster/더와일즈시즌1.jpeg" alt="더와일즈시즌1 포스터 ">
+<a href="/drama/더와일즈시즌1" ><img src="/poster/더와일즈시즌1.jpeg" alt="더와일즈시즌1 포스터 ">
 시즌 1</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/더와일즈시즌2" ><img src="/poster/더와일즈시즌2.jpeg" alt="더와일즈시즌2 포스터 ">
+<a href="/drama/더와일즈시즌2" ><img src="/poster/더와일즈시즌2.jpeg" alt="더와일즈시즌2 포스터 ">
 시즌 2</a>
 </div>
 </div>

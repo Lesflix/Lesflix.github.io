@@ -5,12 +5,12 @@ description: 전직 CIA 출신이지만 정부의 일에 대한 회의심 때문
 genre: drama
 imgname: 퍼슨오브인터레스트시즌1.jpeg
 release: "2011.09.22"
-ott: [왓챠, 웨이브]
+ott: [왓챠&&tR2wZ0P, 웨이브&&vod?programid=C8501_C85000000028]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, 범죄, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

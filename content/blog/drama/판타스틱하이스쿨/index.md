@@ -5,7 +5,7 @@ description: 1996년, 이름도 지루한 마을 보링. 그러나 이곳에도 
 genre: drama
 imgname: 판타스틱하이스쿨.jpeg
 release: "2018.02.16"
-ott: [넷플릭스]
+ott: [넷플릭스&&80117551]
 countries: [미국]
 categories: [로맨스, 코미디, 청소년]
 ---

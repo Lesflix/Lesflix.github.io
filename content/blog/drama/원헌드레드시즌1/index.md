@@ -5,12 +5,12 @@ description: 지구가 핵전쟁으로 황폐해지고 한 세기의 시간이 �
 genre: drama
 imgname: 원헌드레드시즌1.jpeg
 release: "2014.03.19"
-ott: [넷플릭스]
+ott: [넷플릭스&&70283264]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

@@ -5,7 +5,8 @@ description: 10대부터 60대까지 검색을 안 해 본 사람은 없다. 포
 genre: drama
 imgname: 검색어를입력하세요WWW.jpeg
 release: "2019.06.05"
-ott: [넷플릭스, 티빙]
+ott: [넷플릭스&&81205830, 티빙&&P000898139]
 countries: [한국]
 categories: [로맨스, 코미디]
+otts: []
 ---

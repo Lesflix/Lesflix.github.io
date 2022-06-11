@@ -5,7 +5,7 @@ description: 차량이 조의 술집으로 돌진한다.
 genre: drama
 imgname: 스테이션19시즌3.jpeg
 release: "2020.01.23"
-ott: [디즈니플러스]
+ott: [디즈니플러스&&series/station-19/3de52zcRJZGt]
 countries: [미국]
 categories: [액션, 어드벤처]
 ---

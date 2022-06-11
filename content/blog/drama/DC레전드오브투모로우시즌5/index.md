@@ -5,12 +5,12 @@ description: 기이한 신세계에 떨어진 레전드와 파라곤 동료들. 
 genre: drama
 imgname: DC레전드오브투모로우시즌5.jpeg
 release: "2020.01.14"
-ott: [넷플릭스]
+ott: [넷플릭스&&80066080]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, 로맨스, SF, 슈퍼히어로]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

@@ -6,9 +6,10 @@ description: 사랑이 싹트는 계절, 새로 문을 여는 쇼핑몰. 생기 
 genre: drama
 imgname: 기묘한이야기시즌3.jpeg
 release: "2019.07.04"
-ott: [넷플릭스]
+ott: [넷플릭스&&80057281]
 countries: [미국]
 categories: [판타지, SF, 미스터리, 호러]
+otts: []
 ---
 
 ### 시즌 정보

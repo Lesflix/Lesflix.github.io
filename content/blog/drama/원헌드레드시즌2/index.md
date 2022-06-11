@@ -5,12 +5,12 @@ description: 무균실에 갇힌 클라크는 주변 상황을 이해하려고 �
 genre: drama
 imgname: 원헌드레드시즌2.jpeg
 release: "2014.10.22"
-ott: [넷플릭스]
+ott: [넷플릭스&&70283264]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

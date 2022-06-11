@@ -10,7 +10,7 @@ countries: [미국]
 categories: [청소년]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

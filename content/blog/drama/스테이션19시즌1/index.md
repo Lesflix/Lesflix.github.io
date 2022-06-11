@@ -5,7 +5,7 @@ description: 목숨과 마음을 다 바쳐 생명을 구하는 소방관들의 
 genre: drama
 imgname: 스테이션19시즌1.jpeg
 release: "2018.03.22"
-ott: [디즈니플러스]
+ott: [디즈니플러스&&series/station-19/3de52zcRJZGt]
 countries: [미국]
 categories: [액션, 어드벤처]
 ---

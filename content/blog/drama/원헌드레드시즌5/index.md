@@ -5,12 +5,12 @@ description: "황폐해진 지구에서 홀로 생존을 위해 분투하는 클
 genre: drama
 imgname: 원헌드레드시즌5.jpeg
 release: "2018.04.24"
-ott: [넷플릭스]
+ott: [넷플릭스&&70283264]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

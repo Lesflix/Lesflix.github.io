@@ -6,12 +6,13 @@ description: 남북 전쟁의 사상자가 증가하는 가운데, 디킨슨 일
 genre: drama
 imgname: 디킨슨시즌3.jpeg
 release: "2021.11.04"
-ott: [애플티비]
+ott: [애플티비&&]
 countries: [미국]
 categories: [코미디, 로맨스]
+otts: []
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

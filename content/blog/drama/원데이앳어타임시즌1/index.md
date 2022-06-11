@@ -5,12 +5,12 @@ description: 드디어 15번째 생일을 맞는 페넬로페의 딸 엘레나. 
 genre: drama
 imgname: 원데이앳어타임시즌1.jpeg
 release: "2017.01.06"
-ott: [넷플릭스]
+ott: [넷플릭스&&80095532]
 countries: [미국]
 categories: [코미디]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

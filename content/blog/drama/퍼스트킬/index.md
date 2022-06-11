@@ -5,7 +5,7 @@ description: 10대 소녀 줄리엣과 칼리오페. 둘이 사랑에 빠지는 
 genre: drama
 imgname: 퍼스트킬.jpeg
 release: "2022.06.10"
-ott: [넷플릭스]
+ott: [넷플릭스&&81213653]
 countries: [미국]
 categories: [로맨스, 판타지, 미스터리]
 ---

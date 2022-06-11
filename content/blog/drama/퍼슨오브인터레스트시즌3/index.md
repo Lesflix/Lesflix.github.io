@@ -5,12 +5,12 @@ description: 그 기계가 어디로 이동했는지에 대해 아무도 알지 
 genre: drama
 imgname: 퍼슨오브인터레스트시즌3.jpeg
 release: "2013.09.24"
-ott: [왓챠, 웨이브]
+ott: [왓챠&&tEmzN8R, 웨이브&&vod?programid=C8501_C85000000030]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, 범죄, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

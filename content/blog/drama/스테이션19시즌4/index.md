@@ -5,7 +5,7 @@ description: 코로나 19가 시애틀을 덮친다.
 genre: drama
 imgname: 스테이션19시즌4.jpeg
 release: "2020.11.12"
-ott: [디즈니플러스]
+ott: [디즈니플러스&&series/station-19/3de52zcRJZGt]
 countries: [미국]
 categories: [액션, 어드벤처]
 ---

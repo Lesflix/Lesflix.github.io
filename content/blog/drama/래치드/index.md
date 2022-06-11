@@ -5,7 +5,8 @@ description: 1947년, 실험적인 정신병원에 새로운 간호사가 들어
 genre: drama
 imgname: 래치드.jpeg
 release: "2020.09.18"
-ott: [넷플릭스]
+ott: [넷플릭스&&80213445]
 countries: [미국]
 categories: [스릴러, 범죄, 공포]
+otts: []
 ---

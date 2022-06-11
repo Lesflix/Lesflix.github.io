@@ -5,22 +5,22 @@ description: 이번엔 할리우드다. 기괴한 살인 사건을 맡아 LA로 
 genre: drama
 imgname: 에이전트카터시즌2.jpeg
 release: "2016.01.19"
-ott: [디즈니플러스]
+ott: [디즈니플러스&&series/agent-carter/3rh3uclvsNsT]
 countries: [미국]
 categories: [SF, 액션, 어드벤처, 스파이, 첩보]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">
-<a href="https://lesflix.github.io/drama/에이전트카터시즌1" >
+<a href="/drama/에이전트카터시즌1" >
 <img src="/poster/에이전트카터시즌1.jpeg" alt="에이전트카터시즌1 포스터 ">
 시즌 1</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/에이전트카터시즌2" >
+<a href="/drama/에이전트카터시즌2" >
 <img src="/poster/에이전트카터시즌2.jpeg" alt="에이전트카터시즌2 포스터 ">
 시즌 2</a>
 </div>

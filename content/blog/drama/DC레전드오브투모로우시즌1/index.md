@@ -5,12 +5,12 @@ description: 미래에서 온 타임 마스터가 유명 슈퍼히어로와 악�
 genre: drama
 imgname: DC레전드오브투모로우시즌1.jpeg
 release: "2016.01.21"
-ott: [넷플릭스]
+ott: [넷플릭스&&80066080]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, 로맨스, SF, 슈퍼히어로]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

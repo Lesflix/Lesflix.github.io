@@ -6,9 +6,10 @@ description: 봄 방학을 앞둔 호킨스에 또다시 어둠이 덮쳐온다.
 genre: drama
 imgname: 기묘한이야기시즌4.jpeg
 release: "2022.05.27"
-ott: [넷플릭스]
+ott: [넷플릭스&&80057281]
 countries: [미국]
 categories: [판타지, SF, 미스터리, 호러]
+otts: []
 ---
 
 ### 시즌 정보

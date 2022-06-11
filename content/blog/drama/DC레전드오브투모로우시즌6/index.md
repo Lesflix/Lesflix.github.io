@@ -10,7 +10,7 @@ countries: [미국]
 categories: [액션, 어드벤처, 판타지, 로맨스, SF, 슈퍼히어로]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

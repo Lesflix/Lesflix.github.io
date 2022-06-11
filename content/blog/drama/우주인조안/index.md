@@ -5,7 +5,7 @@ description: 미세먼지로 뒤덮인 세상, 태어날 때 고가의 항체주
 genre: drama
 imgname: 우주인조안.jpeg
 release: "2020.07.10"
-ott: [웨이브]
+ott: [웨이브&&vod?contentid=C9901_C99000000030_01_0008.1]
 countries: [한국]
 categories: [SF]
 ---

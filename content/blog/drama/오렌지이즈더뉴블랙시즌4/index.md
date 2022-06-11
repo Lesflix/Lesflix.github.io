@@ -5,52 +5,52 @@ description: 한꺼번에 밀려 들어온 신참 떼거리로 인해 교도소 
 genre: drama
 imgname: 오렌지이즈더뉴블랙시즌4.jpeg
 release: "2016.06.17"
-ott: [넷플릭스]
+ott: [넷플릭스&&70242311]
 countries: [미국]
 categories: [코미디]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">
-<a href="https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌1" >
+<a href="/drama/오렌지이즈더뉴블랙시즌1" >
 <img src="/poster/오렌지이즈더뉴블랙시즌1.jpeg" alt="오렌지이즈더뉴블랙시즌1 포스터 ">
 시즌 1</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌2" >
+<a href="/drama/오렌지이즈더뉴블랙시즌2" >
 <img src="/poster/오렌지이즈더뉴블랙시즌2.jpeg" alt="오렌지이즈더뉴블랙시즌2 포스터 ">
 시즌 2</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌3" >
+<a href="/drama/오렌지이즈더뉴블랙시즌3" >
 <img src="/poster/오렌지이즈더뉴블랙시즌3.jpeg" alt="오렌지이즈더뉴블랙시즌3 포스터 ">
 시즌 3</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌4" >
+<a href="/drama/오렌지이즈더뉴블랙시즌4" >
 <img src="/poster/오렌지이즈더뉴블랙시즌4.jpeg" alt="오렌지이즈더뉴블랙시즌4 포스터 ">
 시즌 4</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌5" >
+<a href="/drama/오렌지이즈더뉴블랙시즌5" >
 <img src="/poster/오렌지이즈더뉴블랙시즌5.jpeg" alt="오렌지이즈더뉴블랙시즌5 포스터 ">
 시즌 5</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌6" >
+<a href="/drama/오렌지이즈더뉴블랙시즌6" >
 <img src="/poster/오렌지이즈더뉴블랙시즌6.jpeg" alt="오렌지이즈더뉴블랙시즌6 포스터 ">
 시즌 6</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오렌지이즈더뉴블랙시즌7" >
+<a href="/drama/오렌지이즈더뉴블랙시즌7" >
 <img src="/poster/오렌지이즈더뉴블랙시즌7.jpeg" alt="오렌지이즈더뉴블랙시즌7 포스터 ">
 시즌 7</a>
 </div>

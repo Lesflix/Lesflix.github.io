@@ -5,12 +5,12 @@ description: "완헤다를 찾아라! 현상금이 내걸린 클라크를 구하
 genre: drama
 imgname: 원헌드레드시즌3.jpeg
 release: "2016.01.21"
-ott: [넷플릭스]
+ott: [넷플릭스&&70283264]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

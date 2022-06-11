@@ -5,12 +5,12 @@ description: 마약 중독으로 재활시설에 입소했던 루는 새 학기�
 genre: drama
 imgname: 유포리아시즌1.jpeg
 release: "2019.06.16"
-ott: [웨이브]
+ott: [웨이브&&vod?programid=F3501_F35000000044]
 countries: [미국]
 categories: [청소년]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

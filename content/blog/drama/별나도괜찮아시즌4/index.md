@@ -5,33 +5,33 @@ description: 케이시와 샘이 둥지를 떠나려 한다. 그들만의 인생
 genre: drama
 imgname: 별나도괜찮아시즌4.jpeg
 release: "2021.07.09"
-ott: [넷플릭스]
+ott: [넷플릭스&&80117540]
 countries: [미국]
 categories: [코미디, 청소년]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">
-<a href="https://lesflix.github.io/drama/별나도괜찮아시즌1" >
+<a href="/drama/별나도괜찮아시즌1" >
 <img src="/poster/별나도괜찮아시즌1.jpeg" alt="별나도괜찮아시즌1 포스터 ">
 시즌 1</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/별나도괜찮아시즌2" >
+<a href="/drama/별나도괜찮아시즌2" >
 <img src="/poster/별나도괜찮아시즌2.jpeg" alt="별나도괜찮아시즌2 포스터 ">
 시즌 2</a>
 </div>
 <div class="item">
-<a href="https://lesflix.github.io/drama/별나도괜찮아시즌3" >
+<a href="/drama/별나도괜찮아시즌3" >
 <img src="/poster/별나도괜찮아시즌3.jpeg" alt="별나도괜찮아시즌3 포스터 ">
 시즌 3</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/별나도괜찮아시즌4" >
+<a href="/drama/별나도괜찮아시즌4" >
 <img src="/poster/별나도괜찮아시즌4.jpeg" alt="별나도괜찮아시즌4 포스터 ">
 시즌 4</a>
 </div>

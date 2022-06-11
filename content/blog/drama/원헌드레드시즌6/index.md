@@ -5,12 +5,12 @@ description: "한 세기 동안 냉동 상태로 잠들어 있던 생존자들. 
 genre: drama
 imgname: 원헌드레드시즌6.jpeg
 release: "2019.04.30"
-ott: [넷플릭스]
+ott: [넷플릭스&&70283264]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

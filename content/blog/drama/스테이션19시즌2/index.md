@@ -5,7 +5,7 @@ description: 대원들은 계속해서 불길과 싸운다
 genre: drama
 imgname: 스테이션19시즌2.jpeg
 release: "2018.10.04"
-ott: [디즈니플러스]
+ott: [디즈니플러스&&series/station-19/3de52zcRJZGt]
 countries: [미국]
 categories: [액션, 어드벤처]
 ---

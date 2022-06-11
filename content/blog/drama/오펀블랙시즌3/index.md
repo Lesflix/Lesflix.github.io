@@ -10,35 +10,35 @@ countries: [미국]
 categories: [판타지, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">
-<a href="https://lesflix.github.io/drama/오펀블랙시즌1" >
+<a href="/drama/오펀블랙시즌1" >
 <img src="/poster/오펀블랙시즌1.jpeg" alt="오펀블랙시즌1 포스터 ">
 시즌 1</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오펀블랙시즌2" >
+<a href="/drama/오펀블랙시즌2" >
 <img src="/poster/오펀블랙시즌2.jpeg" alt="오펀블랙시즌2 포스터 ">
 시즌 2</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오펀블랙시즌3" >
+<a href="/drama/오펀블랙시즌3" >
 <img src="/poster/오펀블랙시즌3.jpeg" alt="오펀블랙시즌3 포스터 ">
 시즌 3</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오펀블랙시즌4" >
+<a href="/drama/오펀블랙시즌4" >
 <img src="/poster/오펀블랙시즌4.jpeg" alt="오펀블랙시즌4 포스터 ">
 시즌 4</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/오펀블랙시즌5" >
+<a href="/drama/오펀블랙시즌5" >
 <img src="/poster/오펀블랙시즌5.jpeg" alt="오펀블랙시즌5 포스터 ">
 시즌 5</a>
 </div>

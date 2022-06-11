@@ -5,12 +5,12 @@ description: "아즈게다의 위협을 받게 된 스카이크루. 클라크는
 genre: drama
 imgname: 원헌드레드시즌4.jpeg
 release: "2017.02.01"
-ott: [넷플릭스]
+ott: [넷플릭스&&70283264]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

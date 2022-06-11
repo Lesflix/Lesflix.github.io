@@ -5,7 +5,7 @@ description: 죽음에서 되살아난 소녀 에이바. 신비한 능력을 깨
 genre: drama
 imgname: 워리어넌신의뜻대로시즌1.jpeg
 release: "2020.07.02"
-ott: [넷플릭스]
+ott: [넷플릭스&&80242724]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, SF]
 ---

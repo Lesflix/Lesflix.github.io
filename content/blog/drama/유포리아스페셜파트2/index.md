@@ -5,12 +5,12 @@ description: 줄스는 상담가와 이야기를 나누며 지난 6개월을 되
 genre: drama
 imgname: 유포리아스페셜파트2.jpeg
 release: "2021.01.24"
-ott: [웨이브]
+ott: [웨이브&&vod?programid=F3501_F35000000110]
 countries: [미국]
 categories: [청소년]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

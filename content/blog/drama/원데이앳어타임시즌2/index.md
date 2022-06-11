@@ -5,12 +5,12 @@ description: "알렉스는 사춘기? 페넬로페는 반항아로 변한 아들
 genre: drama
 imgname: 원데이앳어타임시즌2.jpeg
 release: "2018.01.26"
-ott: [넷플릭스]
+ott: [넷플릭스&&80095532]
 countries: [미국]
 categories: [코미디]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

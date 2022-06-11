@@ -5,12 +5,12 @@ description: 루트에게 납치당한 해롤드는 기계를 넘길 것을 종�
 genre: drama
 imgname: 퍼슨오브인터레스트시즌2.jpeg
 release: "2012.09.27"
-ott: [왓챠, 웨이브]
+ott: [왓챠&&tRbYAzE, 웨이브&&vod?programid=C8501_C85000000029]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, 범죄, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

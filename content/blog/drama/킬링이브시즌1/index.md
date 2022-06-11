@@ -5,34 +5,34 @@ description: 일도 사랑도 권태에 빠진 여자가 사이코패스 킬러�
 genre: drama
 imgname: 킬링이브시즌1.jpeg
 release: "2018.04.08"
-ott: [왓챠]
+ott: [왓챠&&tRBxA7l]
 countries: [영국]
 categories: [범죄]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">
-<a href="https://lesflix.github.io/drama/킬링이브시즌1" >
+<a href="/drama/킬링이브시즌1" >
 <img src="/poster/킬링이브시즌1.jpeg" alt="킬링이브시즌1 포스터 ">
 시즌 1</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/킬링이브시즌2" >
+<a href="/drama/킬링이브시즌2" >
 <img src="/poster/킬링이브시즌2.jpeg" alt="킬링이브시즌2 포스터 ">
 시즌 2</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/킬링이브시즌3" >
+<a href="/drama/킬링이브시즌3" >
 <img src="/poster/킬링이브시즌3.jpeg" alt="킬링이브시즌3 포스터 ">
 시즌 3</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/drama/킬링이브시즌4" >
+<a href="/drama/킬링이브시즌4" >
 <img src="/poster/킬링이브시즌4.jpeg" alt="킬링이브시즌4 포스터 ">
 시즌 4</a>
 </div>

@@ -5,12 +5,12 @@ description: 루는 알리와 만나 자신의 마약 복용 및 줄스와 관�
 genre: drama
 imgname: 유포리아스페셜파트1.jpeg
 release: "2020.12.06"
-ott: [웨이브]
+ott: [웨이브&&vod?programid=F3501_F35000000109]
 countries: [미국]
 categories: [청소년]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">

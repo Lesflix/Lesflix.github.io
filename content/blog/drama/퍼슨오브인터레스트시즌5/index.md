@@ -5,12 +5,12 @@ description: 라이오넬은 도미닉의 죽음과 관련하여 조사를 받�
 genre: drama
 imgname: 퍼슨오브인터레스트시즌5.jpeg
 release: "2016.05.03"
-ott: [왓챠, 웨이브]
+ott: [왓챠&&tEqbLpR, 웨이브&&vod?programid=C8501_C85000000032]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, 범죄, SF]
 ---
 
-<div class="title bold">시즌 정보</div>
+### 시즌 정보
 
 <div class="season-list">
 <div class="item">
