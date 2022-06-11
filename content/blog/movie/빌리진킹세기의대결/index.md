@@ -5,7 +5,12 @@ description: 엠마 스톤과 스티브 카렐은 여성 챔피언 빌리 진 �
 genre: movie
 imgname: 빌리진킹세기의대결.jpeg
 release: "2017.09.22"
-ott: [티빙&유료, 디즈니플러스, 웨이브&유료]
+ott:
+  [
+    디즈니플러스&&movies/battle-of-the-sexes/5WdXSyp7j6Tr,
+    티빙&유료&M000155034,
+    웨이브&유료&movie?movieid=MV_CH01_FX0000011455,
+  ]
 countries: [미국, 영국]
 categories: [코미디, 역사]
 ---

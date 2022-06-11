@@ -5,7 +5,12 @@ description: 싱크로나이즈드 선수 ‘플로리안’을 본 순간 ‘�
 genre: movie
 imgname: 워터릴리스.jpeg
 release: "2007.05.17"
-ott: [티빙&유료, 웨이브&유료, 왓챠]
+ott:
+  [
+    왓챠&&mWqv6lO,
+    티빙&유료&M000329133,
+    웨이브&유료&movie?movieid=MV_CK01_TCO000012531,
+  ]
 countries: [프랑스]
 categories: [로맨스]
 ---

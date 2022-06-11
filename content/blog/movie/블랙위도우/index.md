@@ -5,7 +5,12 @@ description: 일명 블랙 위도우로 알려진 나타샤 로마노프는 자�
 genre: movie
 imgname: 블랙위도우.jpeg
 release: "2021.07.07"
-ott: [디즈니플러스, 티빙&유료, 웨이브&유료]
+ott:
+  [
+    디즈니플러스&&movies/black-widow/3VfTap90rwZC,
+    티빙&유료&M000362639,
+    웨이브&유료&movie?movieid=MV_CA01_DY0000011555,
+  ]
 countries: [미국]
 categories: [액션, 슈퍼히어로, 어드벤처, 스파이, 첩보, SF]
 ---

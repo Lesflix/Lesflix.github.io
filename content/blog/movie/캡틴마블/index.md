@@ -5,7 +5,12 @@ description: 외계 크리 문명의 수도 할리, 캐롤 댄버스은 압도�
 genre: movie
 imgname: 캡틴마블.jpeg
 release: "2019.03.06"
-ott: [디즈니플러스, 티빙&유료, 웨이브&유료]
+ott:
+  [
+    디즈니플러스&&movies/marvel-studios-captain-marvel/38xJGlLAQy9a,
+    티빙&유료&M000233233,
+    웨이브&유료&movie?movieid=MV_CA01_DY0000011478,
+  ]
 countries: [미국]
 categories: [액션, 어드벤처, SF, 슈퍼히어로]
 ---

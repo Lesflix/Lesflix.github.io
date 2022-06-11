@@ -15,7 +15,7 @@ countries: [미국]
 categories: [코미디, 액션, 스릴러, 범죄]
 ---
 
-<div class="title bold">시리즈 정보</div>
+### 시리즈 정보
 
 <div class="season-list">
 <div class="item">

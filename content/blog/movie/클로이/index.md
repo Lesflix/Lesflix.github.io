@@ -5,7 +5,13 @@ description: 지독하게 빠져든다... 천사보다 아름다운 악마 그�
 genre: movie
 imgname: 클로이.jpeg
 release: "2009.03.25"
-ott: [넷플릭스, 왓챠, 웨이브]
+ott:
+  [
+    넷플릭스&&70124183,
+    티빙&&M000333333,
+    왓챠&&mOA9xlO,
+    웨이브&&movie?movieid=MV_CX01_CX0000011472,
+  ]
 countries: [미국, 캐나다, 프랑스]
 categories: [미스터리, 스릴러]
 ---

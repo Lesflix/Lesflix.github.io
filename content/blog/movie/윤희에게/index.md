@@ -5,7 +5,13 @@ description: 갓 수능을 마친 고등학교 3학년 새봄은 우편함에서
 genre: movie
 imgname: 윤희에게.jpeg
 release: "2019.11.14"
-ott: [넷플릭스, 웨이브, 티빙, 왓챠]
+ott:
+  [
+    넷플릭스&&81249832,
+    웨이브&&movie?movieid=MV_C901_SG0000124324,
+    티빙&&M000273133,
+    왓챠&&mdR4eyv,
+  ]
 countries: [한국]
 categories: [로맨스]
 ---

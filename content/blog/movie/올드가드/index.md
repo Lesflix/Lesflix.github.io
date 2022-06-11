@@ -5,7 +5,7 @@ description: 수백 년 동안 어둠 속에서 싸워왔다. 인류를 지키�
 genre: movie
 imgname: 올드가드.jpeg
 release: "2020.07.10"
-ott: [넷플릭스]
+ott: [넷플릭스&&81038963]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, 슈퍼히어로]
 ---

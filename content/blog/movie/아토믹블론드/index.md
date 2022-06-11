@@ -5,7 +5,12 @@ description: 냉전 시대 스파이 전쟁의 주 무대가 된 베를린, MI6�
 genre: movie
 imgname: 아토믹블론드.jpeg
 release: "2017.07.26"
-ott: [티빙, 왓챠, 웨이브&유료]
+ott:
+  [
+    티빙&&M000150260,
+    왓챠&&mW93v7e,
+    웨이브&유료&movie?movieid=MV_EN01_EN000000472,
+  ]
 countries: [미국, 독일, 스웨덴]
 categories: [액션, 스릴러]
 ---

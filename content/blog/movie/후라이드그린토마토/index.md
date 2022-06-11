@@ -5,7 +5,7 @@ description: 항상 자신을 무시하는 남편과 양로원에 몸져 누워�
 genre: movie
 imgname: 후라이드그린토마토.jpeg
 release: "1991.12.27"
-ott: [웨이브, 왓챠]
+ott: [웨이브&&movie?movieid=MV_C901_SG0000123737, 왓챠&&mdEwzEW]
 countries: [미국]
 categories: [코미디]
 ---

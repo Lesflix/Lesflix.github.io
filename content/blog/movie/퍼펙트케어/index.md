@@ -5,7 +5,12 @@ description: 은퇴자들의 건강과 재산을 관리하는 CEO 말라, 알고
 genre: movie
 imgname: 퍼펙트케어.jpeg
 release: "2021.02.19"
-ott: [넷플릭스, 티빙&유료, 웨이브&유료]
+ott:
+  [
+    넷플릭스&&81350429,
+    티빙&유료&M000359277,
+    웨이브&유료&movie?movieid=MV_CK01_TCO000012682,
+  ]
 countries: [영국]
 categories: [범죄, 스릴러, 코미디]
 ---

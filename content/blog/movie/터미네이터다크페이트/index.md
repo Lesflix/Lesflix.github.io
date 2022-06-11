@@ -5,7 +5,12 @@ description: 심판의 날 그 후, 뒤바뀐 미래. 새로운 인류의 희망
 genre: movie
 imgname: 터미네이터다크페이트.jpeg
 release: "2019.10.23"
-ott: [티빙&유료, 웨이브&유료, 디즈니플러스]
+ott:
+  [
+    디즈니플러스&&movies/terminator-dark-fate/5ACMNhUVNDAq,
+    티빙&유료&M000278733,
+    웨이브&유료&movie?movieid=MV_CH01_FX0000011579,
+  ]
 countries: [미국]
 categories: [액션, 어드벤처, SF]
 ---

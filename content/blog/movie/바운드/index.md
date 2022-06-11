@@ -10,6 +10,7 @@ ott:
     왓챠&&mWzxpVd,
     웨이브&&movie?movieid=MV_CL01_JY0000012099,
     티빙&유료&M000325535,
+    애플티비&유료&,
   ]
 countries: [미국]
 categories: [로맨스, 스릴러, 범죄]

@@ -5,7 +5,12 @@ description: 치명적 섹시함으로 모든 남자들의 시선을 한 몸에 
 genre: movie
 imgname: 죽여줘제니퍼.jpeg
 release: "2009.09.18"
-ott: [웨이브&유료, 디즈니플러스, 티빙&유료]
+ott:
+  [
+    디즈니플러스&&movies/jennifers-body/7R4j4sTgafrT,
+    티빙&유료&M000115502,
+    웨이브&유료&movie?movieid=MV_CH01_FX0000011189,
+  ]
 countries: [미국, 캐나다]
 categories: [코미디, 공포]
 ---

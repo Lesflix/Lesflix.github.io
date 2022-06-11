@@ -5,28 +5,28 @@ description: 1666년 속의 디나는 세라 피어에 얽힌 충격적 진실�
 genre: movie
 imgname: 피어스트리트파트31666.jpeg
 release: "2021.07.14"
-ott: [넷플릭스]
+ott: [넷플릭스&&81334750]
 countries: [미국]
 categories: [공포, 미스터리, 호러]
 ---
 
-<div class="title bold">시리즈 정보</div>
+### 시리즈 정보
 
 <div class="season-list">
 <div class="item">
-<a href="https://lesflix.github.io/movie/피어스트리트파트1-1994" >
+<a href="/movie/피어스트리트파트1-1994" >
 <img src="/poster/피어스트리트파트11994.jpeg" alt="피어스트리트파트1 1994 포스터 ">
 파트 1</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/movie/피어스트리트파트2-1978" >
+<a href="/movie/피어스트리트파트2-1978" >
 <img src="/poster/피어스트리트파트21978.jpeg" alt="피어스트리트파트2 1978 포스터 ">
 파트 2</a>
 </div>
 
 <div class="item">
-<a href="https://lesflix.github.io/movie/피어스트리트파트3-1666" >
+<a href="/movie/피어스트리트파트3-1666" >
 <img src="/poster/피어스트리트파트31666.jpeg" alt="피어스트리트파트3 1666 포스터 ">
 파트 3</a>
 </div>

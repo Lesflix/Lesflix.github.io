@@ -5,7 +5,13 @@ description: 1950년대 뉴욕, 맨해튼 백화점 점원인 테레즈와 손�
 genre: movie
 imgname: 캐롤.jpeg
 release: "2015.11.20"
-ott: [넷플릭스, 왓챠, 티빙&유료, 웨이브&유료]
+ott:
+  [
+    넷플릭스&&80058700,
+    왓챠&&mO2lEQ5,
+    티빙&유료&M000145933,
+    웨이브&유료&movie?movieid=MV_CW01_CW0000011111,
+  ]
 countries: [영국, 미국, 호주]
 categories: [로맨스]
 ---

@@ -6,7 +6,7 @@ description: 모두가 손꼽아 기다리는 크리스마스를 싫어하는 �
 genre: movie
 imgname: 크리스마스에는행복이.jpeg
 release: "2020.11.26"
-ott: [티빙&유료, 웨이브&유료]
+ott: [티빙&유료&M000350533, 웨이브&유료&movie?movieid=MV_CF01_SY0000011652]
 countries: [미국]
 categories: [코미디, 로맨스]
 ---
