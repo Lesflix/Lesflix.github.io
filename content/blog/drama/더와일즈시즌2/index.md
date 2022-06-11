@@ -5,7 +5,7 @@ description: 무인도에 좌초해 생존을 위한 사투를 벌인 십 대 �
 genre: drama
 imgname: 더와일즈시즌2.jpeg
 release: "2022.05.05"
-ott: [아마존프라임비디오&&0N0H2XGD2URQNISM5GSR7XLB1Q]
+ott: [아마존프라임&&0N0H2XGD2URQNISM5GSR7XLB1Q]
 countries: [미국]
 categories: [미스터리, 모험]
 otts: []

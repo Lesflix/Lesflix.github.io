@@ -5,7 +5,7 @@ description: 비행기 추락으로 무인도에 좌초된 다양한 배경의 �
 genre: drama
 imgname: 더와일즈시즌1.jpeg
 release: "2020.12.11"
-ott: [아마존프라임비디오&&0JXO0Y1EY6YW6RWRI3989XLG2B]
+ott: [아마존프라임&&0JXO0Y1EY6YW6RWRI3989XLG2B]
 countries: [미국]
 categories: [미스터리, 모험]
 otts: []
