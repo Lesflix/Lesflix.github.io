@@ -2,6 +2,7 @@ import styled from "@emotion/styled"
 import React, { useState } from "react"
 import Slider from "react-slick"
 import PostCard from "../components/PostCard/PostCard"
+import { v1 as uuid } from "uuid"
 function SlidePostContainer({ postList, title, subTitle }) {
   const [selectId, setSelectId] = useState("")
   const settings = {
@@ -48,6 +49,7 @@ function SlidePostContainer({ postList, title, subTitle }) {
       <Slider {...settings}>
         {postList.map((post, i) => (
           <PostCard
+            key={uuid()}
             post={post}
             isSlide={true}
             selectId={selectId}
