@@ -6,7 +6,7 @@ function OttListContainer({ ottList, title }) {
   return (
     <OttListStyle>
       {ottList.map(ott => (
-        <OttIcon key={uuid} title={title} ott={ott} />
+        <OttIcon key={uuid()} title={title} ott={ott} />
       ))}
     </OttListStyle>
   )
