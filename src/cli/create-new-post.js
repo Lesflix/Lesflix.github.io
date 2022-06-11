@@ -36,7 +36,9 @@ const findGenres = async () => {
   markdownFiles
     .map(file => fs.readFileSync(file, UTF_8))
     .forEach(str => {
-      allGenres.add(matter(str).data.genre)
+      if (matter(str).data.genre) {
+        allGenres.add(matter(str).data.genre)
+      }
     })
   return [...allGenres]
 }
@@ -44,7 +46,6 @@ const findGenres = async () => {
 // Genres  선택 가능
 const getGenres = async () => {
   const genreList = await findGenres()
-
   if (0 < genreList.length) {
     const { answer } = await inquirer.prompt([
       {
@@ -95,7 +96,10 @@ const findOtts = async () => {
   markdownFiles
     .map(file => fs.readFileSync(file, UTF_8))
     .forEach(str => {
-      matter(str).data.ott?.forEach(arr => allOtts.add(arr))
+      matter(str).data.ott?.forEach(arr => {
+        const str = arr.split("&").slice(0, 2).join("&") + "&"
+        allOtts.add(str)
+      })
     })
 
   return [...allOtts]
@@ -152,7 +156,6 @@ const refineContents = rawContents => {
 
 // 터미널에서 node cli/create-new-post 실행
 module.exports = (async function () {
-  const date = new Date().toISOString()
   const title = await getTitle()
   const genre = await getGenres()
   const ottList = await getOtts()
