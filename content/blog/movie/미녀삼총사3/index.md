@@ -5,7 +5,12 @@ description: 베일에 싸인 세계적인 사설 첩보 기관 타운젠드 에
 genre: movie
 imgname: 미녀삼총사3.jpeg
 release: "2019.11.14"
-ott: [티빙&유료, 왓챠, 웨이브&유료]
+ott:
+  [
+    왓챠&&mWqw7Rr,
+    티빙&유료&M000287735,
+    웨이브&유료&movie?movieid=MV_CF01_SY0000011602,
+  ]
 countries: [미국, 독일]
 categories: [코미디, 액션, 스릴러, 범죄]
 ---

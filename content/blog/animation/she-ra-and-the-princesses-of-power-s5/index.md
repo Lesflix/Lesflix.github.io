@@ -5,7 +5,7 @@ description: 호르드 프라임의 장악력이 더욱 커진다. 계속 어둠
 genre: animation
 imgname: 우주의전사쉬라시즌5.jpeg
 release: "2020.05.15"
-ott: [넷플릭스]
+ott: [넷플릭스&&80179862]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지]
 ---

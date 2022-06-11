@@ -5,7 +5,7 @@ description: 헐리웃 스타의 꿈을 안고 LA에 온 베티(나오미 왓츠
 genre: movie
 imgname: 멀홀랜드드라이브.jpeg
 release: "2001.06.06"
-ott: [티빙&유료, 웨이브&유료]
+ott: [티빙&유료&M000357535, 웨이브&유료&movie?movieid=MV_CJ01_CA0000011774]
 countries: [프랑스, 미국]
 categories: [스릴러, 미스터리]
 ---

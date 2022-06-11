@@ -5,7 +5,13 @@ description: 고등학생인 커로우와 위에전은 자매처럼 지내는 �
 genre: movie
 imgname: 남색대문.jpeg
 release: "2002.09.27"
-ott: [넷플릭스, 티빙, 왓챠, 웨이브]
+ott:
+  [
+    넷플릭스&&60032555,
+    왓챠&&mWwBm45,
+    웨이브&&movie?movieid=MV_CJ01_CA0000011847,
+    티빙&유료&M000363056,
+  ]
 countries: [대만]
 categories: [로맨스]
 ---

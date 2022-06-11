@@ -5,7 +5,12 @@ description: 어린 뮤턴트들을 수용하는 멀버리 병원에 가장 마�
 genre: movie
 imgname: 뉴뮤턴트.jpeg
 release: "2020.08.26"
-ott: [디즈니플러스, 티빙&유료, 웨이브&유료]
+ott:
+  [
+    디즈니플러스&&movies/the-new-mutants/5aewWrD6YRoO,
+    티빙&유료&M000344133,
+    웨이브&유료&movie?movieid=MV_CH01_FX0000011594,
+  ]
 countries: [미국]
 categories: [액션, 공포, SF, 어드벤처, 스릴러, 슈퍼히어로]
 ---

@@ -5,7 +5,13 @@ description: 생일날 문자 이별 통보도 모자라 엿 같은 미션을 �
 genre: movie
 imgname: 나를차버린스파이.jpeg
 release: "2018.08.02"
-ott: [넷플릭스, 티빙, 왓챠, 웨이브]
+ott:
+  [
+    넷플릭스&&80232040,
+    왓챠&&mObGV9n,
+    티빙&&M000203633,
+    웨이브&&movie?movieid=MV_C901_SG0000112906,
+  ]
 countries: [캐나다, 미국]
 categories: [액션, 코미디, 스파이, 첩보]
 ---

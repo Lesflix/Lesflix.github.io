@@ -5,7 +5,13 @@ description: 대학시절 절친했던 다섯 명의 친구들이 10년 만에 �
 genre: movie
 imgname: 레이디스나잇.jpeg
 release: "2017.06.15"
-ott: [넷플릭스, 티빙&유료, 왓챠, 웨이브&유료]
+ott:
+  [
+    넷플릭스&&80163052,
+    왓챠&&mdEwvym,
+    티빙&유료&M000149721,
+    웨이브&유료&movie?movieid=MV_CF01_SY0000011496,
+  ]
 countries: [미국]
 categories: [코미디]
 ---

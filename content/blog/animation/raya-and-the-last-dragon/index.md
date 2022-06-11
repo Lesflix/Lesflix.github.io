@@ -5,7 +5,12 @@ description: 인간과 드래곤이 평화롭게 공존하던 신비의 땅, 쿠
 genre: animation
 imgname: 라야와마지막드래곤.jpeg
 release: "2021.03.03"
-ott: [디즈니플러스, 티빙&유료, 웨이브&유료]
+ott:
+  [
+    디즈니플러스&&movies/raya-and-the-last-dragon/6dyengbx3iYK,
+    티빙&유료&M000360166,
+    웨이브&유료&movie?movieid=MV_CA01_DY0000011545,
+  ]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지]
 ---

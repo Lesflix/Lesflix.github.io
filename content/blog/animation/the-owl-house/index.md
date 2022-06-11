@@ -5,7 +5,8 @@ description: 판타지 세상에 심취해 있는 소녀 루스, 픽션과 현�
 genre: animation
 imgname: "아울하우스.jpeg"
 release: "2020.01.10"
-ott: [디즈니플러스]
+ott: [디즈니플러스&&series/the-owl-house/4cOTrEy0YyaX]
+otts: []
 countries: [미국]
 categories: [코미디, 액션, 어드벤처, 판타지]
 ---

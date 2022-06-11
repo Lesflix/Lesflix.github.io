@@ -5,7 +5,12 @@ description: 미녀 삼총사 나탈리(카메론 디아즈), 딜런(드류 베�
 genre: movie
 imgname: 미녀삼총사.jpeg
 release: "2000.11.02"
-ott: [티빙&유료, 왓챠, 웨이브]
+ott:
+  [
+    왓챠&&mgOAJPd,
+    웨이브&&movie?movieid=MV_CF01_SY0000011258,
+    티빙&유료&M000145984,
+  ]
 countries: [미국, 독일]
 categories: [코미디, 액션, 스릴러, 범죄]
 ---

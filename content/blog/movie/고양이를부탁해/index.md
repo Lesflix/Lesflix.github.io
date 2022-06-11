@@ -5,7 +5,12 @@ description: 착하지만 엉뚱한 태희, 예쁜 깍쟁이 혜주, 그림을 �
 genre: movie
 imgname: 고양이를부탁해.jpeg
 release: "2001.10.13"
-ott: [왓챠, 티빙&유료, 웨이브&유료]
+ott:
+  [
+    왓챠&&mDWvkEO,
+    티빙&유료&M000366659,
+    웨이브&유료&movie?movieid=MV_EN01_EN000000995,
+  ]
 countries: [한국]
 categories: [코미디, 청소년, 청춘]
 ---

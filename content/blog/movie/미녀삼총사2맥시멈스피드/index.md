@@ -5,7 +5,12 @@ description: 2개의 타이타늄 반지, 초극비 프로젝트 HALO, 그리고
 genre: movie
 imgname: 미녀삼총사2맥시멈스피드.jpeg
 release: "2003.06.27"
-ott: [티빙&유료, 왓챠, 웨이브]
+ott:
+  [
+    왓챠&&mdKBQeO,
+    웨이브&&movie?movieid=MV_CF01_SY0000011226,
+    티빙&유료&M000146004,
+  ]
 countries: [미국]
 categories: [코미디, 액션, 스릴러, 범죄]
 ---

@@ -5,7 +5,12 @@ description: 막 출감한 전과자로 아파트 수리를 하는 터프한 여
 genre: movie
 imgname: 바운드.jpeg
 release: "1996.09.13"
-ott: [티빙&유료, 왓챠, 웨이브]
+ott:
+  [
+    왓챠&&mWzxpVd,
+    웨이브&&movie?movieid=MV_CL01_JY0000012099,
+    티빙&유료&M000325535,
+  ]
 countries: [미국]
 categories: [로맨스, 스릴러, 범죄]
 ---

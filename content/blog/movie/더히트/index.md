@@ -5,7 +5,7 @@ description: 규정을 준수하고 완고하지만 범죄 수사엔 탁월하�
 genre: movie
 imgname: 더히트.jpeg
 release: "2013.06.28"
-ott: [디즈니플러스]
+ott: [디즈니플러스&&movies/the-heat/6jB8LxjMwO0X]
 countries: [미국]
 categories: [액션, 코미디, 범죄]
 ---

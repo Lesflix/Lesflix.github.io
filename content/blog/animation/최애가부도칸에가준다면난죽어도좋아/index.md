@@ -5,7 +5,7 @@ description: "오카야마현에서 활동하는 마이너 지하 아이돌 Cham
 genre: animation
 imgname: 최애가부도칸에가준다면난죽어도좋아.jpeg
 release: "2020.01.09"
-ott: [라프텔]
+ott: [라프텔&&39659]
 countries: [일본]
 categories: [코미디, 음악]
 ---

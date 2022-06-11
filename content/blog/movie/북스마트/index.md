@@ -5,7 +5,12 @@ description: 꿈도, 연애도, 다이어트도 모든 것이 완벽할 것 같�
 genre: movie
 imgname: 북스마트.jpeg
 release: "2019.05.24"
-ott: [넷플릭스, 티빙&유료, 웨이브]
+ott:
+  [
+    넷플릭스&&81061054,
+    웨이브&&movie?movieid=MV_CJ01_CA0000011783,
+    티빙&유료&M000358756,
+  ]
 countries: [미국]
 categories: [코미디, 청춘]
 ---

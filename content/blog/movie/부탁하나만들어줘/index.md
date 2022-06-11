@@ -5,7 +5,12 @@ description: 멋진 커리어우먼, 매력적인 아내, 아름다운 엄마…
 genre: movie
 imgname: 부탁하나만들어줘.jpeg
 release: "2018.08.29"
-ott: [넷플릭스, 티빙&유료, 웨이브&유료]
+ott:
+  [
+    넷플릭스&&80988896,
+    티빙&유료&M000214733,
+    웨이브&유료&movie?movieid=MV_CW01_CW0000011270,
+  ]
 countries: [캐나다, 미국]
 categories: [코미디, 스릴러, 미스터리, 범죄]
 ---

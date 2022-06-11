@@ -5,7 +5,7 @@ description: 에더리아의 영웅을 부르는 마법의 검. 그것을 찾아
 genre: animation
 imgname: 우주의전사쉬라시즌1.jpeg
 release: "2018.11.13"
-ott: [넷플릭스]
+ott: [넷플릭스&&80179862]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지]
 ---

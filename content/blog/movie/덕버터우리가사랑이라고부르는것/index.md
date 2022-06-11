@@ -5,7 +5,7 @@ description: 솔직하지 않은 관계는 싫어. 첫눈에 반한 두 여자�
 genre: movie
 imgname: 덕버터우리가사랑이라부르는것.jpeg
 release: "2018.04.27"
-ott: [넷플릭스]
+ott: [넷플릭스&&80115118]
 countries: [미국]
 categories: [코미디, 로맨스]
 ---
