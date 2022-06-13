@@ -68,7 +68,7 @@
   --themBg: var(--lightBg);
   --themFont: var(--lightFont);
   --boxShadow: var(--lightBoxShadow);
-  --lightOpacity: 0.5;
+  --lightOpacity: 0.3;
   --darkOpacity: 0.2;
   --bgImgOpacity: var(--lightOpacity);
 }

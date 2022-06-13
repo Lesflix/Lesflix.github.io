@@ -72,6 +72,7 @@ const BoxStyle = styled.div`
     flex-direction: column;
     gap: 10px;
     margin-left: 10px;
+    font-weight: 500;
     .flex {
       display: flex;
       gap: 10px;
