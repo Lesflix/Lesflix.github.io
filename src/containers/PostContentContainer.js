@@ -36,7 +36,7 @@ const PostContentContainerStyle = styled.section`
     display: flex;
     margin: 0 auto;
     width: 70vw;
-    max-width: 1080px;
+    max-width: 850px;
     gap: 30px;
     align-items: center;
     @media screen and (max-width: 450px) {
