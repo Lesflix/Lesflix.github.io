@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-const Seo = ({ description, lang, meta, title }) => {
+const Seo = ({ description, lang, meta, title, imgName }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -29,7 +29,7 @@ const Seo = ({ description, lang, meta, title }) => {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-
+  const imgurl = imgName ? `/cover/${imgName}` : `/cover.png`
   return (
     <Helmet
       htmlAttributes={{
@@ -64,7 +64,7 @@ const Seo = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:image`,
-          content: ``,
+          content: imgurl,
         },
         {
           name: `twitter:title`,
