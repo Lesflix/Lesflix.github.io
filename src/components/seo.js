@@ -56,11 +56,15 @@ const Seo = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:card`,
-          content: `summary_large_image`,
+          content: `summary`,
         },
         {
           name: `twitter:creator`,
           content: `@${site.siteMetadata?.social?.twitter} ` || ``,
+        },
+        {
+          name: `twitter:image`,
+          content: ``,
         },
         {
           name: `twitter:title`,
