@@ -67,6 +67,10 @@ const Seo = ({ description, lang, meta, title, imgName }) => {
           content: imgurl,
         },
         {
+          name: `twitter:image:alt`,
+          content: title,
+        },
+        {
           name: `twitter:title`,
           content: title,
         },
