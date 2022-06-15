@@ -31,7 +31,7 @@ const Seo = ({ description, lang, meta, title, imgName }) => {
   const defaultTitle = site.siteMetadata?.title
   const imgurl = imgName
     ? `https://lesflix.github.io/cover/${imgName}`
-    : `https://lesflix.github.io/cover.png`
+    : "https://lesflix.github.io/cover.png"
   return (
     <Helmet
       htmlAttributes={{
