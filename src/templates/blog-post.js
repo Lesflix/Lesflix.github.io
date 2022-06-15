@@ -10,7 +10,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const { previous, next, markdownRemark } = data
   const htmls = markdownRemark.html
-  const { title, description, excerpt } = post.frontmatter
+  const { title, description, excerpt, imgname } = post.frontmatter
   const seoTitle = title.split("&")[0]
 
   return (
@@ -19,7 +19,7 @@ const BlogPostTemplate = ({ data, location }) => {
       <Layout location={location}>
         <Seo
           title={seoTitle}
-          imgName={post.imgName}
+          imgName={imgname}
           description={description || excerpt}
         />
         <article
