@@ -30,7 +30,7 @@ const Seo = ({ description, lang, meta, title, imgName }) => {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
   const imgurl = imgName
-    ? `/cover/${imgName}`
+    ? `https://lesflix.github.io/cover/${imgName}`
     : `https://lesflix.github.io/cover.png`
   return (
     <Helmet
