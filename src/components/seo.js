@@ -54,6 +54,7 @@ const Seo = ({ description, lang, meta, title, imgName }) => {
           property: `og:type`,
           content: `website`,
         },
+        { property: `og:image`, content: imgurl },
         {
           name: `twitter:card`,
           content: `summary`,
