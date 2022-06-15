@@ -29,7 +29,9 @@ const Seo = ({ description, lang, meta, title, imgName }) => {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-  const imgurl = imgName ? `/cover/${imgName}` : `/cover.png`
+  const imgurl = imgName
+    ? `https://lesflix.github.io/cover/${imgName}`
+    : `https://pbs.twimg.com/media/FVMDmpEUUAE8eUl?format=png&name=4096x4096`
   return (
     <Helmet
       htmlAttributes={{
