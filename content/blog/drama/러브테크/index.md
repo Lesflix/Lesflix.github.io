@@ -7,7 +7,7 @@ imgname: 러브테크.jpeg
 release: "2021.12.27"
 ott: [왓챠&&tEQkX1w, 티빙&&P001566408, 웨이브&&vod?programid=C3701_C37000000172]
 countries: [한국]
-categories: [로맨스]
+categories: [로맨스, 웹드]
 ---
 
 ### 비하인드
