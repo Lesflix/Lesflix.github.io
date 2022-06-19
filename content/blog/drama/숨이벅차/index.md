@@ -7,7 +7,7 @@ imgname: 숨이벅차.jpeg
 release: "2019.08.04"
 ott: [유튜브&&7RA8815wDF0]
 countries: [한국]
-categories: [로맨스]
+categories: [로맨스, 웹드]
 ---
 
 ### 영상 목록
