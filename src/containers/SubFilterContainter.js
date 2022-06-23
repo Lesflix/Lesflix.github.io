@@ -32,7 +32,7 @@ const ListStyle = styled.div`
   flex-wrap: wrap;
   margin-top: 10px;
   .item {
-    margin-right: 10px;
+    margin-right: 2%;
   }
   * {
     font-size: 2.5vw;
