@@ -65,20 +65,14 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___release], order: DESC }) {
       nodes {
         id
-        excerpt
         fields {
           slug
         }
         frontmatter {
           title
-          originalTitle
-          description
           genre
           imgname
           release
-          ott
-          countries
-          categories
         }
       }
       totalCount
