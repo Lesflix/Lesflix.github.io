@@ -57,7 +57,7 @@ const BoxStyle = styled.div`
   flex-direction: column;
   justify-content: center;
   z-index: 10;
-  width: 50%;
+  width: 55%;
 
   @media screen and (max-width: 450px) {
     width: 100%;
