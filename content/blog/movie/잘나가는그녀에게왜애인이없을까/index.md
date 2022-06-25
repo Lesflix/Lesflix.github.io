@@ -7,5 +7,5 @@ imgname: 잘나가는그녀에게왜애인이없을까.jpeg
 release: "2006.10.21"
 ott: [왓챠&&m5m1Gx5, 웨이브&&movie?movieid=MV_CL01_JY0000011924]
 countries: [미국]
-categories: [로맨스]
+categories: [로맨스, 코미디]
 ---
