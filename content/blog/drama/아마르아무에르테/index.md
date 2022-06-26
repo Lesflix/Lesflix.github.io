@@ -1,5 +1,5 @@
 ---
-title: 아마르 아 무에르테
+title: 아마르 아 무에르테 &훌리안티나
 originalTitle: Amar a Muerte
 description: 엘 치노는 루피타에게 자신이 판사를 살해했고 전기의자에서 처형될 수도 있다고 말한다.
 genre: drama
