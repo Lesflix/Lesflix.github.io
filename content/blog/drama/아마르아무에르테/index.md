@@ -22,4 +22,4 @@ categories: [범죄, 로맨스]
 
 ### 동영상
 
-<a href="https://www.youtube.com/watch?v=ypoH7OeIZgw&list=PLZlgNEQJwHcpfxV-v2cskODkCuarU9qfo&index=1" target="_blank" rel="noopener noreferrer">유튜브 [한글자막/편집본]</a>
+<a href="https://www.youtube.com/watch?v=ypoH7OeIZgw&list=PLZlgNEQJwHcpfxV-v2cskODkCuarU9qfo&index=1" target="_blank" rel="noopener noreferrer">유튜브 [한글자막/ 훌리안티나 편집본]</a>
