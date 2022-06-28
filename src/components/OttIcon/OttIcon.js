@@ -3,7 +3,7 @@ import React from "react"
 import { otts } from "../../const/otts"
 function OttIcon({ ott, title }) {
   const ottName = ott.split("&")[0]
-  const ottId = ott.split("&")[2]
+  const ottId = ott.split("&").slice(2).join("&")
   return (
     <IconWrapper>
       <IconStyle>
