@@ -9,4 +9,5 @@ export const otts = {
   웨이브: "https://www.wavve.com/player/@id",
   라프텔: "https://laftel.net/item/@id",
   유튜브: "https://www.youtube.com/watch?v=@id",
+  GagaOOLala: "https://www.gagaoolala.com/@id",
 }
