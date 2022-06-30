@@ -16,7 +16,7 @@ function PostCard({ post, isSlide, selectId, setSelectId }) {
         src={`/poster/${
           post.frontmatter.imgname ? post.frontmatter.imgname : "default.png"
         }`}
-        alt={post.frontmatter.title}
+        alt={post.frontmatter.title.split("&")[0]}
       />
     </PostCardStyle>
   ) : (

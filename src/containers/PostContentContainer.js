@@ -9,7 +9,7 @@ function PostContentContainer({ postData }) {
         <div className="poster">
           <img
             src={`/poster/${imgname ? imgname : "default.png"}`}
-            alt={title}
+            alt={title.split("&")[0]}
           />
         </div>
         <InfoBox postData={postData} />
