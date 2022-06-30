@@ -19,6 +19,9 @@ const Home = ({ data, location }) => {
       )
     })
   }
+  function recommendFilter() {
+    return posts.filter(post => post.frontmatter.title.match(/추천/))
+  }
   if (posts.length === 0) {
     return (
       <Layout location={location}>
@@ -38,6 +41,11 @@ const Home = ({ data, location }) => {
             있어요
           </div>
         </MainMsg>
+        <SlidePostContainer
+          postList={recommendFilter()}
+          title={"👑 추천 드라마/영화 👑"}
+          subTitle={``}
+        />
         <SlidePostContainer
           postList={sinceAndGenreFilter(nowYear - 1, "drama")}
           title={"최신 드라마"}
