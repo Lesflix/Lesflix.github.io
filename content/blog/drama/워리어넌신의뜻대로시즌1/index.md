@@ -1,5 +1,5 @@
 ---
-title: "워리어 넌: 신의 뜻대로"
+title: "워리어 넌: 신의 뜻대로 &추천"
 originalTitle: Warrior Nun
 description: 죽음에서 되살아난 소녀 에이바. 신비한 능력을 깨달은 그녀는 혼란과 환희에 휩싸인다. 하지만 그녀가 이 힘을 감당할 수 있을까. 누군가 그녀의 흔적을 쫓기 시작한다.
 genre: drama

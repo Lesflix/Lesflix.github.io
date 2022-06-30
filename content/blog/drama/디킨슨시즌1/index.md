@@ -1,5 +1,5 @@
 ---
-title: 디킨슨
+title: 디킨슨 &추천
 originalTitle: Dickinson
 description: 시인, 딸, 완벽한 반항아. 세계 최고의 시인으로 꼽히는 에밀리 디킨슨의 성장 이야기를 그려낸다.
 genre: drama

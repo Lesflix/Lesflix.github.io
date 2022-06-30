@@ -1,5 +1,5 @@
 ---
-title: "마더랜드:포트 세일럼"
+title: "마더랜드:포트 세일럼 &추천"
 originalTitle: "Motherland: Fort Salem"
 description: "미국, 나라를 위해 싸우는 대가로 박해에서 벗어난 마녀들이 있는 세계를 배경으로 하는 이 시리즈는 훈련부터 파견까지, 초자연적 전술로 테러리스트 위협에 맞서는 세 여자의 이야기를 담고 있다."
 genre: drama

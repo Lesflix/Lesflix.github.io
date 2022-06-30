@@ -1,5 +1,5 @@
 ---
-title: DC 레전드 오브 투모로우
+title: DC 레전드 오브 투모로우 &추천
 originalTitle: "DC's Legends of Tomorrow"
 description: 미래에서 온 타임 마스터가 유명 슈퍼히어로와 악당들로 급조된 팀과 힘을 합쳐 지구는 물론 시간마저 파괴할 수 있는 불멸의 악당과 맞서 싸운다.
 genre: drama
