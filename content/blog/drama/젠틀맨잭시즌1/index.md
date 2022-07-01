@@ -5,7 +5,7 @@ description: 유럽 전역의 대도시를 여행하던 앤 리스터가 고향 
 genre: drama
 imgname: 젠틀맨잭시즌1.jpeg
 release: "2019.04.22"
-ott: [웨이브&&vod?programid=F3501_F35000000076]
+ott: []
 countries: [미국, 영국]
 categories: [로맨스, 역사]
 ---
