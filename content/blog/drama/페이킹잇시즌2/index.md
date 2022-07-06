@@ -5,7 +5,7 @@ description: 카르마는 에이미의 고백에 혼란스러워하고 에이미
 genre: drama
 imgname: 페이킹잇시즌2.jpeg
 release: "2014.09.23"
-ott: []
+ott: [티빙&&P001601560]
 countries: [미국]
 categories: [코미디, 로맨스, 청소년]
 ---
