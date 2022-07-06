@@ -7,7 +7,7 @@ function MainMsg({ children }) {
       {children}
       <SuBMsgStyle>
         <div>
-          이런 갓작이 없다고? 추천하러 가기 👉{" "}
+          제발 이 작품 같이 봐줘 🥺 추천하러 가기 👉{" "}
           <a
             href="https://asked.kr/justbeles"
             target="_blank"
