@@ -5,7 +5,8 @@ description: 수가 여성 작품을 싣는데 강한 관심을 가진 신문 �
 genre: drama
 imgname: 디킨슨시즌2.jpeg
 release: "2021.01.08"
-ott: [애플티비&&]
+ott:
+  [애플티비&&kr/show/디킨슨---dickinson/umc.cmc.1ogyy5s2agasxa5qztabrlykn]
 countries: [미국]
 categories: [코미디, 로맨스]
 otts: []

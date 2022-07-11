@@ -5,7 +5,8 @@ description: 시인, 딸, 완벽한 반항아. 세계 최고의 시인으로 꼽
 genre: drama
 imgname: 디킨슨시즌1.jpeg
 release: "2019.11.01"
-ott: [애플티비&&]
+ott:
+  [애플티비&&kr/show/디킨슨---dickinson/umc.cmc.1ogyy5s2agasxa5qztabrlykn]
 countries: [미국]
 categories: [코미디, 로맨스]
 otts: []

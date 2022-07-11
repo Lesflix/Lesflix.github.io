@@ -10,7 +10,7 @@ ott:
     왓챠&&mWzwKMV,
     티빙&유료&M000161433,
     웨이브&유료&movie?movieid=MV_CF01_SY0000011510,
-    애플티비&유료&,
+    애플티비&유료&kr/movie/원더우먼-스토리/umc.cmc.1si35g7atc779fmu2yz48mwyd,
   ]
 countries: [미국]
 categories: [로맨스]
