@@ -5,7 +5,12 @@ description: "12년 내내 여학교를 다니며 학생대표를 해오던 윙(
 genre: movie
 imgname: 내가처음으로사랑한소녀2021.jpeg
 release: "2021.11.25"
-ott: [티빙&유료&M000367076, 웨이브&유료&movie?movieid=MV_C901_SG0000145204]
+ott:
+  [
+    왓챠&&mW9pRzj,
+    티빙&유료&M000367076,
+    웨이브&유료&movie?movieid=MV_C901_SG0000145204,
+  ]
 countries: [홍콩]
 categories: [로맨스, 청소년]
 ---
