@@ -1,10 +1,10 @@
 ---
-title: 반항아들
+title: 반항아들 시즌 2
 originalTitle: Rebelde
-description: 새로운 학기가 시작된 엘리트 웨이 스쿨. 학교의 공공연한 적이자 비밀 클럽인 '로히아'가 움직임을 개시한다. 1학년 새내기들의 음악을 향한 꿈과 희망을 짓밟고자.
+description: MEP에 새로 온 디렉터가 배틀 오브 밴드를 취소했다. 대신 엄청난 상금이 걸린 대회를 주최하겠다고 발표하는데. 한편 애프터 파티를 여는 전학생 오카네.
 genre: drama
-imgname: 반항아들시즌1.jpeg
-release: "2022.01.05"
+imgname: 반항아들시즌2.jpeg
+release: "2022.07.27"
 ott: [넷플릭스&&81033243]
 countries: [멕시코]
 categories: [로맨스, 청소년, 음악]
