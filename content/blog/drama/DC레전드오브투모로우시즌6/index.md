@@ -5,7 +5,7 @@ description: ""
 genre: drama
 imgname: DC레전드오브투모로우시즌6.jpeg
 release: "2021.05.02"
-ott: []
+ott: [넷플릭스&&80066080]
 countries: [미국]
 categories: [액션, 어드벤처, 판타지, 로맨스, SF, 슈퍼히어로]
 ---
