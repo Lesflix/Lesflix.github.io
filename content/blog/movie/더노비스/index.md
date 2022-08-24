@@ -5,7 +5,7 @@ description: 대학 신입생 알렉스는 교내 조정부에 가입한 후 동
 genre: movie
 imgname: 더노비스.jpeg
 release: "2021.12.17"
-ott: []
+ott: [티빙&&M000368060]
 countries: [미국]
 categories: [스릴러]
 ---
