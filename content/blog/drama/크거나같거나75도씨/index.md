@@ -14,7 +14,7 @@ categories: [로맨스, 웹드]
 
 <a href="https://www.youtube.com/watch?v=orVUVWOXIa4" target="_blank" rel="noopener noreferrer">프롤로그</a>
 
-<a href="https://www.youtube.com/watch?v=" target="_blank" rel="noopener noreferrer">Full episodes</a>
+<a href="https://www.youtube.com/watch?v=P8UKQpPcma0" target="_blank" rel="noopener noreferrer">Full episodes</a>
 
 <a href="https://www.youtube.com/watch?v=mnZY5cSEn2I" target="_blank" rel="noopener noreferrer">메이킹</a>
 
