@@ -5,7 +5,7 @@ description: 스스로에게 레이디 버드라는 이름을 지어준 크리�
 genre: movie
 imgname: 레이디버드.jpeg
 release: "2017.11.10"
-ott: [넷플릭스&&80205227, 웨이브&유료&movie?movieid=MV_CG01_NU0000011310]
+ott: [웨이브&&movie?movieid=MV_CG01_NU0000011310, 왓챠&&m5aV1Av]
 countries: [미국]
 categories: [코미디]
 ---

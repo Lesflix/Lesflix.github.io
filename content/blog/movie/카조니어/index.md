@@ -5,7 +5,7 @@ description: 사기꾼인 테레사와 로버트는 26년간 외동딸 올드 �
 genre: movie
 imgname: 카조니어.jpeg
 release: "2020.09.25"
-ott: [넷플릭스&&81239497, 웨이브&유료&movie?movieid=MV_CG01_NU0000011700]
+ott: [웨이브&유료&movie?movieid=MV_CG01_NU0000011700]
 countries: [미국]
 categories: [로맨스, 코미디, 범죄]
 ---
