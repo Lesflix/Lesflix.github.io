@@ -13,11 +13,12 @@ function InfoBox({ postData }) {
     categories,
     countries,
   } = postData
+  const newTitle = title.split("&")[0]
   return (
     <BoxStyle>
-      <div className="title">{title.split("&")[0]}</div>
+      <div className="title">{newTitle}</div>
       <div className="about">
-        {title !== originalTitle && (
+        {newTitle !== originalTitle && (
           <div>
             <strong className="summary">원제</strong>
             <div>{originalTitle}</div>
