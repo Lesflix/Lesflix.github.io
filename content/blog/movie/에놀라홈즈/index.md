@@ -9,3 +9,19 @@ ott: [넷플릭스&&81277950]
 countries: [미국]
 categories: [범죄, 미스터리]
 ---
+
+### 시리즈 정보
+
+<div class="season-list">
+<div class="item">
+<a href="/movie/에놀라홈즈" >
+<img src="/poster/에놀라홈즈.jpeg" alt="에놀라홈즈 포스터 ">
+시리즈 1</a>
+</div>
+
+<div class="item">
+<a href="/movie/에놀라홈즈2" >
+<img src="/poster/에놀라홈즈2.jpeg" alt="에놀라홈즈2 포스터 ">
+시리즈 2</a>
+</div>
+</div>
