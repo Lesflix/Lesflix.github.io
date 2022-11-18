@@ -1,7 +1,7 @@
 ---
 title: "워리어 넌: 신의 뜻대로 시즌 2 &추천"
 originalTitle: Warrior Nun
-description: ""
+description: 자칭 예언자와 그의 추종자를 타도하길 원하는 에이바와 비어트리스. 뜻을 같이하는 동지를 만나 행동을 취한다. 한편, 수녀원에서 비극적인 사건이 발생한다.
 genre: drama
 imgname: 워리어넌신의뜻대로시즌2.jpeg
 release: "2022.11.10"
